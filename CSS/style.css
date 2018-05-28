@@ -1,0 +1,227 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #FEE5E5;
+}
+
+.container {
+  background-color: green;
+}
+
+h1 {
+  font-family: helvetica;
+  font-size: 4.8rem;
+  margin-bottom: 1rem;
+  padding: 1rem 0 1rem 0;
+}
+
+h2 {
+  font-family: helvetica;
+  font-size: 3.6rem;
+  letter-spacing: -5%;
+  margin-bottom: 0rem;
+  padding: 1rem 0 1rem 0;
+}
+
+h3 {
+  font-size: 3.0rem;
+}
+
+h4 {
+  font-family: helvetica;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  padding: 1rem 0 1rem 0;
+}
+
+h5 {
+  font-family: helvetica;
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  padding: 1rem 0 1rem 0;
+}
+
+h1, h2, h3, h4, h5 {
+  color: black;
+}
+
+.btn {
+  font-size: 1.8rem;
+  font-family: "Open Sans";
+  margin-bottom: 3.0rem;
+  padding: 1rem 0 1rem 0;
+}
+
+p {
+  margin-bottom: 1rem;
+  padding: 1rem 0 1rem 0;
+}
+
+li {
+}
+p, li {
+  font-family: helvetica;
+  font-size: 1.8rem;
+  color: black;
+  /*background-color: blue;*/
+}
+
+/*Hero*/
+img[src="SVGs/Logo Horizontal.svg"] {
+  padding: 1rem 0 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.container-2 img{
+  height: 40rem;
+  margin: 3rem;
+  width: 56rem;
+}
+
+.container-2 img + img{
+  height: 50rem;
+  width: 28rem;
+}
+
+.hero-container {
+  text-align: center;
+}
+
+/*Roles*/
+
+/*Introduction*/
+.introduction {
+  background-color: white;
+}
+
+.idea-image1 {
+  margin-bottom: 1rem;
+}
+
+/*Competitive Analysis*/
+.competitive-analysis{
+  text-align: center;
+}
+
+img[src="SVGs/google-drive.svg"], img[src="SVGs/pinterest.svg"], img[src="SVGs/evernote.svg"]  {
+  height: 10rem;
+  padding: 1rem 0 1rem 0;
+  margin-bottom: 1rem;
+  width: 12rem;
+}
+
+/*User Survey*/
+canvas {
+  margin-bottom: 3rem;
+}
+
+.data1, .data2, .data3 > p {
+  margin-bottom: 3rem;
+}
+
+/*Further Findings*/
+.further-findings {
+  background-color: white;
+  /*background-image: url("../images/jack-finnigan-538627-unsplash.png");*/
+}
+
+/*User Personas*/
+img[src="images/wyatt.png"], img[src="images/elaine.png"] {
+  height: 20rem;
+  padding: 1rem 0 1rem 0;
+  margin-bottom: 1rem;
+  width: 20rem;
+}
+
+.user-personas {
+  text-align: center;
+}
+
+/*User Stories*/
+.stories, .stories1 {
+  background-color: white;
+}
+
+/*tr {
+  text-align: center;
+}*/
+@media (min-width: 576px) and (max-width: 767px) {
+  .table-hover {
+    display: none;
+  }
+}
+
+th {
+  font-weight: bold;
+}
+
+th, td {
+  font-size: 1.8rem;
+}
+
+/*User Flows*/
+.user-flows, .user-flows1 {
+  background-color: white;
+}
+
+.user-flows2 {
+  text-align: center;
+}
+
+img[src="images/User Flow1.png"] {
+  margin-bottom: 3rem;
+}
+
+.button-test {
+  text-align: center;
+  background-color: white;
+}
+
+/*Sketches & Wireframes*/
+img[src="SVGs/Group 37.svg"],img[src="images/Sign Up 1.1.png"],img[src="SVGs/Untitled-5.svg"],img[src="images/Create 2.1.png"] {
+  height: 30rem;
+  width: 30rem;
+}
+
+.signup-view, .dashboard-view {
+  margin-bottom: 3rem;
+}
+
+/*Logo & Branding*/
+.branding1, .branding {
+  background-color: white;
+}
+
+.logo {
+  text-align: center;
+}
+
+img[src="SVGs/Group 23.svg"] {
+  height: 10rem;
+  width: 10rem;
+}
+
+img[src="SVGs/Group 33.svg"],img[src="SVGs/Logo Horizontal.svg"] {
+  height: 20rem;
+  width: 20rem;
+}
+
+/*Mockups & Testing*/
+img[src="images/Old Landing 2.png"],img[src="images/Landing Page new1 3.png"],img[src="images/Add Folder 1.png"],img[src="images/Dash Add [new].png"] {
+  height: 40rem;
+  width: 56rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+/*Final Product*/
+.final-product, .final-product1 {
+  background-color: white;
+}

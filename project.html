@@ -1,264 +1,312 @@
-<head>    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<head>
+  <link rel="stylesheet" type="text/css" href="CSS/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var ctx = document.getElementById("myChart").getContext('2d');
+    var myChart = new Chart(ctx, {
+      type: 'doughnut',
+      data: {
+        labels: ["Work", "Personal Use", "Both"],
+        datasets: [{
+          label: '# of Votes',
+          data: [12, 19, 3],
+          backgroundColor: [
+            'rgba(252, 101, 101, 1)',
+            'rgba(101, 143, 252, 1)',
+            'rgba(255, 206, 86, 1)'
+          ],
+          borderColor: [
+            'rgba(255,99,132,1)',
+            'rgba(54, 162, 235, 1)',
+            'rgba(255, 206, 86, 1)'
+          ],
+          borderWidth: 1
+        }]
+      },
+      options: {
+        // scales: {
+        //   yAxes: [{
+        //     ticks: {
+        //       beginAtZero:true
+        //     }
+        //   }]
+        // }
+      }
+    });
+  })
+  </script>
 </head>
+<!DOCTYPE html>
 <section>
   <!--Navbar-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-light bg-light">
     <a class="navbar-brand" href="#">
       <img src="SVGs/Logo 8.svg" width="100" height="100" alt="">
     </a>
     <ul class="nav justify-content-end">
       <li class="nav-item">
-        <a class="nav-link active" href="#">Work</a>
+        <a class="nav-link active" href="#">WORK</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#">ABOUT</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="#">CONTACT</a>
       </li>
     </ul>
   </nav>
   <!--hero-->
-  <div>
-    <h1>IdeaDesk</h1>
-    <h2>A cloud storage and organization platform for users on the go</h2>
-    <div>
-      <img src="images/Dash Main .png">
+  <div class="container-fluid hero-container">
+    <img src="SVGs/Logo Horizontal.svg">
+    <h2>A cloud storage and organization platform for <b>users on the go</b></h2>
+    <div class="container-2">
+      <img src="images/Dash Main.png">
       <img src="images/Dashboard Mobile New.png">
     </div>
-    </br>
-    <button type="button" class="btn btn-outline-dark">View Prototype</button>
+    <button type="button" class="btn-outline-dark col-sm-5 btn">View Prototype</button>
   </div>
-  </br>
-  <div class ="row roles-deliverables">
-    <div class="col-sm roles">
-      <h4>Roles</h4>
-      <p>UX Design</p>
-      <p>Visual Design</p>
-      <p>Branding & Identity</p>
-    </div>
-    <div class="col-sm deliverables">
-      <h4>Deliverables</h4>
-      <p>User Surveys</p>
-      <p>Competitive Analysis</p>
-      <p>Concept & Identity</p>
-      <p>User Flows</p>
-      <p>User Stories</p>
-      <p>User Personas</p>
-      <p>Wireframes</p>
-      <p>High Fidelity Mockups</p>
-    </div>
-    <div class="col-sm tools">
-      <h4>Tools</h4>
-      <p>Figma</p>
-      <p>InVision</p>
-      <p>Usability Hub</p>
-    </div>
-  </div>
-  <div class="row introduction">
-    <div class="col-sm-8 text">
-      <h2>01 Summary</h2>
-      <p>I worked with a fictional client that wanted to move into the cloud storage and organization market. There were a few key features they knew they wanted, but I would need to back up these claims with data. It was up to me to refine this rough vision and begin developing a user-friendly cloud storage platform.</p>
-      <br>
-      <h2>02 Problem</h2>
-      <p>What features does the platform need to fit into the already crowded cloud storage and organization market?</p>
-      <br>
-      <h2>03 Solution</h2>
-      <p>For the final product, I designed a cloud storage platform that would allow users to create documents and spreadsheets, upload files, and share these files with friends and colleagues. The product is accessible on both desktop and mobile devices.</p>
-    </div>
-    <div class="col-sm-4 idea-image1">
-      <img src="images/Landing Page new1.png">
+  <div class ="container-fluid">
+    <div class="text-center row roles-deliverables">
+      <ul class="col-sm">
+        <h3>Roles</h3>
+        <li>UX Design</li>
+        <li>Visual Design</li>
+        <li>Branding & Identity</li>
+      </ul>
+      <ul class="text-center col-sm deliverables">
+        <h3>Deliverables</h3>
+        <li>User Surveys</li>
+        <li>Competitive Analysis</li>
+        <li>Concept & Identity</li>
+        <li>User Flows</li>
+        <li>User Stories</li>
+        <li>User Personas</li>
+        <li>Wireframes</li>
+        <li>High Fidelity Mockups</li>
+      </ul>
+      <ul class="text-center col-sm tools">
+        <h3>Tools</h3>
+        <li>Figma</li>
+        <li>InVision</li>
+        <li>Balsamiq</li>
+        <li>Usability Hub</li>
+      </ul>
     </div>
   </div>
-  <div class="row">
+  <div class="container-fluid">
+    <div class="row introduction">
+      <div class="col-sm text">
+        <h2>01 Summary</h2>
+        <p>I worked with a fictional client that wanted to move into the cloud storage and organization market. There were a few key features they knew they wanted, but I would need to back up these claims with data. It was up to me to refine this rough vision and begin developing a user-friendly cloud storage platform.</p>
+        <br>
+        <h2>02 Problem</h2>
+        <p>What features does the platform need to fit into the already crowded cloud storage and organization market?</p>
+        <br>
+        <h2>03 Solution</h2>
+        <p>For the final product, I designed a cloud storage platform that would allow users to create documents and spreadsheets, upload files, and share these files with friends and colleagues. The product is accessible on both desktop and mobile devices.</p>
+      </div>
+      <div class="col-sm text-center idea-image1">
+        <img src="images/Landing Page new1.png">
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
     <!--should all H2s be in their own row?-->
     <h2>04 Competitive Analysis</h2>
   </div>
-  <div class="row competitive-analysis">
-    <div class="col-sm google">
-      <!--<img src="SVGs/google-drive.svg">-->
-      <p>Google Drive is easy to use and has many of the features the client was looking for (document creation, social sharing, file organization).</p>
-    </div>
-    <div class="col-sm pinterest">
-      <!--<img src="SVGs/pinterest.svg">-->
-      <p>Pinterest showcases images nicely and is visual-first, but isn’t a productivity powerhouse like Google Drive.</p>
-    </div>
-    <div class="col-sm evernote">
-      <!--<img src="SVGs/evernote.svg">-->
-      <p>Evernote has a modern visual design and is useful for organizing web links, but its UI can be overwhelming at times.</p>
+  <div class="container-fluid">
+    <div class="row competitive-analysis">
+      <div class="col-sm google">
+        <img src="SVGs/google-drive.svg">
+        <p>Google Drive is easy to use and has many of the features the client was looking for (document creation, social sharing, file organization).</p>
+      </div>
+      <div class="col-sm pinterest">
+        <img src="SVGs/pinterest.svg">
+        <p>Pinterest showcases images nicely and is visual-first, but isn’t a productivity powerhouse like Google Drive.</p>
+      </div>
+      <div class="col-sm evernote">
+        <img src="SVGs/evernote.svg">
+        <p>Evernote has a modern visual design and is useful for organizing web links, but its UI can be overwhelming at times.</p>
+      </div>
     </div>
   </div>
-  <div class="row user-survey">
+  <div class="container-fluid user-survey">
       <h2>05 User Survey</h2>
       <p>In order to learn more about how people use cloud platforms, I used Slack, Reddit and my own Facebook network to gather participants for the user survey. The survey asked participants about their cloud storage habits, preferences, and frustrations.</p>
+      <canvas id="myChart" width="400" height="400"></canvas>
   </div>
-  <div class="row">
-    <!--should all H2s be in their own row?-->
+  <div class="container-fluid further-findings">
     <h2>06 Further Findings</h2>
+    <div class="row further-findings1">
+      <div class="col-sm data1">
+        <h3>29</h3>
+        <p>total participants</p>
+      </div>
+      <div class="col-sm data2">
+        <h3>34%</h3>
+        <p>use cloud services everyday</p>
+      </div>
+      <div class="col-sm data3">
+        <h3>63%</h3>
+        <p>use cloud platforms on desktop only</p>
+      </div>
+    </div>
+    <div class="row further-findings2">
+      <div class="col-sm data1">
+        <h3>58%</h3>
+        <p>want to collaborate in real time</p>
+      </div>
+      <div class="col-sm data2">
+        <h3>70%</h3>
+        <p>create content on cloud platforms</p>
+      </div>
+      <div class="col-sm data3">
+        <h3>89%</h3>
+        <p>prefer using folders for organization</p>
+      </div>
+    </div>
   </div>
-  <div class="row further-findings1">
-    <div class="col-sm data1">
-      <p>29 total participants</p>
-    </div>
-    <div class="col-sm data2">
-      <p>34% use cloud services everyday</p>
-    </div>
-    <div class="col-sm data3">
-      <p>63% use cloud platforms on desktop only</p>
-    </div>
-  </div>
-  <div class="row further-findings2">
-    <div class="col-sm data1">
-      <p>58% want to collaborate in real time</p>
-    </div>
-    <div class="col-sm data2">
-      <p>70% create content on cloud platforms</p>
-    </div>
-    <div class="col-sm data3">
-      <p>89% prefer using folders for organization</p>
-    </div>
-  </div>
-  <div class="row">
-    <!--should all H2s be in their own row?-->
+  <div class="container-fluid">
     <h2>07 User Personas</h2>
   </div>
-  <div class="row user-personas">
-    <div class="col-sm wyatt">
-      <img src="images/wyatt.png">
-      <h4>Wyatt</h4>
-      <h5>Content Manager</h5>
-      <p>New York, NY</p>
-      <h5>Bio</h5>
-        <p>Tech-savvy millennial and full-time content manager but does freelance blog writing on the side. Uses Google Drive for creating and getting feedback on documents.</p>
-      <h5>Motivations</h5>
-        <ul>
-          <li>Uses document creation and collaboration for full-time and freelance work.</li>
-          <li>Likes to be able to edit documents in real time and asynchronously if he’s commuting.</li>
-          <li>Access his cloud files from anywhere in case he’s working from home or traveling.</li>
-        </ul>
-      <h5>Frustrations</h5>
-        <ul>
-          <li>Offline usage is sometimes difficult</li>
-          <li>Concerned about security with sensitive documents</li>
-        </ul>
-      <h5>“I need a platform that allows me to easily share and get feedback.” </h5>
-    </div>
-    <div class="col-sm elaine">
-      <img src="images/elaine.png">
-      <h4>Elaine</h4>
-      <h5>Museum Curator</h5>
-      <p>Santa Barbara, CA</p>
-      <h5>Bio</h5>
-        <p>Works full-time as a museum curator and does not use tech for work, but is developing a growing hobby in photography. Enjoys traveling and exploring new places.</p>
-      <h5>Motivations</h5>
-        <ul>
-          <li>Needs storage space for her photos and the ability to share them with friends.</li>
-          <li>Likes to browse Pinterest for travel inspiration, and save images that she likes from there.</li>
-          <li>Wants a platform where images will be showcased nicely.</li>
-        </ul>
-      <h5>Frustrations</h5>
-        <ul>
-          <li>Runs out of space on free plans</li>
-          <li>Colleagues do not use cloud platforms so she can’t use them for work.</li>
-        </ul>
-      <h5>“I’m stuck between the old world of hard drives and the new world of cloud computing.”</h5>
+  <div class="container-fluid user-personas">
+    <div class="row user-personas1">
+      <div class="col-sm wyatt">
+        <img src="images/wyatt.png">
+        <h3>Wyatt</h3>
+        <h4>Content Manager</h4>
+        <p>New York, NY</p>
+        <h4>Bio</h4>
+          <p>Tech-savvy millennial and full-time content manager but does freelance blog writing on the side. Uses Google Drive for creating and getting feedback on documents.</p>
+        <h4>Motivations</h4>
+          <ul>
+            <li>Uses document creation and collaboration for full-time and freelance work.</li>
+            <li>Likes to be able to edit documents in real time and asynchronously if he’s commuting.</li>
+            <li>Access his cloud files from anywhere in case he’s working from home or traveling.</li>
+          </ul>
+        <h4>Frustrations</h4>
+          <ul>
+            <li>Offline usage is sometimes difficult</li>
+            <li>Concerned about security with sensitive documents</li>
+          </ul>
+        <h4>“I need a platform that allows me to easily share and get feedback.” </h4>
+      </div>
+      <div class="col-sm elaine">
+        <img src="images/elaine.png">
+        <h3>Elaine</h3>
+        <h4>Museum Curator</h4>
+        <p>Santa Barbara, CA</p>
+        <h4>Bio</h4>
+          <p>Works full-time as a museum curator and does not use tech for work, but is developing a growing hobby in photography. Enjoys traveling and exploring new places.</p>
+        <h4>Motivations</h4>
+          <ul>
+            <li>Needs storage space for her photos and the ability to share them with friends.</li>
+            <li>Likes to browse Pinterest for travel inspiration, and save images that she likes from there.</li>
+            <li>Wants a platform where images will be showcased nicely.</li>
+          </ul>
+        <h4>Frustrations</h4>
+          <ul>
+            <li>Runs out of space on free plans</li>
+            <li>Colleagues do not use cloud platforms so she can’t use them for work.</li>
+          </ul>
+        <h4>“I’m stuck between the old world of hard drives and the new world of cloud computing.”</h4>
+      </div>
     </div>
   </div>
-  <div class="row">
+  <div class="container-fluid stories">
     <!--should all H2s be in their own row?-->
     <h2>08 User Stories</h2>
   </div>
-  <div class="row stories">
-    <p>After creating the personas and using the data from the survey, I was able to create the user stories. I organized these by role, task, and value, and then sorted them according to their priority level. For the MVP I decided to focus on account creation, document creation, document organization, and file adding. This decision was based on user data that pointed to user’s most necessary features. </p>
-    </br>
+  <div class="container-fluid stories1">
+    <p>After creating the personas and using the data from the survey, I was able to create the user stories. I organized these by role, task, and value, and then sorted them according to their priority level. For the MVP I decided to focus on account creation, document creation, document organization, and file adding. This decision was based on user data that pointed to user’s most necessary features. Here is a snapshot of the <b>high-priority stories</b> for the "user" role:</p>
       <table class="table table-hover">
         <thead>
           <tr>
-            <th scope="col">Role</th>
             <th scope="col">Task</th>
             <th scope="col">Value</th>
-            <th scope="col">Importance</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="row">As a user</th>
-            <td>I want to create documents</td>
+            <td>create documents</td>
             <td>so that I can save my notes and ideas</td>
-            <td>High</td>
           </tr>
           <tr>
-            <th scope="row">As a user</th>
-            <td>I want to create folders</td>
+            <td>create folders</td>
             <td>so that I can organize my files</td>
-            <td>High</td>
           </tr>
           <tr>
-            <th scope="row">As a user</th>
-            <td>I want to upload images</td>
+            <td>upload images</td>
             <td>so that I can access them on other devices</td>
-            <td>High</td>
           </tr>
         </tbody>
       </table>
     </br>
-    <button type="button" class="btn btn-outline-dark">View User Stories</button>
+    <button type="button" class="btn-outline-dark col-sm-5 btn button-test">View User Stories</button>
   </div>
-  <div class="row">
+  <div class="container-fluid user-flows">
     <!--should all H2s be in their own row?-->
     <h2>09 User Flows</h2>
   </div>
-  <div class="row user-flows">
+  <div class="container-fluid user-flows1">
     <p>Next I created user flows for various tasks within the product: user onboarding, document creation, document organization, etc. While creating the flows, I looked at the flows of competitors I had analyzed and worked to make things as clear as possible for the user.</p>
     </br>
-    <p>Create and upload new item flow:</p>
-    </br>
-    <img src="images/User Flow1.png">
+    <div class="user-flows2">
+      <p>Flow for creating and adding a new item to the dashboard:</p>
+      </br>
+      <img src="images/User Flow1.png">
+    </div>
   </div>
-  <button type="button" class="btn btn-outline-dark">View User Stories</button>
-  </br>
-  <div class="row">
+  <div class="container-fluid button-test">
+    <button type="button" class="btn-outline-dark col-sm-5 btn">View User Flows</button>
+  </div>
+  <div class="container-fluid">
     <!--should all H2s be in their own row?-->
     <h2>10 Sketches & Wireframes</h2>
   </div>
-  <div class="row sketches">
-    <p>I sketched out views for various states within the product: landing page, sign up, sign in, forgot password, add content, create document, upgrade account. Below you can see the sign up view and the dashboard view.</p>
-    <div class="row signup-view">
-      <div class="col-sm">
-        <img src="SVGs/Group 37.svg">
+  <div class="container-fluid">
+    <div class="row container-fluid sketches">
+      <p>I sketched out views for various states within the product: landing page, sign up, sign in, forgot password, add content, create document, upgrade account. Below you can see the <b>sign up view</b> and the <b>dashboard view.</b></p>
+      <div class="row signup-view">
+        <div class="col-sm">
+          <img src="SVGs/Group 37.svg">
+        </div>
+        <div class="col-sm">
+          <img src="images/Sign Up 1.1.png">
+        </div>
       </div>
-      <div class="col-sm">
-        <img src="images/Sign Up 1.1.png">
+      <div class="row dashboard-view">
+        <div class="col-sm">
+          <img src="SVGs/Untitled-5.svg">
+        </div>
+        <div class="col-sm">
+          <img src="images/Create 2.1.png">
+        </div>
       </div>
+      <p>I tested the wireframes with three different users, and had a few important takeaways:</p>
+      <ul>
+        <li>Would need to add a clear “Add” button in future iterations. Users were unclear on 	where to add new content.</li>
+        <li>The flow for organizing a document was unclear. I would need to make it clear 	where users can organize a document once they’re inside.</li>
+        <li>Users expect confirmation pages after upgrading their plans.</li>
+        <li>Confusing navigation on the left side of the dashboard.</li>
+      </ul>
     </div>
-    <div class="row dashboard-view">
-      <div class="col-sm">
-        <img src="SVGs/Untitled-5.svg">
-      </div>
-      <div class="col-sm">
-        <img src="images/Create 2.1.png">
-      </div>
-    </div>
-    <p>I tested the wireframes with three different users, and had a few important takeaways:</p>
-    <ul>
-      <li>Would need to add a clear “Add” button in future iterations. Users were unclear on 	where to add new content.</li>
-      <li>The flow for organizing a document was unclear. I would need to make it clear 	where users can organize a document once they’re inside.</li>
-      <li>Users expect confirmation pages after upgrading their plans.</li>
-      <li>Confusing navigation on the left side of the dashboard.</li>
-    </ul>
   </div>
-  <div class="row">
+  <div class="container-fluid branding">
     <!--should all H2s be in their own row?-->
     <h2>11 Logo & Branding</h2>
   </div>
-  <div class="row branding">
+  <div class="container-fluid branding1">
     <p>I used mind mapping and word association to come up with different images and feelings for the brand name. I settled on IdeaDesk, which I thought captured both the creativity and productivity associated with the platform I was designing. With the name in mind, I went on to create various forms of the logo:</p>
     <div class="row concept">
       <div class="col-sm-8">
         <h3>Concept</h3>
         <p>I wanted to give a sense of cluttered papers on a desk, since these are the rough forms of ideas. I started by sketching different stacks of papers.</p>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 logo">
         <img src="SVGs/Group 23.svg">
       </div>
     </div>
@@ -267,7 +315,7 @@
         <h3>Refinements</h3>
         <p>I took the sketches into Figma and started playing around with different arrangements and shadows. I thought the primary font was powerful, so I wanted to keep the logo fairly simple. I experimented with placing the text in different areas, and liked how the papers overlapped with “Idea.”</p>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 logo">
         <img src="SVGs/Group 33.svg">
       </div>
     </div>
@@ -276,30 +324,31 @@
         <h3>Final Logo</h3>
         <p>For the final logo I put I changed the colors of the papers to make the design more inviting and playful. The papers on the left represent chaotic ideas, as if they’re coming out of a box. The final design is simple yet bold.</p>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 logo">
         <img src="SVGs/Logo Horizontal.svg">
       </div>
     </div>
     <p>The IdeaDesk color palette focuses on white and greys with bright pops of color. The palette brings a sense of fun and spontaneity to the brand.</p>
     <img src="images/Group 40.png">
   </div>
-  <button type="button" class="btn btn-outline-dark">View Style Guide</button>
-  </br>
-  <div class="row">
+  <div class="container-fluid button-test">
+    <button type="button" class="btn btn-outline-dark col-sm-5">View Style Guide</button>
+  </div>
+  <div class="container-fluid">
     <!--should all H2s be in their own row?-->
     <h2>12 Mockups & Testing</h2>
   </div>
-  <div class="row testing">
+  <div class="container-fluid testing">
     <p>I conducted 2 remote and one in-person test the desktop and mobile designs. During this round of testing, I wanted to get feedback but also hone my user testing skills. I worked on letting users have freedom in the product instead of directing them with verbal cues too much. This allowed me to get more insightful feedback that would shape future iterations of the product in important ways.</p>
     <div class="row pricing">
       <div class="col-sm">
-        <img src="images/Old Landing.png">
+        <img src="images/Old Landing 2.png">
       </div>
       <div class="col-sm">
-        <img src="images/Landing Page new-pricing.png">
+        <img src="images/Landing Page new1 3.png">
       </div>
-      <p>While conducting user testing I received feedback that the original pricing view (left) was difficult to read. After a few iterations, I created the final pricing view (right). This view incorporates checkmarks in order to reduce reading and uses strategic color in order to guide the user through the information.</p>
     </div>
+    <p>While conducting user testing I received feedback that the original pricing view (left) was difficult to read. After a few iterations, I created the final pricing view (right). This view incorporates checkmarks in order to reduce reading and uses strategic color in order to guide the user through the information.</p>
     <div class="row add-menu">
       <div class="col-sm">
         <img src="images/Add Folder 1.png">
@@ -307,8 +356,8 @@
       <div class="col-sm">
         <img src="images/Dash Add [new].png">
       </div>
-      <p>For the add file dropdown, I recevied feedback from users that this menu would be easier to navigate if there were icons. I learned an important lesson here that designers should aim to provide visual aids in order to help the user. This is also helpful for people whose don't speak English as their first language.</p>
     </div>
+    <p>For the add file dropdown, I recevied feedback from users that this menu would be easier to navigate if there were icons. I learned an important lesson here that designers should aim to provide visual aids in order to help the user. This is also helpful for people whose don't speak English as their first language.</p>
     <div class="row add-menu-mobile">
       <div class="col-sm">
         <img src="images/Mobile Upload2 Old.png">
@@ -316,18 +365,18 @@
       <div class="col-sm">
         <img src="images/Dashboard Mobile Add New.png">
       </div>
-      <p>I used preference testing to decide between these two views, and 90% of users preferred the native iOS view on the right. I learned here that keeping native design reduces cognitive load for the user because they're seeing visual cues that they already recognize.</p>
     </div>
+    <p>I used preference testing to decide between these two views, and 90% of users preferred the native iOS view on the right. I learned here that keeping native design reduces cognitive load for the user because they're seeing visual cues that they already recognize.</p>
   </div>
-  <div class="row">
+  <div class="container-flui final-product">
     <!--should all H2s be in their own row?-->
     <h2>13 Final Product</h2>
   </div>
-  <div class="row final-product">
+  <div class="container-fluid final-product1">
     <p>IdeaDesk solves the client’s problem by providing a practical and intuitive cloud storage platform. I relied heavily on user data and research during the design phases in order to deliver a successful product. </p>
     <div class="row dashboard">
       <div class="col-sm">
-        <img src="images/Dash Main .png">
+        <img src="images/Dash Main.png">
       </div>
       <div class="col-sm">
         <img src="images/Dashboard Mobile New.png">
@@ -353,24 +402,25 @@
       <p>The sign in page allows user to choose between social media or email sign in. The background is greyed in order to focus attention on the modal.</p>
     </div>
   </div>
-  <div class="row">
+  <div class="container-fluid">
     <!--should all H2s be in their own row?-->
     <h2>14 Conclusion</h2>
   </div>
-  <div class="row conclusion">
-    <h3 class="row">What are the next steps for IdeaDesk?</h3>
-      <ul>
-        <li>Build out the “social” view</li>
-        <li>Work on visual refinements</li>
-        <li>Build out a view for collaborating on a document</li>
-        <li>Create the profile settings page: remaining storage, avatar 	picture, etc.</li>
-      </ul>
-    <h3 class="row">What did I learn?</h3>
-      <ul>
-        <li>Always save iterations of work for case studies.</li>
-        <li>Sketches and wireframes should be thorough and neat. These 	need to be detailed in order to clearly communicate with 	stakeholders early on and conduct successful initial testing.</li>
-        <li>Build desktop and mobile prototypes at the same time.</li>
-      </ul>
+  <div class="container-fluid conclusion">
+    <div class="container-fluid">
+      <h3 class="row">What are the next steps for IdeaDesk?</h3>
+        <ul>
+          <li>Build out the “social” view</li>
+          <li>Work on visual refinements</li>
+          <li>Build out a view for collaborating on a document</li>
+          <li>Create the profile settings page: remaining storage, avatar 	picture, etc.</li>
+        </ul>
+      <h3 class="row">What did I learn?</h3>
+        <ul>
+          <li>Always save iterations of work for case studies.</li>
+          <li>Sketches and wireframes should be thorough and neat. These 	need to be detailed in order to clearly communicate with 	stakeholders early on and conduct successful initial testing.</li>
+          <li>Build desktop and mobile prototypes at the same time.</li>
+        </ul>
+      </div>
   </div>
-
 </section>
