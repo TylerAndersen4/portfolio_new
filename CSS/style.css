@@ -15,6 +15,11 @@ body {
   background-color: green;
 }
 
+/*.container-fluid {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}*/
+
 h1 {
   font-family: helvetica;
   font-size: 4.8rem;
@@ -72,7 +77,91 @@ p, li {
   color: black;
   /*background-color: blue;*/
 }
+/*Index.html*/
+/*Navbar*/
+.navbar-custom {
+  font-family: times!important;
+  background-color: white!important;
+}
 
+.nav-item > a {
+  font-family: helvetica;
+  color: black;
+  font-size: 1.8rem;
+}
+
+/*Hero*/
+.header1 {
+  background-image: url("../images/brazil.jpg");
+  /*background-position: 10rem 10rem;*/
+  background-position: right;
+  padding-bottom: 30rem;
+  padding-top: 30rem;
+  text-align: center;
+  opacity: .6;
+}
+
+.header1 > h1 {
+  font-family: helvetica, sans-serif;
+  font-size: 4rem;
+  /*font-weight: bold;*/
+  color: white;
+  line-height: 4rem;
+  letter-spacing: .001rem;
+}
+
+.header1 > h2 {
+  font-family: helvetica, sans-serif;
+  font-size: 3rem;
+  /*font-weight: bold;*/
+  color: white;
+  line-height: 3rem;
+  letter-spacing: .001rem;
+}
+
+img[src="images/brazil.jpg"] {
+  opacity: .1;
+}
+
+/*Projects*/
+.case-study {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  align-items: center;
+}
+
+.case-study-1 {
+  text-align: left;
+}
+
+.case-study-1 > h3 {
+  padding-bottom: 2rem;
+}
+
+.case-study-1 > p {
+  padding-bottom: 5rem;
+}
+
+.case-study-1 > .btn {
+}
+
+.case-study-2 {
+}
+
+img[src="images/Dashboard Image View.png"] {
+  padding-top: 5rem;
+}
+
+.case-study-2 > img[src="images/house.jpg"] {
+  width: 50rem;
+  height: 50rem;
+}
+
+
+
+
+
+/*Project.html*/
 /*Hero*/
 img[src="SVGs/Logo Horizontal.svg"] {
   padding: 1rem 0 1rem 0;

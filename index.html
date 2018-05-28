@@ -5,59 +5,71 @@
     <link rel="stylesheet" type="text/css" href="CSS/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
   <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
       <a class="navbar-brand" href="#">
         <img src="SVGs/Logo 8.svg" width="100" height="100" alt="">
       </a>
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Work</a>
+          <a class="nav-link active" href="#">WORK</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#">ABOUT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#">CONTACT</a>
         </li>
       </ul>
     </nav>
     <!--hero-->
     <div class="container-fluid header1">
       <h1>Tyler Andersen</h1>
-      <h2>UX Designer</h2>
+      <h2>UI / UX Designer</h2>
       <h2>Los Angeles</h2>
     </div>
-    <div class="container image">
+    <!-- <div class="container image">
       <img src="images/ckturistando-599263-unsplash1.png".>
-    </div>
+    </div> -->
     <!--Case Studies-->
-    <div class="container case-study-1">
-      <h1>01 IdeaDesk</h1>
-      <h3>A cloud storage and organization platform</h3>
-      <button type="button" class="btn btn-outline-dark">View</button>
-      <img src="images/Dashboard Image View.png">
+    <div class="container-fluid row case-study">
+      <div class="col-sm case-study-1">
+        <h3>01 IdeaDesk</h3>
+        <p>A cloud storage and organization platform for desktop and mobile.</p>
+        <button type="button" class="btn btn-outline-dark col-sm-5">View</button>
+      </div>
+      <div class="col-sm case-study-2">
+        <img src="images/Dashboard Image View.png">
+      </div>
     </div>
-    <div class="container case-study-2">
-      <h1>02 RoomAid</h1>
-      <h3>A roommate communication application.</h3>
-      <h4>COMING SOON</h4>
+    <div class="container-fluid row case-study">
+      <div class="col-sm case-study-1">
+        <h3>02 RoomAid</h3>
+        <p>A roommate communication application</p>
+        <p>COMING SOON</p>
+      </div>
+      <div class="col-sm case-study-2">
+        <img src="images/house.jpg">
+      </div>
     </div>
-    <div class="container case-study-3">
-      <h1>03 Voyage</h1>
-      <h3>A collaborative travel platform.</h3>
-      <h4>COMING SOON</h4>
-      <img src="images/paul-hermann-613048-unsplash.png">
+    <div class="container-fluid row case-study">
+      <div class="col-sm case-study-1">
+        <h3>03 Voyage</h3>
+        <p>A collaborative travel platform.</p>
+        <p>COMING SOON</p>
+      </div>
+      <div class="col-sm case-study-2">
+        <img src="images/paul-hermann-613048-unsplash.png">
+      </div>
     </div>
 
     <div id="root"></div>
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrap cdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <!-- <script src="./index.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js">
     var ctx = document.getElementById('myChart').getContext('2d');
