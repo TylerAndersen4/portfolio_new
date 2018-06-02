@@ -54,10 +54,15 @@ h4, h5 {
 .btn {
   font-size: 1.8rem;
   font-family: "Open Sans";
+  font-weight: lighter;
   padding: 1rem 0rem 1rem 0rem;
   max-width: 45rem;
   width: 80%
 }
+
+/*.btn:hover {
+  background-color: rgba(187, 187, 187, 0.5);
+}*/
 
 .container {
   text-align: center;
@@ -73,6 +78,7 @@ li {
 p, li {
   font-family: "Open Sans";
   font-size: 1.4rem;
+  font-weight: lighter;
   color: black;
   /*background-color: blue;*/
 }
@@ -83,6 +89,7 @@ footer {
   background-color: rgba(142, 142, 142, .2);
   padding-top: 2rem;
   padding-bottom: 2rem;
+  /*margin-top: 10rem;*/
 }
 
 i {
@@ -95,19 +102,32 @@ i {
   align-items: center;
 }
 
-.footer-right {
+/*.footer-right {
   text-align: right;
+  width: 50%;
+  float: right;
+}*/
+
+.footer-left {
+  width: 50%;
+  align-items: center;
 }
 
-.footer-right > img {
+.footer-right {
+  width: 50%;
+}
+
+.footer-right > h6 {
+  /*width: 50%;*/
+  float: right;
+}
+
+/*.footer-right > img {
   height: 7rem;
   width: 7rem;
   opacity: .5;
-}
+}*/
 
-.footer-row2 {
-  text-align: center;
-}
 
 /*Index.html*/
 
@@ -127,33 +147,37 @@ i {
 .header1 {
   background-image: url("../images/brazil.jpg");
   /*background-position: 10rem 10rem;*/
-  background-position: right;
+  background-position: top right;
   padding-bottom: 15rem;
   padding-top: 20rem;
-  text-align: center;
-  opacity: .6;
+  text-align: left;
+  opacity:;
 }
 
 .header1 > h1 {
   font-family: helvetica, sans-serif;
-  font-size: 3rem;
+  font-size: 4.8rem;
   /*font-weight: bold;*/
-  color: white;
+  color: black;
   line-height: 3rem;
+  /*font-weight: 100;*/
   letter-spacing: .001rem;
+  padding-bottom: 4rem;
 }
 
 .header1 > h2 {
   font-family: helvetica, sans-serif;
-  font-size: 2rem;
+  font-size: 3.6rem;
   /*font-weight: bold;*/
-  color: white;
+  color: black;
+  /*font-weight: 100;*/
   line-height: 2rem;
   letter-spacing: .001rem;
 }
 
 img[src="images/brazil.jpg"] {
   opacity: .1;
+  padding: 3rem;
 }
 
 /*Projects*/
@@ -161,6 +185,10 @@ img[src="images/brazil.jpg"] {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
   align-items: center;
+}
+
+.case1 {
+  background-color: white;
 }
 
 .case-study-1 {
@@ -173,6 +201,7 @@ img[src="images/brazil.jpg"] {
 
 .case-study-1 > p {
   padding-bottom: 5rem;
+  font-weight: lighter;
 }
 
 .case-study-2 {
@@ -186,13 +215,13 @@ img[src="images/Dashboard-Image-View.png"] {
 }
 
 .case-study-2 > img[src="images/house.jpg"] {
-  width: 30rem;
-  height: 30rem;
+  width: 100%;
+  height: auto;
 }
 
 img[src="images/paul-hermann-613048-unsplash.png"] {
-  width: 30rem;
-  height: 30rem;
+  width: 100%;
+  height: auto;
 }
 
 /*Bio.html*/
