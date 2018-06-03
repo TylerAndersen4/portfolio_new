@@ -69,13 +69,15 @@ h4, h5 {
 }
 
 p {
-  margin-bottom: 0rem;
+  margin-bottom: 1rem;
   padding: 1rem 0 1rem 0;
 }
 
-li {
+ul {
+  padding: 1rem 0 1rem 0;
 }
-p, li {
+
+p, li, th, td {
   font-family: "Open Sans";
   font-size: 1.4rem;
   font-weight: lighter;
@@ -144,13 +146,12 @@ i {
 }
 
 /*Hero*/
-.header1 {
+.header {
   background-image: url("../images/brazil.jpg");
-  /*background-position: 10rem 10rem;*/
   background-position: top right;
   padding-bottom: 15rem;
   padding-top: 20rem;
-  text-align: left;
+  text-align: right;
   opacity:;
 }
 
@@ -159,7 +160,7 @@ i {
   font-size: 4.8rem;
   /*font-weight: bold;*/
   color: black;
-  line-height: 3rem;
+  line-height: 1rem;
   /*font-weight: 100;*/
   letter-spacing: .001rem;
   padding-bottom: 4rem;
@@ -167,7 +168,7 @@ i {
 
 .header1 > h2 {
   font-family: helvetica, sans-serif;
-  font-size: 3.6rem;
+  font-size: 4rem;
   /*font-weight: bold;*/
   color: black;
   /*font-weight: 100;*/
@@ -175,9 +176,12 @@ i {
   letter-spacing: .001rem;
 }
 
-img[src="images/brazil.jpg"] {
-  opacity: .1;
-  padding: 3rem;
+.header2 > h5 {
+  float: left;
+}
+
+.text-left {
+  max-width: 40rem;
 }
 
 /*Projects*/
@@ -188,7 +192,7 @@ img[src="images/brazil.jpg"] {
 }
 
 .case1 {
-  background-color: white;
+  /*background-color: white;*/
 }
 
 .case-study-1 {
@@ -227,8 +231,8 @@ img[src="images/paul-hermann-613048-unsplash.png"] {
 /*Bio.html*/
 
 /*Header*/
-.bio-header > h2 {
-  padding-bottom: 10rem;
+.bio-header > h3 {
+  padding-bottom: 5rem;
   padding-top: 10rem;
 }
 
@@ -236,16 +240,17 @@ img[src="images/paul-hermann-613048-unsplash.png"] {
 
 img[src="images/milan-stairs.png"], img[src="images/paris1.JPG"], img[src="images/paris2.JPG"], img[src="images/beach.JPG"] {
   height: 30rem;
-  padding: 1rem 0 1rem 0;
-  margin-bottom: 10rem;
-  margin-top: 10rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
   width: 30rem;
 }
 
 img[src="images/Moodboard-Portfolio.png"] {
-  height:40rem;
-  width:70rem;
-  text-align: center;
+  height:auto;
+  width:60%;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  display: none;
 }
 
 .header-image > img {
@@ -262,6 +267,26 @@ img[src="images/Moodboard-Portfolio.png"] {
 .bio-text-image {
   text-align: center;
 }
+
+/*Contact.html*/
+.contact {
+  text-align: left;
+  margin-top: 5rem;
+}
+
+.test1 > h1 {
+  font-size: 6rem;
+  color: black;
+}
+
+/*.test1 > h1:hover {
+  color: red;
+}*/
+
+.contact3 > h1 {
+  font-size: 6rem;
+}
+
 
 /*Project.html*/
 
@@ -295,11 +320,6 @@ img[src="SVGs/Logo-Horizontal.svg"] {
 .hero-container {
   text-align: center;
 }
-
-.container > .btn {
-
-}
-
 
 /*Roles*/
 
@@ -345,6 +365,10 @@ img[src="images/Landing-Page-new-2.png"] {
   padding: 0;
 }
 
+.text > p:nth-child(2n+1) {
+  font-style: italic;
+}
+
 /*Competitive Analysis*/
 .competitive-analysis{
   text-align: center;
@@ -370,9 +394,11 @@ img[src="SVGs/google-drive.svg"], img[src="SVGs/pinterest.svg"], img[src="SVGs/e
 
 .chart1 {
   height: auto;
-  position: relative;
+  /*position: relative;
   align-items: center;
-  text-align: center;
+  text-align: center;*/
+  display: flex;
+  justify-content: center;
   width: 80%;
   /*display: flex;
   align-items: center;*/
@@ -444,15 +470,16 @@ th, td {
   text-align: center;
 }
 
-/*Display for larger sizes*/
-.user-flows2 > p {
-}
 
 /*Display for larger sizes*/
 img[src="images/User-Flow1.png"] {
-  height: 30rem;
-  width:30 rem;
+  height: auto;
+  width: 60%;
   margin-bottom: 5rem;
+}
+
+.user-flows2 {
+  text-align: center;
 }
 
 
@@ -464,8 +491,17 @@ img[src="SVGs/Group-37.svg"],img[src="images/Sign-Up-1.1.png"],img[src="SVGs/Unt
   margin-bottom: 2rem;
 }
 
-.signup-view, .dashboard-view {
+.signup-view {
   margin-bottom: 5rem;
+  /*text-align: center;
+  align-items: center;*/
+  display: flex;
+  justify-content: center;
+}
+
+.sketch1 {
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -476,6 +512,21 @@ img[src="SVGs/Group-37.svg"],img[src="images/Sign-Up-1.1.png"],img[src="SVGs/Unt
 
 .logo {
   text-align: center;
+  align-items: center;
+}
+
+.concept {
+  align-items: center;
+}
+
+.color-palette {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.color-palette > img {
+  height: auto;
+  width: 50%;
 }
 
 img[src="SVGs/Group-23.svg"] {
@@ -566,12 +617,8 @@ img[src="images/Mobile-Doc-1.png"], img[src="images/Doc-2.1-crop.png"] {
     display: none;
   }
 
-  .user-flows2 > p {
-    display: none;
-  }
-
   /*Display for larger sizes*/
-  img[src="images/User-Flow1.png"] {
+  .user-flows2 {
     display: none;
   }
 
@@ -597,11 +644,6 @@ img[src="images/Mobile-Doc-1.png"], img[src="images/Doc-2.1-crop.png"] {
   /*Index.html*/
 
   /*Navbar*/
-  .navbar-custom {
-    background-color: white!important;
-    text-align: right;
-  }
-
   .nav-item > a {
     font-family: helvetica;
     color: black;
@@ -609,33 +651,15 @@ img[src="images/Mobile-Doc-1.png"], img[src="images/Doc-2.1-crop.png"] {
   }
 
   /*Hero*/
+
+
   .header1 {
-    background-image: url("../images/brazil.jpg");
-    /*background-position: 10rem 10rem;*/
-    background-position: right;
-    padding-bottom: 15rem;
-    padding-top: 20rem;
-    text-align: center;
-    opacity: .6;
+    text-align: right;
   }
 
-  .header1 > h1 {
-    font-family: helvetica, sans-serif;
-    font-size: 3rem;
-    /*font-weight: bold;*/
-    color: white;
-    line-height: 3rem;
-    letter-spacing: .001rem;
-  }
-
-  .header1 > h2 {
-    font-family: helvetica, sans-serif;
-    font-size: 2rem;
-    /*font-weight: bold;*/
-    color: white;
-    line-height: 2rem;
-    letter-spacing: .001rem;
-  }
+ .header1 > h1 {
+   font-size: 7rem;
+ }
 
   img[src="images/brazil.jpg"] {
     opacity: .1;
@@ -699,9 +723,7 @@ img[src="images/Mobile-Doc-1.png"], img[src="images/Doc-2.1-crop.png"] {
   }
 
   img[src="images/Moodboard-Portfolio.png"] {
-    height:40rem;
-    width:70rem;
-    text-align: center;
+    display: inline;
   }
 
   .header-image > img {
@@ -809,7 +831,7 @@ img[src="images/Mobile-Doc-1.png"], img[src="images/Doc-2.1-crop.png"] {
 
   /*User Survey*/
   .chart1 {
-    width: 80%;
+    width: 40%;
     height: auto;
   }
 
@@ -847,15 +869,14 @@ img[src="images/Mobile-Doc-1.png"], img[src="images/Doc-2.1-crop.png"] {
   }
 
   /*Display for larger sizes*/
-  .user-flows2 > p {
-    display: none;
-  }
-
-  /*Display for larger sizes*/
   img[src="images/User-Flow1.png"] {
     height: 30rem;
     width:30 rem;
     margin-bottom: 5rem;
+    /*display: none;*/
+  }
+
+  .user-flows2 {
     display: none;
   }
 
@@ -1018,33 +1039,14 @@ img[src="images/Mobile-Doc-1.png"], img[src="images/Doc-2.1-crop.png"] {
   }
 
   /*Hero*/
+
   .header1 {
-    background-image: url("../images/brazil.jpg");
-    /*background-position: 10rem 10rem;*/
-    background-position: right;
-    padding-bottom: 15rem;
-    padding-top: 20rem;
-    text-align: center;
-    opacity: .6;
+    text-align: right;
   }
 
-  .header1 > h1 {
-    font-family: helvetica, sans-serif;
-    font-size: 3rem;
-    /*font-weight: bold;*/
-    color: white;
-    line-height: 3rem;
-    letter-spacing: .001rem;
-  }
-
-  .header1 > h2 {
-    font-family: helvetica, sans-serif;
-    font-size: 2rem;
-    /*font-weight: bold;*/
-    color: white;
-    line-height: 2rem;
-    letter-spacing: .001rem;
-  }
+ .header1 > h1 {
+   font-size: 7rem;
+ }
 
   /*Projects*/
   .case-study {
@@ -1096,9 +1098,9 @@ img[src="images/Mobile-Doc-1.png"], img[src="images/Doc-2.1-crop.png"] {
   }
 
   img[src="images/Moodboard-Portfolio.png"] {
-    height:40rem;
-    width:70rem;
-    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    display: inline;
   }
 
   .header-image > img {
@@ -1201,8 +1203,12 @@ img[src="images/Mobile-Doc-1.png"], img[src="images/Doc-2.1-crop.png"] {
   }
 
   /*Display for larger sizes*/
-  img[src="images/User-Flow1.png"] {
+  /*img[src="images/User-Flow1.png"] {
     display: inline;
+  }*/
+
+  .user-flows2 {
+    display: block;
   }
 
   /*Sketches & Wireframes*/
@@ -1269,14 +1275,17 @@ img[src="images/Mobile-Doc-1.png"], img[src="images/Doc-2.1-crop.png"] {
 @media (min-width: 992px) {
   h1 {
     font-size: 4.8rem;
+    padding: 1rem 0 1rem 0;
   }
 
   h2 {
     font-size: 3.6rem;
+    padding: 3rem 0 3rem 0;
   }
 
   h3 {
     font-size: 3.0rem;
+    padding: 3rem 0 3rem 0;
   }
 
   h4 {
@@ -1334,33 +1343,14 @@ img[src="images/Mobile-Doc-1.png"], img[src="images/Doc-2.1-crop.png"] {
   }
 
   /*Hero*/
+
   .header1 {
-    background-image: url("../images/brazil.jpg");
-    /*background-position: 10rem 10rem;*/
-    background-position: right;
-    padding-bottom: 15rem;
-    padding-top: 20rem;
-    text-align: center;
-    opacity: .6;
+    text-align: right;
   }
 
-  .header1 > h1 {
-    font-family: helvetica, sans-serif;
-    font-size: 3rem;
-    /*font-weight: bold;*/
-    color: white;
-    line-height: 3rem;
-    letter-spacing: .001rem;
-  }
-
-  .header1 > h2 {
-    font-family: helvetica, sans-serif;
-    font-size: 2rem;
-    /*font-weight: bold;*/
-    color: white;
-    line-height: 2rem;
-    letter-spacing: .001rem;
-  }
+ .header1 > h1 {
+   font-size: 7rem;
+ }
 
   /*Projects*/
   .case-study {
@@ -1412,9 +1402,9 @@ img[src="images/Mobile-Doc-1.png"], img[src="images/Doc-2.1-crop.png"] {
   }
 
   img[src="images/Moodboard-Portfolio.png"] {
-    height:40rem;
-    width:70rem;
-    text-align: center;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+    display: inline;
   }
 
   .header-image > img {
@@ -1517,6 +1507,10 @@ img[src="images/Mobile-Doc-1.png"], img[src="images/Doc-2.1-crop.png"] {
   /*Display for larger sizes*/
   img[src="images/User-Flow1.png"] {
     display: inline;
+  }
+
+  .user-flows2 {
+    display: block;
   }
 
   /*Sketches & Wireframes*/
@@ -1647,33 +1641,14 @@ img[src="images/Mobile-Doc-1.png"], img[src="images/Doc-2.1-crop.png"] {
   }
 
   /*Hero*/
+
   .header1 {
-    background-image: url("../images/brazil.jpg");
-    /*background-position: 10rem 10rem;*/
-    background-position: right;
-    padding-bottom: 15rem;
-    padding-top: 20rem;
-    text-align: center;
-    opacity: .6;
+    text-align: right;
   }
 
-  .header1 > h1 {
-    font-family: helvetica, sans-serif;
-    font-size: 3rem;
-    /*font-weight: bold;*/
-    color: white;
-    line-height: 3rem;
-    letter-spacing: .001rem;
-  }
-
-  .header1 > h2 {
-    font-family: helvetica, sans-serif;
-    font-size: 2rem;
-    /*font-weight: bold;*/
-    color: white;
-    line-height: 2rem;
-    letter-spacing: .001rem;
-  }
+ .header1 > h1 {
+   font-size: 7rem;
+ }
 
   /*Projects*/
   .case-study {
@@ -1725,9 +1700,9 @@ img[src="images/Mobile-Doc-1.png"], img[src="images/Doc-2.1-crop.png"] {
   }
 
   img[src="images/Moodboard-Portfolio.png"] {
-    height:40rem;
-    width:70rem;
-    text-align: center;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+    display: inline;
   }
 
   .header-image > img {
@@ -1827,6 +1802,10 @@ img[src="images/Mobile-Doc-1.png"], img[src="images/Doc-2.1-crop.png"] {
   /*Display for larger sizes*/
   img[src="images/User-Flow1.png"] {
     display: inline;
+  }
+
+  .user-flows2 {
+    display: block;
   }
 
   /*Sketches & Wireframes*/
