@@ -153,9 +153,9 @@ i {
   font-size: 4.8rem;
   /*font-weight: bold;*/
   color: black;
-  line-height: 1rem;
+  line-height: 4rem;
   /*font-weight: 100;*/
-  letter-spacing: .001rem;
+  /*letter-spacing: .001rem;*/
   padding-bottom: 4rem;
 }
 
@@ -231,7 +231,7 @@ img[src="images/paul-hermann-613048-unsplash.png"] {
 
 /*images*/
 
-img[src="images/milan-stairs.png"], img[src="images/paris1.JPG"], img[src="images/paris2.JPG"], img[src="images/beach.JPG"] {
+img[src="images/milan-stairs.png"], img[src="images/newparis1.JPG"], img[src="images/newparis2.JPG"], img[src="images/beach.JPG"] {
   height: 30rem;
   margin-bottom: 5rem;
   margin-top: 5rem;
@@ -709,7 +709,7 @@ img[src="images/mobile-doc-1.png"], img[src="images/doc-2.1-crop.png"] {
 
   /*images*/
 
-  img[src="images/milan-stairs.png"], img[src="images/paris1.JPG"], img[src="images/paris2.JPG"], img[src="images/beach.JPG"] {
+  img[src="images/milan-stairs.png"], img[src="images/newparis1.JPG"], img[src="images/newparis2.JPG"], img[src="images/beach.JPG"] {
     height: 30rem;
     padding: 1rem 0 1rem 0;
     margin-bottom: 10rem;
@@ -1052,7 +1052,7 @@ img[src="images/mobile-doc-1.png"], img[src="images/doc-2.1-crop.png"] {
 
   /*images*/
 
-  img[src="images/milan-stairs.png"], img[src="images/paris1.JPG"], img[src="images/paris2.JPG"], img[src="images/beach.JPG"] {
+  img[src="images/milan-stairs.png"], img[src="images/newparis1.JPG"], img[src="images/newparis2.JPG"], img[src="images/beach.JPG"] {
     height: 30rem;
     padding: 1rem 0 1rem 0;
     margin-bottom: 10rem;
@@ -1336,7 +1336,7 @@ img[src="images/mobile-doc-1.png"], img[src="images/doc-2.1-crop.png"] {
 
   /*images*/
 
-  img[src="images/milan-stairs.png"], img[src="images/paris1.JPG"], img[src="images/paris2.JPG"], img[src="images/beach.JPG"] {
+  img[src="images/milan-stairs.png"], img[src="images/newparis1.JPG"], img[src="images/newparis2.JPG"], img[src="images/beach.JPG"] {
     height: 30rem;
     padding: 1rem 0 1rem 0;
     margin-bottom: 10rem;
@@ -1612,7 +1612,7 @@ img[src="images/mobile-doc-1.png"], img[src="images/doc-2.1-crop.png"] {
 
   /*images*/
 
-  img[src="images/milan-stairs.png"], img[src="images/paris1.JPG"], img[src="images/paris2.JPG"], img[src="images/beach.JPG"] {
+  img[src="images/milan-stairs.png"], img[src="images/newparis1.JPG"], img[src="images/newparis2.JPG"], img[src="images/beach.JPG"] {
     height: 30rem;
     padding: 1rem 0 1rem 0;
     margin-bottom: 10rem;
