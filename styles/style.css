@@ -231,11 +231,12 @@ img[src="images/paul-hermann-613048-unsplash.png"] {
 
 /*images*/
 
-img[src="images/milan-stairs.png"], img[src="images/newparis1.JPG"], img[src="images/newparis2.JPG"], img[src="images/beach.JPG"] {
-  height: 30rem;
+img[src="images/milan-stairs.png"], img[src="images/newparis1.JPG"], img[src="images/newparis2.JPG"], img[src="images/newbeach.JPG"] {
+  height: auto;
   margin-bottom: 5rem;
   margin-top: 5rem;
-  width: 30rem;
+  min-width: 25rem;
+  width: 30%;
 }
 
 img[src="images/moodboard-portfolio.png"] {
@@ -709,13 +710,13 @@ img[src="images/mobile-doc-1.png"], img[src="images/doc-2.1-crop.png"] {
 
   /*images*/
 
-  img[src="images/milan-stairs.png"], img[src="images/newparis1.JPG"], img[src="images/newparis2.JPG"], img[src="images/beach.JPG"] {
+  /*img[src="images/milan-stairs.png"], img[src="images/newparis1.JPG"], img[src="images/newparis2.JPG"], img[src="images/newbeach.JPG"] {
     height: 30rem;
     padding: 1rem 0 1rem 0;
     margin-bottom: 10rem;
     margin-top: 10rem;
     width: 30rem;
-  }
+  }*/
 
   img[src="images/moodboard-portfolio.png"] {
     display: inline;
@@ -1052,13 +1053,13 @@ img[src="images/mobile-doc-1.png"], img[src="images/doc-2.1-crop.png"] {
 
   /*images*/
 
-  img[src="images/milan-stairs.png"], img[src="images/newparis1.JPG"], img[src="images/newparis2.JPG"], img[src="images/beach.JPG"] {
+  /*img[src="images/milan-stairs.png"], img[src="images/newparis1.JPG"], img[src="images/newparis2.JPG"], img[src="images/newbeach.JPG"] {
     height: 30rem;
     padding: 1rem 0 1rem 0;
     margin-bottom: 10rem;
     margin-top: 10rem;
     width: 30rem;
-  }
+  }*/
 
   img[src="images/moodboard-portfolio.png"] {
     margin-bottom: 5rem;
@@ -1336,13 +1337,13 @@ img[src="images/mobile-doc-1.png"], img[src="images/doc-2.1-crop.png"] {
 
   /*images*/
 
-  img[src="images/milan-stairs.png"], img[src="images/newparis1.JPG"], img[src="images/newparis2.JPG"], img[src="images/beach.JPG"] {
+  /*img[src="images/milan-stairs.png"], img[src="images/newparis1.JPG"], img[src="images/newparis2.JPG"], img[src="images/newbeach.JPG"] {
     height: 30rem;
     padding: 1rem 0 1rem 0;
     margin-bottom: 10rem;
     margin-top: 10rem;
     width: 30rem;
-  }
+  }*/
 
   img[src="images/moodboard-portfolio.png"] {
     margin-bottom: 10rem;
@@ -1612,13 +1613,13 @@ img[src="images/mobile-doc-1.png"], img[src="images/doc-2.1-crop.png"] {
 
   /*images*/
 
-  img[src="images/milan-stairs.png"], img[src="images/newparis1.JPG"], img[src="images/newparis2.JPG"], img[src="images/beach.JPG"] {
+  /*img[src="images/milan-stairs.png"], img[src="images/newparis1.JPG"], img[src="images/newparis2.JPG"], img[src="images/newbeach.JPG"] {
     height: 30rem;
     padding: 1rem 0 1rem 0;
     margin-bottom: 10rem;
     margin-top: 10rem;
     width: 30rem;
-  }
+  }*/
 
   img[src="images/moodboard-portfolio.png"] {
     margin-bottom: 10rem;
