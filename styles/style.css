@@ -22,7 +22,7 @@ h2 {
   font-family: helvetica;
   font-size: 3.0rem;
   margin-bottom: 0rem;
-  padding: 1rem 0 4rem 0;
+  padding: 1rem 0 3rem 0;
   color: rgba(109, 109, 109, 1);
 }
 
@@ -123,13 +123,6 @@ i {
   /*width: 50%;*/
   float: right;
 }
-
-/*.footer-right > img {
-  height: 7rem;
-  width: 7rem;
-  opacity: .5;
-}*/
-
 
 /*Index.html*/
 
@@ -259,11 +252,6 @@ img[src="images/moodboard-portfolio.png"] {
 
 /*Body*/
 
-.bio-text > h2 {
-  /*color: red;*/
-  /*font-weight: 600;*/
-}
-
 .bio-text-image {
   text-align: center;
 }
@@ -278,10 +266,6 @@ img[src="images/moodboard-portfolio.png"] {
   font-size: 6rem;
   color: black;
 }
-
-/*.test1 > h1:hover {
-  color: red;
-}*/
 
 .contact3 > h1 {
   font-size: 6rem;
@@ -315,6 +299,10 @@ img[src="images/moodboard-portfolio.png"] {
 
 .hero-container {
   text-align: center;
+}
+
+.hero-container > img {
+  max-width: 25rem;
 }
 
 /*Roles*/
@@ -362,8 +350,8 @@ img[src="images/landing-page-new-2.png"] {
   margin-top: 4rem
 }
 
-.text {
-  padding: 0;
+.text > h2 {
+  padding-top: 1rem 0 3rem 0;
 }
 
 .text > p:nth-child(2n+1) {
@@ -376,10 +364,12 @@ img[src="images/landing-page-new-2.png"] {
 }
 
 img[src="svg/google-drive.svg"], img[src="svg/pinterest.svg"], img[src="svg/evernote.svg"]  {
-  height: 7rem;
+  height: auto;
   padding: 1rem 0 1rem 0;
   margin-bottom: 1rem;
-  width: 9rem;
+  width: 20%;
+  max-width: 7rem;
+  min-width: 5rem;
 }
 
 /*User Survey*/
@@ -387,19 +377,14 @@ img[src="svg/google-drive.svg"], img[src="svg/pinterest.svg"], img[src="svg/ever
   background-color: white;
 }
 
-canvas {
-  /*margin: 0 auto;
-  width: 30%;
-  height: 30%;*/
-}
-
 .chart1 {
   display: flex;
-  /*width: 50%;
-  height: 50%;*/
   position: relative;
   margin: auto;
   height: auto;
+  margin-top: 3rem;
+  max-width: 45rem;
+  min-width: 25rem;
   width: 50%;
 }
 
@@ -417,10 +402,10 @@ canvas {
 
 /*User Personas*/
 img[src="images/wyatt.png"], img[src="images/elaine.png"] {
-  height: 20rem;
+  height: auto;
   padding: 1rem 0 1rem 0;
   margin-bottom: 1rem;
-  width: 20rem;
+  width: 35%;
 }
 
 .user-personas {
@@ -742,11 +727,6 @@ img[src="images/mobile-doc-1.png"], img[src="images/doc-2.1-crop.png"] {
 
   /*Body*/
 
-  .bio-text > h2 {
-    /*color: red;*/
-    /*font-weight: 600;*/
-  }
-
   .bio-text-image {
     text-align: center;
   }
@@ -803,29 +783,11 @@ img[src="images/mobile-doc-1.png"], img[src="images/doc-2.1-crop.png"] {
     text-align: center;
   }
 
-  img[src="svg/google-drive.svg"], img[src="svg/pinterest.svg"], img[src="svg/evernote.svg"]  {
-    height: 7rem;
-    padding: 1rem 0 1rem 0;
-    margin-bottom: 1rem;
-    width: 9rem;
-  }
-
-  canvas {
-    margin-bottom: 1rem;
-    margin-top: 4rem;
-  }
-
   .data1, .data2, .data3 > p {
     margin-bottom: 3rem;
   }
 
   /*User Personas*/
-  img[src="images/wyatt.png"], img[src="images/elaine.png"] {
-    height: 20rem;
-    padding: 1rem 0 1rem 0;
-    margin-bottom: 1rem;
-    width: 20rem;
-  }
 
   .user-personas {
     text-align: center;
@@ -836,11 +798,6 @@ img[src="images/mobile-doc-1.png"], img[src="images/doc-2.1-crop.png"] {
   }
 
   /*User Survey*/
-  .chart1 {
-    width: 40%;
-    height: auto;
-  }
-
 
   /*User Stories*/
   .stories, .stories1 {
@@ -1115,11 +1072,6 @@ img[src="images/mobile-doc-1.png"], img[src="images/doc-2.1-crop.png"] {
 
   /*Body*/
 
-  .bio-text > h2 {
-    /*color: red;*/
-    /*font-weight: 600;*/
-  }
-
   .bio-text-image {
     text-align: center;
   }
@@ -1174,27 +1126,11 @@ img[src="images/mobile-doc-1.png"], img[src="images/doc-2.1-crop.png"] {
     padding-top: 2rem;
   }
 
-  img[src="svg/google-drive.svg"], img[src="svg/pinterest.svg"], img[src="svg/evernote.svg"]  {
-    height: 7rem;
-    padding: 1rem 0 1rem 0;
-    margin-bottom: 1rem;
-    width: 9rem;
-  }
-
   /*User Survey*/
   .data1, .data3 {
     margin-left: 6rem;
     margin-right: 6rem;
   }
-
-  /*User Personas*/
-  img[src="images/wyatt.png"], img[src="images/elaine.png"] {
-    height: 25rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    width: 25rem;
-  }
-
 
   /*Display for larger sizes*/
   table {
@@ -1288,12 +1224,11 @@ img[src="images/mobile-doc-1.png"], img[src="images/doc-2.1-crop.png"] {
 
   h2 {
     font-size: 3.6rem;
-    padding: 3rem 0 3rem 0;
   }
 
   h3 {
     font-size: 3.0rem;
-    padding: 3rem 0 3rem 0;
+    padding: 3rem 0 1rem 0;
   }
 
   h4 {
@@ -1421,11 +1356,6 @@ img[src="images/mobile-doc-1.png"], img[src="images/doc-2.1-crop.png"] {
 
   /*Body*/
 
-  .bio-text > h2 {
-    /*color: red;*/
-    /*font-weight: 600;*/
-  }
-
   .bio-text-image {
     text-align: center;
   }
@@ -1433,8 +1363,8 @@ img[src="images/mobile-doc-1.png"], img[src="images/doc-2.1-crop.png"] {
   /*Project.html*/
 
   .hero-container, .roles1, .introduction, .competitive-analysis1, .user-survey, .further-findings, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .final-product1, .conclusion {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
 
   /*Hero*/
@@ -1478,13 +1408,6 @@ img[src="images/mobile-doc-1.png"], img[src="images/doc-2.1-crop.png"] {
     padding-top: 2rem;
   }
 
-  img[src="svg/google-drive.svg"], img[src="svg/pinterest.svg"], img[src="svg/evernote.svg"]  {
-    height: 7rem;
-    padding: 1rem 0 1rem 0;
-    margin-bottom: 1rem;
-    width: 9rem;
-  }
-
   /*User Survey*/
 
   .data1, .data2, .data3 > p {
@@ -1494,14 +1417,6 @@ img[src="images/mobile-doc-1.png"], img[src="images/doc-2.1-crop.png"] {
   .data1, .data3 {
     margin-left: 7rem;
     margin-right: 7rem;
-  }
-
-  /*User Personas*/
-  img[src="images/wyatt.png"], img[src="images/elaine.png"] {
-    height: 25rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    width: 25rem;
   }
 
   /*Display for larger sizes*/
@@ -1534,10 +1449,10 @@ img[src="images/mobile-doc-1.png"], img[src="images/doc-2.1-crop.png"] {
   }
 
 
-  img[src="svg/logo-horizontal.svg"] {
+  /*img[src="svg/logo-horizontal.svg"] {
     height: auto;
     width: 20%;
-  }
+  }*/
 
   img[src="images/group-40.png"]{
     display: inline;
@@ -1717,11 +1632,6 @@ img[src="images/mobile-doc-1.png"], img[src="images/doc-2.1-crop.png"] {
 
   /*Body*/
 
-  .bio-text > h2 {
-    /*color: red;*/
-    /*font-weight: 600;*/
-  }
-
   .bio-text-image {
     text-align: center;
   }
@@ -1729,8 +1639,8 @@ img[src="images/mobile-doc-1.png"], img[src="images/doc-2.1-crop.png"] {
   /*Project.html*/
 
   .hero-container, .roles1, .introduction, .competitive-analysis1, .user-survey, .further-findings, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .final-product1, .conclusion {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
 
   /*Hero*/
@@ -1773,27 +1683,10 @@ img[src="images/mobile-doc-1.png"], img[src="images/doc-2.1-crop.png"] {
     padding-top: 2rem;
   }
 
-  img[src="svg/google-drive.svg"], img[src="svg/pinterest.svg"], img[src="svg/evernote.svg"]  {
-    height: 7rem;
-    padding: 1rem 0 1rem 0;
-    margin-bottom: 1rem;
-    width: 9rem;
-  }
-
   /*User Survey*/
-  canvas {
-  }
 
   .data1, .data2, .data3 > p {
     margin-bottom: 3rem;
-  }
-
-  /*User Personas*/
-  img[src="images/wyatt.png"], img[src="images/elaine.png"] {
-    height: 25rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    width: 25rem;
   }
 
   /*Display for larger sizes*/
