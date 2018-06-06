@@ -390,6 +390,10 @@ img[src="svg/google-drive.svg"], img[src="svg/pinterest.svg"], img[src="svg/ever
   margin-bottom: 3rem;
 }
 
+.user-survey > p:nth-of-type(2n) {
+  text-align: center;
+}
+
 /*Further Data*/
 .further-findings {
   background-color: white;
