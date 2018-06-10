@@ -53,7 +53,7 @@
   </script>
 </head>
 <!DOCTYPE html>
-<section>
+<section class="container1">
   <!--Navbar-->
   <nav class="navbar navbar-light bg-light navbar-custom">
     <a class="navbar-brand" href="#">
@@ -78,11 +78,6 @@
     <div class="container-2">
       <img src="images/dash-main.png">
       <img src="images/dashboard-mobile-new.png">
-    </div>
-    <div class="container">
-      <a href="https://invis.io/YCK18BBXZPA" class="btn-outline-dark btn">
-        View Prototype
-      </a>
     </div>
   </div>
   <div class ="container-fluid roles1">
@@ -129,6 +124,11 @@
         <img src="images/landing-page-new-2.png">
       </div>
     </div>
+    <div class="container">
+      <a href="https://invis.io/YCK18BBXZPA" class="btn-outline-dark btn">
+        View Prototype
+      </a>
+    </div>
   </div>
   <div class="container-fluid competitive-analysis1">
     <h2><b>04</b> Competitive Analysis</h2>
@@ -151,7 +151,7 @@
       <h2><b>05</b> User Survey</h2>
       <p>In order to learn more about <b>how people use cloud platforms</b>, I used Slack, Reddit and my own Facebook network to gather participants for the user survey. The survey asked participants about their cloud storage <b>habits</b>, preferences, and <b>frustrations.</b></p>
     </br>
-      <p><b>What purpose do you use cloud platforms for?</b></p>
+      <p><b>What do you use cloud platforms for?</b></p>
       <div class="chart1">
         <canvas id="myChart"></canvas>
       </div>
@@ -190,7 +190,7 @@
   <div class="container-fluid user-personas">
     <h2><b>07</b> User Personas</h2>
     <div class="row user-personas1">
-      <div class="col-sm wyatt">
+      <div class="col-sm col-m-6 col-lg-6 wyatt">
         <img src="images/wyatt.png">
         <h3>Wyatt</h3>
         <h4>Content Manager</h4>
@@ -210,7 +210,7 @@
           </ul>
         <h4>“I need a platform that allows me to easily share and get feedback.” </h4>
       </div>
-      <div class="col-sm elaine">
+      <div class="col-sm col-m-6 col-lg-6 elaine">
         <img src="images/elaine.png">
         <h3>Elaine</h3>
         <h4>Museum Curator</h4>
@@ -290,15 +290,15 @@
       <p>I sketched out views for various states within the product: landing page, sign up, sign in, forgot password, add content, create document, upgrade account. Below you can see the <b>sign up view</b> and the <b>dashboard view.</b></p>
       <div class="row signup-view">
         <div class="col-sm text-center sketch1">
-          <img src="svg/group-37.svg">
+          <img src="images/landing-page-sketch.jpg">
         </div>
         <div class="col-sm text-center">
-          <img src="images/sign-up-1.1.png">
+          <img src="images/landing-wireframe.png">
         </div>
       </div>
       <div class="row dashboard-view">
         <div class="col-sm text-center">
-          <img src="svg/untitled-5.svg">
+          <img src="images/dash-sketch.jpg">
         </div>
         <div class="col-sm text-center">
           <img src="images/create-2.1.png">
@@ -315,36 +315,40 @@
   </div>
   <div class="container-fluid branding1">
     <h2><b>11</b> Logo & Branding</h2>
-    <p>I used mind mapping and word association to come up with different images and feelings for the brand name. I settled on <b>IdeaDesk</b>, which I thought captured both the <b>creativity</b> and productivity associated with the platform I was designing. With the name in mind, I went on to create various forms of the logo:</p>
+    <div class="col-sm col-m-10 col-lg-10 branding2">
+      <p>I used mind mapping and word association to come up with different images and feelings for the brand name. I settled on <b>IdeaDesk</b>, which I thought captured both the <b>creativity</b> and productivity associated with the platform I was designing. With the name in mind, I went on to create various forms of the logo:</p>
+    </div>
     <div class="row concept">
-      <div class="col-sm-8">
+      <div class="col-sm col-m-6 col-lg-6">
         <h3>Concept</h3>
         <p>I wanted to give a sense of <b>cluttered papers</b> on a desk, since these are the rough forms of ideas. I started by sketching different stacks of papers.</p>
       </div>
-      <div class="col-sm-4 logo">
+      <div class="col-sm col-m-6 col-lg-6 logo">
         <img src="svg/group-23.svg">
       </div>
     </div>
     <div class="row refinements">
-      <div class="col-sm-8">
+      <div class="col-sm col-m-6 col-lg-6">
         <h3>Refinements</h3>
         <p>I took the sketches into Figma and started playing around with different arrangements and shadows. I thought the primary font was powerful, so I wanted to keep the logo fairly simple. I experimented with placing the text in different areas, and liked how the papers overlapped with “Idea.”</p>
       </div>
-      <div class="col-sm-4 logo">
+      <div class="col-sm col-m-6 col-lg-6 logo">
         <img src="svg/group-33.svg">
       </div>
     </div>
     <div class="row refinements">
-      <div class="col-sm-8">
+      <div class="col-sm col-m-6 col-lg-6">
         <h3>Final Logo</h3>
         <p>For the final logo I changed the colors of the papers to make the design more <b>inviting and playful</b>. The papers on the left represent <b>chaotic ideas</b>, as if they’re coming out of a box. The final design is simple yet bold.</p>
       </div>
-      <div class="col-sm-4 logo">
+      <div class="col-sm col-m-6 col-lg-6 logo">
         <img src="svg/logo-horizontal.svg">
       </div>
     </div>
     <h3>Color & Type</h3>
-    <p>The IdeaDesk color palette focuses on white and greys with bright pops of color for buttons and accents. The palette brings a sense of fun and <b>spontaneity</b> to the brand. The brand typeface is Prata, a serif font that is balanced by the more modern Open Sans font for the body copy.</p>
+    <div class="col-sm-9 col-m-9 col-lg-7 branding2">
+      <p>The IdeaDesk color palette focuses on white and greys with bright pops of color for buttons and accents. The palette brings a sense of fun and <b>spontaneity</b> to the brand. The brand typeface is Prata, a serif font that is balanced by the more modern Open Sans font for the body copy.</p>
+    </div>
     <div class="text-center color-palette">
       <img src="svg/palettenew.svg">
     </div>
@@ -356,7 +360,7 @@
   </div>
   <div class="container-fluid testing">
     <h2><b>12</b> Mockups & Testing</h2>
-    <p>I conducted 2 remote and one in-person test the desktop and mobile designs. During this round of testing, I wanted to get feedback but also hone my user testing skills. I worked on letting users have <b>freedom in the product</b> instead of directing them with verbal cues too much. This allowed me to get more insightful feedback that would shape future iterations of the product in important ways.</p>
+    <p class="col-sm col-m-10 col-lg-10">I conducted two remote and one in-person test the desktop and mobile designs. During this round of testing, I wanted to get feedback but also hone my user testing skills. I worked on letting users have <b>freedom in the product</b> instead of directing them with verbal cues too much. This allowed me to get more insightful feedback that would shape future iterations of the product in important ways.</p>
     <div class="row pricing">
       <div class="col-sm">
         <img src="images/old-landing-2.png">
