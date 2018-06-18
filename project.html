@@ -32,7 +32,7 @@
             'rgba(255, 206, 86, 1)'
           ],
           borderColor: [
-            'rgba(255,99,132,1)',
+            'rgba(255, 99, 132, 1)',
             'rgba(54, 162, 235, 1)',
             'rgba(255, 206, 86, 1)'
           ],
@@ -40,19 +40,29 @@
         }]
       },
       options: {
-        // scales: {
-        //   yAxes: [{
-        //     ticks: {
-        //       beginAtZero:true
-        //     }
-        //   }]
-        // }
+        tooltips: {
+  callbacks: {
+    label: function(tooltipItem, data) {
+              //get the concerned dataset
+              var dataset = data.datasets[tooltipItem.datasetIndex];
+              //calculate the total of this data set
+              var total = dataset.data.reduce(function(previousValue, currentValue, currentIndex, array) {
+                return previousValue + currentValue;
+              });
+              //get the current items value
+              var currentValue = dataset.data[tooltipItem.index];
+              //calculate the precentage based on the total and current item, also this does a rough rounding to give a whole number
+              var precentage = Math.floor(((currentValue/total) * 100)+0.5);
+
+              return precentage + "%";
+            }
+          }
+        }
       }
     });
   })
   </script>
 </head>
-<!DOCTYPE html>
 <section class="container1">
   <!--Navbar-->
   <nav class="navbar navbar-light bg-light navbar-custom">
@@ -74,7 +84,7 @@
   <!--hero-->
   <div class="container-fluid hero-container">
     <img src="svg/logo-horizontal.svg">
-    <h3>A cloud storage and organization platform for <b>users on the go</b></h3>
+    <h4>A cloud storage and organization platform for <b>users on the go</b></h4>
     <div class="container-2 row">
       <div class="col-sm row1">
         <img src="images/dash-main.png">
@@ -113,15 +123,16 @@
     </div>
   </div>
   <div class="container-fluid introduction">
+    <h2><b>01</b> Overview</h2>
     <div class="row intro1">
       <div class="col-sm text">
-        <h2><b>01</b> Summary</h2>
+        <h3>Summary</h3>
         <p>I worked with a fictional client that wanted to move into the cloud storage and organization market. There were a few key features they knew they wanted, but I would need to back up these claims with <b>data.</b> It was up to me to refine this rough vision and begin developing a <b>user-friendly cloud storage platform.</b></p>
         <br>
-        <h2><b>02</b> Problem</h2>
+        <h3>Problem</h3>
         <p>What features does the platform need to fit into the already crowded cloud storage and organization market?</p>
         <br>
-        <h2><b>03</b> Solution</h2>
+        <h3>Solution</h3>
         <p>For the final product, I designed a cloud storage platform that would allow users to <b>create documents and spreadsheets</b>, upload files, and <b>share these files</b> with friends and colleagues. The product is accessible on both desktop and mobile devices.</p>
       </div>
       <div class="col-sm text-center idea-image1">
@@ -135,7 +146,7 @@
     </div>
   </div>
   <div class="container-fluid competitive-analysis1">
-    <h2><b>04</b> Competitive Analysis</h2>
+    <h2><b>02</b> Competitive Analysis</h2>
     <div class="row competitive-analysis">
       <div class="col-sm google">
         <img src="svg/google-drive.svg">
@@ -152,7 +163,7 @@
     </div>
   </div>
   <div class="container-fluid user-survey">
-      <h2><b>05</b> User Survey</h2>
+      <h2><b>03</b> User Survey</h2>
       <p>In order to learn more about <b>how people use cloud platforms</b>, I used Slack, Reddit and my own Facebook network to gather participants for the user survey. The survey asked participants about their cloud storage <b>habits</b>, preferences, and <b>frustrations.</b></p>
     </br>
       <p><b>What do you use cloud platforms for?</b></p>
@@ -161,38 +172,42 @@
       </div>
   </div>
   <div class="container-fluid further-findings">
-    <h2><b>06</b> Further Data</h2>
-    <div class="row further-findings1">
-      <div class="col-sm data1">
-        <h3>29</h3>
-        <p><b>total</b> participants</p>
-      </div>
-      <div class="col-sm data2">
-        <h3>34%</h3>
-        <p>use cloud services <b>everyday</b></p>
-      </div>
-      <div class="col-sm data3">
-        <h3>63%</h3>
-        <p>use cloud platforms on <b>desktop only</b></p>
-      </div>
+    <div class="further-header">
+      <h2><b>04</b> Further Data</h2>
     </div>
-    <div class="row further-findings2">
-      <div class="col-sm data1">
-        <h3>58%</h3>
-        <p>want to <b>collaborate</b> in real time</p>
+    <div class="further-findings-top">
+      <div class="row further-findings1">
+        <div class="col-sm data1">
+          <h3>29</h3>
+          <p><b>total</b> participants</p>
+        </div>
+        <div class="col-sm data2">
+          <h3>34%</h3>
+          <p>use cloud services <b>everyday</b></p>
+        </div>
+        <div class="col-sm data3">
+          <h3>63%</h3>
+          <p>use cloud platforms on <b>desktop only</b></p>
+        </div>
       </div>
-      <div class="col-sm data2">
-        <h3>70%</h3>
-        <p><b>create content</b> on cloud platforms</p>
-      </div>
-      <div class="col-sm data3">
-        <h3>89%</h3>
-        <p>prefer using <b>folders</b> for organization</p>
+      <div class="row further-findings2">
+        <div class="col-sm data1">
+          <h3>58%</h3>
+          <p>want to <b>collaborate</b> in real time</p>
+        </div>
+        <div class="col-sm data2">
+          <h3>70%</h3>
+          <p><b>create content</b> on cloud platforms</p>
+        </div>
+        <div class="col-sm data3">
+          <h3>89%</h3>
+          <p>prefer using <b>folders</b> for organization</p>
+        </div>
       </div>
     </div>
   </div>
   <div class="container-fluid user-personas">
-    <h2><b>07</b> User Personas</h2>
+    <h2><b>05</b> User Personas</h2>
     <div class="row user-personas1">
       <div class="col-sm col-m-6 col-lg-6 wyatt">
         <img src="images/wyatt.png">
@@ -237,7 +252,7 @@
     </div>
   </div>
   <div class="container-fluid stories1">
-    <h2><b>08</b> User Stories</h2>
+    <h2><b>06</b> User Stories</h2>
     <p>After creating the personas and using the data from the survey, I was able to create the user stories. I organized these by role, task, and value, and then sorted them according to their priority level. For the MVP I decided to focus on <b>account creation</b>, <b>document creation</b>, <b>document organization</b>, and <b>file uploading</b>. This decision was based on user data that pointed to user’s most necessary features. Here is a snapshot of the <b>high-priority stories</b> for the "user" role:</p>
     <div class="table1">
       <table class="table table-hover">
@@ -275,7 +290,7 @@
     </div>
   </div>
   <div class="container-fluid user-flows1">
-    <h2><b>09</b> User Flows</h2>
+    <h2><b>07</b> User Flows</h2>
     <p>Next I created user flows for various tasks within the product: user onboarding, document creation, document organization, etc. While creating the flows, I looked at the flows of competitors I had analyzed and worked to make things as clear as possible for the user.</p>
     </br>
     <div class="user-flows2">
@@ -289,36 +304,40 @@
     </div>
   </div>
   <div class="container-fluid sketches-1">
-    <h2><b>10</b> Sketches & Wireframes</h2>
-    <!-- <div class="row container-fluid sketches"> -->
-      <p>I sketched out views for various states within the product: landing page, sign up, sign in, forgot password, add content, create document, upgrade account. Below you can see the <b>sign up view</b> and the <b>dashboard view.</b></p>
+    <h2><b>08</b> Sketches & Wireframes</h2>
+      <p>I sketched out views for various states within the product: landing page, sign up, sign in, forgot password, add content, create document, upgrade account.</b></p>
+      <h3>Sign Up</h3>
       <div class="row signup-view">
         <div class="col-sm text-center sketch1">
           <img src="images/landing-page-sketch.jpg">
         </div>
+        <i class="fas fa-arrow-right"></i>
+        <i class="fas fa-arrow-down"></i>
         <div class="col-sm text-center">
           <img src="images/landing-wireframe.png">
         </div>
       </div>
+      <h3>Dashboard</h3>
       <div class="row dashboard-view">
         <div class="col-sm text-center">
           <img src="images/dash-sketch.jpg">
         </div>
+        <i class="fas fa-arrow-right"></i>
+        <i class="fas fa-arrow-down"></i>
         <div class="col-sm text-center">
           <img src="images/create-2.1.png">
         </div>
       </div>
-      <p>I tested the wireframes with three different users, and had a few important <b>takeaways:</b></p>
+      <h3>User Testing Takeaways:</h3>
       <ul class="next-steps">
         <li>Would need to create a <b>clear “Add” button.</b> Users were unsure where to add new content.</li>
         <li>The flow for organizing a document was unclear. I would need to make it clear 	where users can organize a document once they’re inside.</li>
         <li>Users expect <b>confirmation pages</b> after upgrading their plans.</li>
         <li><b>Confusing navigation</b> on the left side of the dashboard.</li>
       </ul>
-    <!-- </div> -->
   </div>
   <div class="container-fluid branding1">
-    <h2><b>11</b> Logo & Branding</h2>
+    <h2><b>09</b> Logo & Branding</h2>
     <div class="col-sm col-m-10 col-lg-10 branding2">
       <p>I used mind mapping and word association to come up with different images and feelings for the brand name. I settled on <b>IdeaDesk</b>, which I thought captured both the <b>creativity</b> and productivity associated with the platform I was designing. With the name in mind, I went on to create various forms of the logo:</p>
     </div>
@@ -363,39 +382,66 @@
     </div>
   </div>
   <div class="container-fluid testing">
-    <h2><b>12</b> Mockups & Testing</h2>
-    <p class="col-sm col-m-10 col-lg-10 branding2">I conducted two remote and one in-person test the desktop and mobile designs. During this round of testing, I wanted to get feedback but also hone my user testing skills. I worked on letting users have <b>freedom in the product</b> instead of directing them with verbal cues too much. This allowed me to get more insightful feedback that would shape future iterations of the product in important ways.</p>
+    <h2><b>10</b> Mockups & Testing</h2>
+    <p class="col-sm col-m-12 col-lg-12 branding2">I conducted two remote and one in-person test the desktop and mobile designs. During this round of testing, I wanted to get feedback but also hone my user testing skills. I worked on letting users have <b>freedom in the product</b> instead of directing them with verbal cues too much. This allowed me to get more insightful feedback that would shape future iterations of the product in important ways.</p>
+    <h3>Product Pricing</h3>
+    <ul class="next-steps">
+      <li>User testing showed that the original pricing view was difficult to read.</li>
+      <li>In the final version, I added checkmarks for visual cues.</li>
+      <li>A strategic use of color focuses the user's attention.</li>
+    </ul>
     <div class="row pricing">
       <div class="col-sm">
         <img src="images/old-landing-2.png">
       </div>
+      <i class="fas fa-arrow-right"></i>
+      <i class="fas fa-arrow-down"></i>
       <div class="col-sm">
         <img src="images/landing-page-new1-3.png">
       </div>
     </div>
-    <p class="col-sm col-m-10 col-lg-10 branding2">While conducting user testing I received feedback that the original pricing view (left) was <b>difficult to read</b>. After a few iterations, I created the final pricing view (right). This view incorporates checkmarks in order to reduce reading and uses <b>strategic color</b> in order to <b>guide the user</b> through the information.</p>
+    <h3>Adding Files</h3>
+    <ul class="next-steps">
+      <li>Users said that having icons would make this dropdown easier to digest.</li>
+      <li>I learned that in general, designers should add visual cues in order to help the user.</li>
+      <li>In this case visual cues are also helpful for people who don't speak English as their first language.</li>
+    </ul>
     <div class="row add-menu">
       <div class="col-sm">
         <img src="images/add-folder-1.png">
       </div>
+      <i class="fas fa-arrow-right"></i>
+      <i class="fas fa-arrow-down"></i>
       <div class="col-sm">
         <img src="images/dash-add-new.png">
       </div>
     </div>
-    <p class="col-sm col-m-10 col-lg-10 branding2">For the add file dropdown, I recevied feedback from users that this menu would be easier to navigate if there were <b>icons</b>. I learned an important lesson here that designers should aim to provide <b>visual aids</b> in order to help the user. This is also helpful for people whose don't speak English as their first language.</p>
+    <h3>Preference Testing</h3>
+    <ul class="next-steps">
+      <li>I used preference testing to decide between two views for adding files on mobile.</li>
+      <li><b>90% of users</b> preferred the native iOS view.</li>
+      <li>They mentioned that the native view <b>reduces cognitive load</b> because of its recognizable functionality.</li>
+    </ul>
     <div class="row add-menu-mobile">
       <div class="col-sm">
         <img src="images/mobile-upload2-old.png">
       </div>
+      <i class="fas fa-arrow-right"></i>
+      <i class="fas fa-arrow-down"></i>
       <div class="col-sm">
         <img src="images/dashboard-mobile-add-new.png">
       </div>
     </div>
-    <p class="col-sm col-m-10 col-lg-10 branding2">I used preference testing to decide between these two views, and 90% of users preferred the native iOS view on the right. I learned here that keeping native design <b>reduces cognitive load</b> for the user because they're seeing visual cues that they already recognize.</p>
   </div>
   <div class="container-fluid final-product1">
-    <h2><b>13</b> Final Product</h2>
+    <h2><b>11</b> Final Product</h2>
     <p>IdeaDesk solves the client’s problem by providing a <b>practical</b> and <b>intuitive</b> cloud storage platform. I relied heavily on <b>user data and research</b> during the design phases in order to deliver a successful product. </p>
+    <h3>Dashboard</h3>
+    <ul class="next-steps">
+      <li><b>Color coding</b> indicates file types for easy recognition.</li>
+      <li>File previews are enlarged in order to <b>focus attention</b> on the user's content.</li>
+      <li>User sees collaborators when hovering over file types.</li>
+    </ul>
     <div class="row dashboard">
       <div class="col-sm">
         <img src="images/dash-main.png">
@@ -404,7 +450,11 @@
         <img src="images/dashboard-mobile-new.png">
       </div>
     </div>
-    <p>The dashboard view uses color coding to indicate file types. File previews are enlarged in order to showcase the content. On hover, users can see the collaborators within a file. </p>
+    <h3>Document Creation</h3>
+    <ul class="next-steps">
+      <li>Clean lines and a recognizable layout make for a seamless editing and document collaboration experience.</li>
+      <li>Organize documents into existing folders or <b>create a new folder</b> without leaving the document.</li>
+    </ul>
     <div class="row add-menu">
       <div class="col-sm">
         <img src="images/doc-2.1-crop.png">
@@ -413,7 +463,12 @@
         <img src="images/mobile-doc-1.png">
       </div>
     </div>
-    <p>The document view uses clean lines and has an intuitive layout. Users can organize documents into folders and create new folder directly from the document view, without having to return to the dashboard. </p>
+    <h3>Sign Up</h3>
+    <ul class="next-steps">
+      <li>Choose between email or social media for instant access to the platform.</li>
+      <li>Greyed background focuses attention on the user's main task.</li>
+      <li>Colorful buttons and calls to action bring a sense of fun to onboarding.</li>
+    </ul>
     <div class="row sign-in1">
       <div class="col-sm">
         <img src="images/sign-in-1.png">
@@ -422,7 +477,6 @@
         <img src="images/sign-in-1-mobile.png">
       </div>
     </div>
-    <p>The sign in page allows user to choose between social media or email sign in. The background is greyed in order to focus attention on the modal.</p>
     <div class="container">
       <a href="https://invis.io/YCK18BBXZPA" class="btn-outline-dark btn">
         View Prototype
@@ -430,22 +484,20 @@
     </div>
   </div>
   <div class="container-fluid conclusion">
-    <h2><b>14</b> Conclusion</h2>
-    <div class="container-fluid">
-      <h3 class="row">What are the next steps for IdeaDesk?</h3>
-        <ul class="next-steps">
-          <li>Build out the “social” view</li>
-          <li>Work on visual refinements</li>
-          <li>Build out a view for collaborating on a document</li>
-          <li>Create the profile settings page: remaining storage, avatar 	picture, etc.</li>
-        </ul>
-      <h3 class="row">What did I learn?</h3>
-        <ul class="next-steps">
-          <li>Always save iterations of work for case studies.</li>
-          <li>Sketches and wireframes should be thorough and neat. These 	need to be detailed in order to clearly communicate with 	stakeholders early on and conduct successful initial testing.</li>
-          <li>Build desktop and mobile prototypes at the same time.</li>
-        </ul>
-      </div>
+    <h2><b>12</b> Conclusion</h2>
+    <h3>What are the next steps for IdeaDesk?</h3>
+      <ul class="next-steps">
+        <li>Build out the “social” view</li>
+        <li>Work on visual refinements</li>
+        <li>Build out a view for collaborating on a document</li>
+        <li>Create the profile settings page: remaining storage, avatar 	picture, etc.</li>
+      </ul>
+    <h3>What did I learn?</h3>
+      <ul class="next-steps">
+        <li>Always save iterations of work for case studies.</li>
+        <li>Sketches and wireframes should be thorough and neat. These 	need to be detailed in order to clearly communicate with 	stakeholders early on and conduct successful initial testing.</li>
+        <li>Build desktop and mobile prototypes at the same time.</li>
+      </ul>
   </div>
   <footer>
     <div class="container-fluid bottom">
@@ -467,13 +519,7 @@
         <div class="col-sm footer-right">
           <h6>Designed and developed by Tyler Andersen</h6>
         </div>
-        <!-- <div class="col-sm footer-right">
-          <img src="svg/logo-8.svg">
-        </div> -->
       </div>
-      <!-- <div class="container row footer-row2">
-        <h6>Designed and developed by Tyler Andersen</h6>
-      </div> -->
   </footer>
 </section>
 </html>
