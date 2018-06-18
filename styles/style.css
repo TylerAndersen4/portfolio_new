@@ -168,6 +168,16 @@ img[src="svg/logo-8.svg"] {
   text-align: left;
 }
 
+img[src="images/arrow1.svg"] {
+  max-width: 5rem;
+  max-height: 10rem;
+  width: 4%;
+  height: auto;
+  transform: rotate(18deg);
+  padding-top: 2rem;
+  text-align: center;
+}
+
 .header > h5 {
   float: left;
 }
@@ -189,17 +199,19 @@ img[src="svg/logo-8.svg"] {
 
 .case-study-1 {
   padding-left: 0rem;
-  padding-right: 0rem;*/
+  padding-right: 3rem;*/
 }
 
 .case-study-1 > h2 {
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
   color: black;
 }
 
 .case-study-3 > h4 {
-  padding-bottom: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 6rem;
   font-weight: lighter;
+  padding-right: 0rem;
 }
 
 .case-study-3 {
@@ -209,6 +221,7 @@ img[src="svg/logo-8.svg"] {
 .case-study-1 > .container {
   text-align: left;
   padding-left: 0rem;
+  padding-right: 0rem;
 }
 
 .container {
@@ -865,7 +878,6 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   }
 
   .case-study-2 {
-    padding-left: 1.5rem;
     text-align: center;
   }
 
@@ -891,10 +903,6 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   .case-study-1 > p {
     padding-bottom: 5rem;
-  }
-
-  .case-study-2 {
-    text-align: center;
   }
 
   /*Header*/
