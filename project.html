@@ -15,53 +15,6 @@
 
   gtag('config', 'UA-120453666-1');
   </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
-  <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var ctx = document.getElementById("myChart").getContext('2d');
-    var myChart = new Chart(ctx, {
-      type: 'doughnut',
-      data: {
-        labels: ["Work", "Personal Use", "Both"],
-        datasets: [{
-          label: '# of Votes',
-          data: [12, 19, 3],
-          backgroundColor: [
-            'rgba(252, 101, 101, 1)',
-            'rgba(101, 143, 252, 1)',
-            'rgba(255, 206, 86, 1)'
-          ],
-          borderColor: [
-            'rgba(255, 99, 132, 1)',
-            'rgba(54, 162, 235, 1)',
-            'rgba(255, 206, 86, 1)'
-          ],
-          borderWidth: 1
-        }]
-      },
-      options: {
-        tooltips: {
-  callbacks: {
-    label: function(tooltipItem, data) {
-              //get the concerned dataset
-              var dataset = data.datasets[tooltipItem.datasetIndex];
-              //calculate the total of this data set
-              var total = dataset.data.reduce(function(previousValue, currentValue, currentIndex, array) {
-                return previousValue + currentValue;
-              });
-              //get the current items value
-              var currentValue = dataset.data[tooltipItem.index];
-              //calculate the precentage based on the total and current item, also this does a rough rounding to give a whole number
-              var precentage = Math.floor(((currentValue/total) * 100)+0.5);
-
-              return precentage + "%";
-            }
-          }
-        }
-      }
-    });
-  })
-  </script>
 </head>
 <section class="container1">
   <!--Navbar-->
@@ -522,4 +475,51 @@
       </div>
   </footer>
 </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var ctx = document.getElementById("myChart").getContext('2d');
+  var myChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      labels: ["Work", "Personal Use", "Both"],
+      datasets: [{
+        label: '# of Votes',
+        data: [12, 19, 3],
+        backgroundColor: [
+          'rgba(252, 101, 101, 1)',
+          'rgba(101, 143, 252, 1)',
+          'rgba(255, 206, 86, 1)'
+        ],
+        borderColor: [
+          'rgba(255, 99, 132, 1)',
+          'rgba(54, 162, 235, 1)',
+          'rgba(255, 206, 86, 1)'
+        ],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      tooltips: {
+callbacks: {
+  label: function(tooltipItem, data) {
+            //get the concerned dataset
+            var dataset = data.datasets[tooltipItem.datasetIndex];
+            //calculate the total of this data set
+            var total = dataset.data.reduce(function(previousValue, currentValue, currentIndex, array) {
+              return previousValue + currentValue;
+            });
+            //get the current items value
+            var currentValue = dataset.data[tooltipItem.index];
+            //calculate the precentage based on the total and current item, also this does a rough rounding to give a whole number
+            var precentage = Math.floor(((currentValue/total) * 100)+0.5);
+
+            return precentage + "%";
+          }
+        }
+      }
+    }
+  });
+})
+</script>
 </html>
