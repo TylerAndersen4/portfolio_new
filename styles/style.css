@@ -150,7 +150,7 @@ img[src="svg/logo-8.svg"] {
 }
 
 .header-new {
-  width: 70%;
+  width: 90%;
   margin: auto;
   position: relative;
 }
@@ -175,11 +175,12 @@ img[src="svg/logo-8.svg"] {
 /*Projects*/
 .case-study {
   align-items: center;
-  width: 70%;
+  width: 90%;
   margin: auto;
   position: relative;
   padding-left: 0rem;
   padding-right: 0rem;
+  padding-top: 3rem;
 }
 
 /*.case1 {
@@ -231,9 +232,12 @@ img[src="svg/logo-8.svg"] {
   padding-top: 2rem;
 }
 
+.case-study-1 > .container {
+  padding-top: 0rem;
+}
+
 .case-study-2 {
   padding-left: 0rem;
-  text-align: center;
   padding-top: 5rem;
 }
 
@@ -287,8 +291,9 @@ img[src="images/dashboard-image-view.png"] {
   padding-top: 10rem;
   text-align: left;
 }
+
 .bio-text {
-  width: 70%
+  width: 90%
 }
 
 .header-image {
@@ -859,6 +864,11 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     padding-left: 1rem;
   }
 
+  .case-study-2 {
+    padding-left: 1.5rem;
+    text-align: center;
+  }
+
   /*Index.html*/
 
   /*Navbar*/
@@ -1159,6 +1169,10 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     width: 85%;
   }
 
+  .header-new, .bio-text, .case-study {
+    width: 85%;
+  }
+
   .hero-container > h3 {
     padding-bottom: 6rem;
   }
@@ -1344,8 +1358,13 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   }
 
   .header {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .header-image {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
   }
 
   img[src="images/dashboard-image-view.png"] {
@@ -1395,7 +1414,11 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   /*Project.html*/
 
   .hero-container, .roles1, .introduction, .competitive-analysis1, .user-survey, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .final-product1, .conclusion {
-    width:70%;
+    width: 70%;
+  }
+
+  .header-new, .bio-text, .case-study {
+    width: 70%;
   }
 
   /*User Survey*/
