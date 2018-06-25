@@ -185,7 +185,7 @@ img[src="images/arrow1.svg"] {
 /*Projects*/
 .case-study {
   align-items: center;
-  width: 90%;
+  /*width: 90%;*/
   margin: auto;
   position: relative;
   padding-left: 0rem;
@@ -199,7 +199,9 @@ img[src="images/arrow1.svg"] {
 
 .case-study-1 {
   padding-left: 0rem;
-  padding-right: 3rem;*/
+  padding-right: 0rem;
+  width: 90%;
+  margin: auto;
 }
 
 .case-study-1 > h2 {
@@ -209,7 +211,7 @@ img[src="images/arrow1.svg"] {
 
 .case-study-3 > h4 {
   padding-top: 1rem;
-  padding-bottom: 6rem;
+  padding-bottom: 5rem;
   font-weight: lighter;
   padding-right: 0rem;
 }
@@ -251,7 +253,12 @@ img[src="images/arrow1.svg"] {
 
 .case-study-2 {
   padding-left: 0rem;
-  padding-top: 5rem;
+  padding-right: 0rem;
+  /*padding-top: 5rem;*/
+  /*background-image: url(../images/blue-sketch1.png);
+  background-size: cover;
+  background-position: left;*/
+  text-align: center;
 }
 
 img[src="images/dashboard-image-view.png"] {
@@ -259,6 +266,14 @@ img[src="images/dashboard-image-view.png"] {
   width: 90%;
   max-width: 30rem;
   min-width: 20rem;
+}
+
+img[src="images/iphone-image.png"] {
+  width: 80%;
+  height: auto;
+  max-width: 25rem;
+  min-width: 20rem;
+  padding-top: 5rem;
 }
 
 
@@ -390,7 +405,7 @@ img[src="images/moodboard-portfolio.png"] {
 
 /*Project.html*/
 
-.hero-container, .roles1, .introduction, .competitive-analysis1, .user-survey, .further-findings, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .final-product1, .conclusion {
+.roles1, .introduction, .competitive-analysis1, .user-survey, .further-findings, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .final-product1, .conclusion {
   padding-top: 4rem;
   padding-bottom: 4rem;
   width: 90%;
@@ -413,21 +428,51 @@ Go to this below
   padding-bottom: 2rem;
 }
 
-
 .container-2 {
-  align-items: center;
+  align-items: baseline;
+  /*vertical-align: text-bottom;*/
+  /*vertical-align: middle;*/
+}
+
+img[src="images/iphone.png"] {
+  width: 50%;
+  min-width: 16rem;
+  max-width: 18rem;
+  height: auto;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  vertical-align: bottom;
+  /*vertical-align: ;*/
+  /*margin: auto;*/
+}
+
+img[src="images/mac.png"] {
+  width: 52rem;
+  height: auto;
+  vertical-align: bottom;
 }
 
 .hero-container {
   text-align: center;
   padding-bottom: 2rem;
+  /*background-color: #FEE5E5;*/
+  background-image: url(../images/skate.png);
+  background-position: top;
+  background-size: cover;
+}
+
+.hero-container2 {
+  width: 90%;
+  margin: auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 /*Roles*/
 
 .roles1 {
   background-color: white;
-  padding-top: 0rem;
+  padding-top: 3rem;
 }
 
 .roles, .deliverables {
@@ -445,7 +490,12 @@ Go to this below
 
 /*Introduction*/
 .introduction {
-  background-color: white;
+  background-color: rgba(237, 238, 238, 1);
+}
+
+.introduction2 {
+  width: 100%;
+  background-color: rgba(237, 238, 238, 1);
 }
 
 .intro1 {
@@ -456,6 +506,7 @@ img[src="images/landing-page-new-2.png"] {
   height: auto;
   width: 75%;
   max-width: 34rem;
+  border-radius: .4rem;
 }
 
 .text > p:nth-child(2n+1) {
@@ -491,9 +542,6 @@ img[src="svg/google-drive.svg"], img[src="svg/pinterest.svg"], img[src="svg/ever
 }
 
 /*User Survey*/
-.user-survey{
-  background-color: white;
-}
 
 .chart1 {
   display: flex;
@@ -511,10 +559,15 @@ img[src="svg/google-drive.svg"], img[src="svg/pinterest.svg"], img[src="svg/ever
   text-align: center;
 }
 
+.user-survey2 {
+  width: 100%;
+  background-color: #FEE5E5;
+}
+
 /*Further Data*/
 .further-findings {
   background-size: cover;
-  background-color: #FEE5E5;
+  background-color: white;
   width: 100%;
   padding-right: 0rem;
   margin-left: 0rem;
@@ -542,16 +595,46 @@ img[src="svg/google-drive.svg"], img[src="svg/pinterest.svg"], img[src="svg/ever
 
 .data1 > h3 {
   padding-top: 1rem;
+  padding-bottom: 0rem;
+  font-family: "Helvetica";
+  font-size: 4rem;
+  font-weight: bold;
+  /*color: rgba(0, 46, 166, 1);*/
+  color: black;
+
 }
 
 .data2 > h3 {
   padding-top: 1rem;
+  padding-bottom: 0rem;
+  font-family: "Helvetica";
+  font-size: 4rem;
+  font-weight: bold;
+  /*color: rgba(101, 143, 252, 1);*/
+  color: black;
 }
 
 .data3 > h3 {
   padding-top: 1rem;
+  padding-bottom: 0rem;
+  font-family: "Helvetica";
+  font-size: 4rem;
+  font-weight: bold;
+  /*color: rgba(101, 143, 252, 1);*/
+  color: black;
 }
 
+.data1 > p {
+  padding-top: 0rem;
+}
+
+.data2 > p {
+  padding-top: 0rem;
+}
+
+.data3 > p {
+  padding-top: 0rem;
+}
 
 /*User Personas*/
 img[src="images/wyatt.png"], img[src="images/elaine.png"] {
@@ -625,7 +708,7 @@ th, td {
 /*Display for larger sizes*/
 img[src="images/user-flow1.png"] {
   height: auto;
-  width: 60%;
+  width: 100%;
   margin-bottom: 5rem;
   display: none;
 }
@@ -781,12 +864,16 @@ img[src="images/mobile-upload2-old.png"], img[src="images/dashboard-mobile-add-n
 
 /*Final Product*/
 
-img[src="images/dash-main.png"],img[src="images/doc-2.1-crop.png"],img[src="images/sign-in-1.png"] {
+img[src="images/doc-2.1-crop.png"],img[src="images/sign-in-1.png"] {
   height: auto;
   width: 100%;
   margin-top: 2rem;
   margin-bottom: 2rem;
   max-width: 55rem;
+}
+
+img[src="images/dash-main.png"] {
+  height: 100%;
 }
 
 img[src="images/mobile-doc-1.png"],img[src="images/sign-in-1-mobile.png"],img[src="images/dashboard-mobile-new.png"] {
@@ -833,6 +920,9 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     border-right: 0px solid black;
   }
 
+  img[src="images/mac.png"] {
+    width: 35rem;
+  }
 
   table {
     display: none;
@@ -865,10 +955,15 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   /*Footer*/
 
+
   footer {
     background-color: rgba(142, 142, 142, .2);
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  img[src="images/iphone-image.png"] {
+    padding-top: 0rem;
   }
 
   i {
@@ -892,7 +987,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   /*Projects*/
   .case-study {
-    /*padding-top: 2.5rem;*/
+    padding-top: 5rem;
     padding-bottom: 2.5rem;
   }
 
@@ -932,18 +1027,19 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     border-right: 1px solid black;
   }
 
-
-  /*Introduction*/
-  .introduction {
-    background-color: white;
+  img[src="images/landing-page-new-2.png"] {
+    float: right;
   }
 
-  /*Further Findings*/
+ /*Further Findings*/
   .further-findings1, .further-findings2 {
     width: 80%;
     margin: auto;
   }
 
+  .hero-container2 {
+    width: 80%;
+  }
 
   /*User Personas*/
   .user-personas {
@@ -1045,12 +1141,24 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     font-size: 4.8rem;
   }
 
+  img[src="images/mac.png"] {
+    width: 40rem;
+  }
+
+  img[src="images/iphone.png"] {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+
   .footer-row {
     width: 85%;
   }
 
+  img[src="images/dashboard-mobile-new.png"] {
+    float: right;
+  }
+
   .container-2 {
-    align-items: center;
     padding-top: 5rem;
   }
 
@@ -1138,10 +1246,6 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   /*Hero*/
 
   /*Projects*/
-  /*.case-study {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }*/
 
   .case-study-1 > h3 {
     padding-bottom: 2rem;
@@ -1150,7 +1254,6 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   .case-study-1 > p {
     padding-bottom: 5rem;
   }
-
 
   /*Bio.html*/
 
@@ -1171,7 +1274,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   }
 
   /*Project.html*/
-  .hero-container, .roles1, .introduction, .competitive-analysis1, .user-survey, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .final-product1, .conclusion {
+  .roles1, .introduction, .competitive-analysis1, .user-survey, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .final-product1, .conclusion {
     padding-top: 5rem;
     padding-bottom: 5rem;
     width: 85%;
@@ -1187,7 +1290,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   img[src="images/user-flow1.png"] {
     height: auto;
-    width: 60%;
+    width: 100%;
     margin-bottom: 5rem;
     display: inline;
   }
@@ -1259,17 +1362,14 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+
   h1 {
     font-size: 4.8rem;
     padding: 1rem 0 1rem 0;
   }
 
-  /*.case-study-2 {
-    padding-top: 10rem;
-  }*/
-
-  h2 {
-    /*padding: 2rem 0 7rem 0;*/
+  img[src="images/mac.png"] {
+    width: 50rem;
   }
 
   .hero-container > img {
@@ -1381,7 +1481,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   /*Projects*/
   .case-study {
-    /*padding-top: 2.5rem;*/
+    padding-top: 8rem;
     padding-bottom: 2.5rem;
   }
 
@@ -1421,7 +1521,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   /*Project.html*/
 
-  .hero-container, .roles1, .introduction, .competitive-analysis1, .user-survey, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .final-product1, .conclusion {
+  .roles1, .introduction, .competitive-analysis1, .user-survey, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .final-product1, .conclusion {
     width: 70%;
   }
 
@@ -1460,6 +1560,10 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     width: 70%;
     position: relative;
     margin: auto;
+  }
+
+  .hero-container2 {
+    width: 70%;
   }
 
   img[src="images/group-40.png"]{
