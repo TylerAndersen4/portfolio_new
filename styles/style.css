@@ -15,7 +15,7 @@ h1 {
   font-family: helvetica;
   font-size: 3.6rem;
   margin-bottom: 0rem;
-  padding: 1rem 0 1rem 0;
+  padding-bottom: 1rem;
 }
 
 h2 {
@@ -159,6 +159,7 @@ i {
   font-family: helvetica, sans-serif;
   color: black;
   padding-top: 1rem;
+  padding-bottom: 0rem;
   text-align: left;
 }
 
@@ -1389,7 +1390,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   h1 {
     font-size: 4.8rem;
-    padding: 1rem 0 1rem 0;
+    padding-bottom: 1rem;
   }
 
   img[src="images/mac.png"] {
