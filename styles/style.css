@@ -29,7 +29,7 @@ h2 {
 h3 {
   font-size: 2.4rem;
   margin-bottom: 0rem;
-  padding: 3rem 0 1rem 0;
+  padding: 2rem 0 1rem 0;
   color: black;
 }
 
@@ -390,8 +390,8 @@ img[src="images/moodboard-portfolio.png"] {
 /*Project.html*/
 
 .roles1, .introduction, .competitive-analysis1, .user-survey, .further-findings, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .final-product1, .conclusion {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   width: 90%;
 }
 
@@ -435,15 +435,19 @@ img[src="images/mac.png"] {
 .hero-container2 {
   width: 90%;
   margin: auto;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 /*Roles*/
 
 .roles1 {
   background-color: white;
-  padding-top: 3rem;
+  padding-top: 5rem;
+}
+
+.roles > h3 {
+  padding-top: 0rem;
 }
 
 .roles, .deliverables {
@@ -514,7 +518,7 @@ img[src="svg/google-drive.svg"], img[src="svg/pinterest.svg"], img[src="svg/ever
   position: relative;
   margin: auto;
   height: auto;
-  margin-top: 3rem;
+  margin-top: 0rem;
   max-width: 45rem;
   min-width: 25rem;
   width: 50%;
@@ -778,8 +782,8 @@ img[src="images/create-2.1.png"] {
 }
 
 .color-palette {
-  margin-top: 4rem;
-  margin-bottom: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 
 .color-palette > img {
@@ -789,9 +793,10 @@ img[src="images/create-2.1.png"] {
 
 img[src="svg/group-23.svg"] {
   height: auto;
-  width: 90%;
-  max-width: 20rem;
+  width: 80%;
+  max-width: 18rem;
   margin-bottom: 2rem;
+  padding-top: 1rem;
 }
 
 img[src="svg/group-33.svg"] {
@@ -799,6 +804,7 @@ img[src="svg/group-33.svg"] {
   width: 90%;
   max-width: 20rem;
   margin-bottom: 2rem;
+  padding-top: 1rem;
 }
 
 img[src="svg/logo-horizontal.svg"] {
@@ -806,12 +812,12 @@ img[src="svg/logo-horizontal.svg"] {
   width: 90%;
   max-width: 20rem;
   margin-bottom: 2rem;
+  padding-top: 1rem;
 }
 
 img[src="svg/palettenew.svg"] {
   height: auto;
   width: 75%;
-  /*margin-bottom: 2rem;*/
   max-width: 50rem;
 }
 
@@ -867,6 +873,7 @@ img[src="images/doc-2.1-crop.png"],img[src="images/sign-in-1.png"] {
 img[src="images/dash-main.png"] {
   width: 100%;
   height: auto;
+  margin-bottom: 2rem;
 }
 
 .dashboard {
@@ -955,6 +962,31 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
  .further-header {
    padding-left: 1.5rem;
    padding-right: 1.5rem;
+ }
+
+ .roles > h3 {
+   padding-top: 3rem;
+ }
+
+ img[src="images/landing-wireframe.png"] {
+   margin-top: 0rem;
+ }
+
+ img[src="svg/group-23.svg"] {
+   padding-top: 0rem;
+ }
+
+ img[src="svg/group-33.svg"] {
+   padding-top: 0rem;
+ }
+
+ img[src="svg/logo-horizontal.svg"] {
+   padding-top: 0rem;
+ }
+
+ .color-palette {
+   margin-top: 4rem;
+   margin-bottom: 5rem;
  }
 
  img[src="images/iphone-image.png"] {
@@ -1199,6 +1231,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   h2 {
     font-size: 3.6rem;
+    padding-bottom: 4rem;
   }
 
   h3 {
