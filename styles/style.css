@@ -183,7 +183,7 @@ img[src="images/arrow1.svg"] {
   position: relative;
   padding-left: 0rem;
   padding-right: 0rem;
-  padding-top: 3rem;
+  padding-top: 5rem;
 }
 
 .case-study-1 {
@@ -244,6 +244,8 @@ img[src="images/arrow1.svg"] {
   padding-left: 0rem;
   padding-right: 0rem;
   text-align: center;
+  width: 90%;
+  margin: auto;
 }
 
 img[src="images/dashboard-image-view.png"] {
@@ -256,9 +258,10 @@ img[src="images/dashboard-image-view.png"] {
 img[src="images/iphone-image.png"] {
   width: 80%;
   height: auto;
-  max-width: 25rem;
+  max-width: 23rem;
   min-width: 20rem;
   padding-top: 5rem;
+  float: left;
 }
 
 /*Bio.html*/
@@ -951,6 +954,10 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
  .further-header {
    padding-left: 1.5rem;
    padding-right: 1.5rem;
+ }
+
+ img[src="images/iphone-image.png"] {
+   float: right;
  }
 
  .google-new > p {
