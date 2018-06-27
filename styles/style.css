@@ -82,7 +82,7 @@ footer {
   background-color: rgba(248, 248, 248, 1);
   padding-top: 2rem;
   padding-bottom: 2rem;
-  margin-top: 5rem;
+  /*margin-top: 5rem;*/
 }
 
 i {
@@ -184,7 +184,7 @@ img[src="images/arrow1.svg"] {
   position: relative;
   padding-left: 0rem;
   padding-right: 0rem;
-  padding-top: 5rem;
+  /*padding-top: 5rem;*/
 }
 
 .case-study-1 {
@@ -249,13 +249,6 @@ img[src="images/arrow1.svg"] {
   margin: auto;
 }
 
-img[src="images/dashboard-image-view.png"] {
-  height: auto;
-  width: 90%;
-  max-width: 30rem;
-  min-width: 20rem;
-}
-
 img[src="images/iphone-image.png"] {
   width: 80%;
   height: auto;
@@ -263,6 +256,11 @@ img[src="images/iphone-image.png"] {
   min-width: 20rem;
   padding-top: 5rem;
   float: left;
+}
+
+img[src="images/group3.png"] {
+  width: 100%;
+  height: auto;
 }
 
 /*Bio.html*/
@@ -924,6 +922,10 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     border-right: 0px solid black;
   }
 
+  .case-study {
+    padding-top: 4rem;
+  }
+
   img[src="images/mac.png"] {
     width: 35rem;
   }
@@ -962,6 +964,10 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
  .further-header {
    padding-left: 1.5rem;
    padding-right: 1.5rem;
+ }
+
+ .case-study {
+   padding-top: 0rem;
  }
 
  .roles > h3 {
@@ -1055,8 +1061,8 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   /*Projects*/
   .case-study {
-    padding-top: 5rem;
-    padding-bottom: 2.5rem;
+    /*padding-top: 5rem;*/
+    /*padding-bottom: 2.5rem;*/
   }
 
 
@@ -1525,8 +1531,8 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   /*Projects*/
   .case-study {
-    padding-top: 8rem;
-    padding-bottom: 2.5rem;
+    /*padding-top: 8rem;*/
+    /*padding-bottom: 2.5rem;*/
   }
 
   .case-study-1 > h3 {
@@ -1679,7 +1685,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   /*Projects*/
   .case-study {
     /*padding-top: 2.5rem;*/
-    padding-bottom: 2.5rem;
+    /*padding-bottom: 2.5rem;*/
   }
 
   .case-study-1 > h3 {
