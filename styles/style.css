@@ -1588,6 +1588,9 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     background-image: url("../images/group9.png");
     background-size: cover;
     background-position: left center;
+    /*background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;*/
     width: 90%;
     padding-top: 15rem;
     padding-bottom: 15rem;
