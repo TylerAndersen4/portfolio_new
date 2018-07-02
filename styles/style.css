@@ -52,12 +52,13 @@ h4, h5 {
 }
 
 .btn {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
   padding: 1rem 0rem 1rem 0rem;
   max-width: 40rem;
-  width: 80%
+  width: 80%;
+  color: black;
 }
 
 p {
@@ -82,7 +83,6 @@ footer {
   background-color: rgba(248, 248, 248, 1);
   padding-top: 2rem;
   padding-bottom: 2rem;
-  /*margin-top: 5rem;*/
 }
 
 i {
@@ -122,11 +122,22 @@ i {
 
 /*Navbar*/
 .navbar-custom {
-  background-color: white!important;
   text-align: center;
   width: 90%;
   position: relative;
   margin: auto;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  padding-top: 2rem;
+  padding-bottom: .5rem;
+}
+
+.navbar-custom1 {
+  background-color: #FEE5E5!important;
+}
+
+.nav-new {
+  background-color: #FEE5E5;
   padding-left: 0rem;
   padding-right: 0rem;
 }
@@ -140,7 +151,8 @@ i {
 /*Hero*/
 .header {
   background-color: #FEE5E5;
-  padding: 4rem;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
 }
 
 .header-new {
@@ -149,65 +161,76 @@ i {
   position: relative;
 }
 
-.header-new > h1 {
-  font-family: helvetica, sans-serif;
-  font-weight: bold;
-  color: black;
-}
-
-.header-new > h3 {
+.header-new2 > h3 {
   font-family: helvetica, sans-serif;
   color: black;
-  padding-top: 1rem;
-  padding-bottom: 0rem;
+  font-weight: lighter;
   text-align: left;
+  line-height: 140%;
+  padding-bottom: 0rem;
+  padding-top: 0rem;
 }
 
-img[src="images/arrow1.svg"] {
-  max-width: 5rem;
-  max-height: 10rem;
-  width: 4%;
-  height: auto;
-  transform: rotate(18deg);
-  padding-top: 2rem;
+.header-new > h1 {
+  color: black;
+  font-weight: lighter;
   text-align: center;
+  letter-spacing: .09rem;
+  padding-bottom: 1rem;
 }
 
-.header > h5 {
-  float: left;
+.header-new2 {
+  width: 100%;
+  margin: auto;
 }
+
 
 /*Projects*/
+.case1 {
+  background-color: #808080;
+  background-image: url("../images/group9.png");
+  background-size: cover;
+  background-position: left center;
+}
+
 .case-study {
   align-items: center;
   margin: auto;
   position: relative;
   padding-left: 0rem;
   padding-right: 0rem;
+  background-image: none;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  width: 90%;
+  text-align: center;
 }
-
-/*.case1 {
-  background-image: url("../images/group5.png");
-  background-size: cover;
-}*/
 
 .case-study-1 {
   padding-left: 0rem;
   padding-right: 0rem;
-  width: 90%;
-  margin: auto;
 }
 
-.case-study-1 > h2 {
+.case-study-1 > h1 {
   padding-bottom: 0rem;
-  color: black;
+  color: white;
+  letter-spacing: .09rem;
+  text-align: center;
 }
 
-.case-study-3 > h4 {
+.case-study-3 > h3 {
   padding-top: 1rem;
-  padding-bottom: 5rem;
-  font-weight: lighter;
+  padding-bottom: 4rem;
+  font-weight: normal;
   padding-right: 0rem;
+  font-size: 2.4rem;
+  color: white;
+  text-align: center;
+}
+
+.btn3 {
+  color: white;
+  font-weight: normal;
 }
 
 .case-study-3 {
@@ -215,14 +238,14 @@ img[src="images/arrow1.svg"] {
 }
 
 .case-study-1 > .container {
-  text-align: left;
+  text-align: center;
   padding-left: 0rem;
   padding-right: 0rem;
 }
 
 .container {
   text-align: center;
-  padding-top: 5rem;
+  padding-top: 4rem;
 }
 
 .stories1 > .container {
@@ -253,6 +276,32 @@ img[src="images/arrow1.svg"] {
   margin: auto;
 }
 
+.contact2 {
+  background-color: #B3B3B3;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.contact2 > h2 {
+  color: white;
+  text-align: center;
+  font-weight: normal;
+  padding-bottom: 0rem;
+}
+
+.contact2 > .container {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+.btn2 {
+  color: white;
+}
+
+.arrow-new {
+  text-align: center;
+}
+
 img[src="images/iphone-image.png"] {
   width: 80%;
   height: auto;
@@ -262,11 +311,10 @@ img[src="images/iphone-image.png"] {
   float: left;
 }
 
-img[src="images/group8.png"] {
+img[src="images/group9.png"] {
   width: 100%;
   height: auto;
   display: none;
-  opacity: .9;
 }
 
 img[src="images/group2.png"] {
@@ -332,15 +380,6 @@ img[src="images/group2.png"] {
   position: relative;
 }
 
-img[src="images/travel-3.svg"] {
-  width: 100%;
-  height: auto;
-  text-align: center;
-  min-width: 30rem;
-  margin: auto;
-  position: relative;
-}
-
 img[src="images/milan-stairs.png"] {
   width: 45%;
   height: auto;
@@ -358,23 +397,6 @@ img[src="images/milan.svg"] {
 }
 
 /*images*/
-
-img[src="images/newparis1.JPG"], img[src="images/newparis2.JPG"], img[src="images/newbeach.JPG"] {
-  height: auto;
-  margin-bottom: 5rem;
-  margin-top: 5rem;
-  min-width: 25rem;
-  width: 30%;
-}
-
-img[src="images/moodboard-portfolio.png"] {
-  height:auto;
-  width:60%;
-  margin-bottom: 5rem;
-  margin-top: 5rem;
-  display: none;
-}
-
 .header-image > img {
   text-align: center;
 }
@@ -445,9 +467,17 @@ img[src="images/group-together.png"] {
 
 .hero-container {
   text-align: center;
-  background-image: url("../images/desk4.png");
+  background-image: url("../images/city1.png");
   background-position: center;
   background-size: cover;
+}
+
+.nav-new2, .nav-new1 {
+  background-color: white;
+}
+
+.nav-new1 {
+  padding-bottom: 1rem;
 }
 
 .hero-container2 {
@@ -455,6 +485,10 @@ img[src="images/group-together.png"] {
   margin: auto;
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.hero-container2 > h3 {
+  font-weight: 300;
 }
 
 /*Roles*/
@@ -967,7 +1001,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   }
 
   .case-study {
-    padding-top: 4rem;
+    /*padding-top: 4rem;*/
   }
 
   img[src="images/mac.png"] {
@@ -1047,7 +1081,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
    padding-top: 0rem;
  }
 
- img[src="images/group8.png"] {
+ img[src="images/group9.png"] {
    width: 100%;
    height: auto;
    display: inline;
@@ -1060,7 +1094,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
  }
 
  .case-study {
-   padding-top: 0rem;
+   /*padding-top: 5rem;*/
  }
 
  .roles > h3 {
@@ -1153,11 +1187,6 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   }
 
   /*Projects*/
-  .case-study {
-    /*padding-top: 5rem;*/
-    /*padding-bottom: 2.5rem;*/
-  }
-
 
   .case-study-1 > h3 {
     padding-bottom: 2rem;
@@ -1337,6 +1366,12 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     font-size: 3.0rem;
   }
 
+  .case-study-3 > h3 {
+    font-size: 3rem;
+    color: white;
+    font-weight: lighter;
+  }
+
   h4 {
     font-size: 2.4rem;
   }
@@ -1347,6 +1382,10 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
 
   p, li {
+    font-size: 1.8rem;
+  }
+
+  .btn {
     font-size: 1.8rem;
   }
 
@@ -1524,6 +1563,45 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     padding-bottom: 1rem;
   }
 
+  .header-new > h1 {
+    text-align: left;
+  }
+
+  .header-new2 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .case-study-1 > h1 {
+    text-align: left;
+  }
+
+  .case-study-3 > h3 {
+    text-align: left;
+  }
+
+  .case-study-1 > .container {
+    text-align: left;
+  }
+
+  .case-study {
+    background-image: url("../images/group9.png");
+    background-size: cover;
+    background-position: left center;
+    width: 90%;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+  }
+
+  .contact2 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .case1 {
+    background-image: none;
+  }
+
   img[src="images/mac.png"] {
     width: 50rem;
   }
@@ -1609,7 +1687,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   }
 
   .header {
-    padding-top: 7rem;
+    padding-top: 5rem;
     padding-bottom: 7rem;
   }
 
@@ -1712,6 +1790,10 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   .roles, .deliverables {
     padding-top: 0rem;
     border-right: 1px solid black;
+  }
+
+  .header-new2 {
+    width: 70%;
   }
 
   .fa-arrow-right {
