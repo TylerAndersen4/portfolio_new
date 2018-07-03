@@ -958,6 +958,10 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   list-style-position: inside;
 }
 
+.conclusion > .container {
+  padding-top: 10rem;
+}
+
 /*Media Queries*/
 
 /*// Extra small devices (portrait phones, less than 576px)
