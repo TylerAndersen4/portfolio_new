@@ -16,6 +16,7 @@ h1 {
   font-size: 3.6rem;
   margin-bottom: 0rem;
   padding-bottom: 1rem;
+  letter-spacing: .1rem;
 }
 
 h2 {
@@ -24,6 +25,7 @@ h2 {
   margin-bottom: 0rem;
   padding-bottom: 2rem;
   color: rgba(109, 109, 109, 1);
+  letter-spacing: .1rem;
 }
 
 h3 {
@@ -31,6 +33,7 @@ h3 {
   margin-bottom: 0rem;
   padding: 2rem 0 1rem 0;
   color: black;
+  letter-spacing: .1rem;
 }
 
 h4 {
@@ -38,6 +41,7 @@ h4 {
   font-size: 2rem;
   margin-bottom: 0rem;
   padding: 2rem 0 1rem 0;
+  letter-spacing: .1rem;
 }
 
 h5 {
@@ -45,6 +49,7 @@ h5 {
   font-size: 1.8rem;
   margin-bottom: 0rem;
   padding: 1rem 0 1rem 0;
+  letter-spacing: .1rem;
 }
 
 h4, h5 {
@@ -151,12 +156,12 @@ i {
 /*Hero*/
 .header {
   background-color: #FEE5E5;
-  padding-top: 3rem;
-  padding-bottom: 5rem;
+  padding-top: 17rem;
+  padding-bottom: 12rem;
 }
 
 .header-new {
-  width: 90%;
+  width: 75%;
   margin: auto;
   position: relative;
 }
@@ -165,7 +170,7 @@ i {
   font-family: helvetica, sans-serif;
   color: black;
   font-weight: lighter;
-  text-align: left;
+  text-align: center;
   line-height: 140%;
   padding-bottom: 0rem;
   padding-top: 0rem;
@@ -277,25 +282,31 @@ i {
 }
 
 .contact2 {
-  background-color: #B3B3B3;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  background-color: #AAAAAA;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
-.contact2 > h2 {
+.contact2 > h5 {
   color: white;
   text-align: center;
-  font-weight: normal;
+  font-weight: 300;
   padding-bottom: 0rem;
+  padding-top: 0rem;
 }
 
 .contact2 > .container {
   padding-left: 0rem;
   padding-right: 0rem;
+  padding-top: 1rem;
 }
 
 .btn2 {
   color: white;
+  font-weight: 300;
+  font-size: 1.4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .arrow-new {
@@ -336,40 +347,18 @@ img[src="images/group2.png"] {
   padding-left: 0rem;
 }
 
-.bio-header-1 > h1 {
-  font-family: helvetica, sans-serif;
-  font-size: 4.8rem;
-  color: black;
-  line-height: 4rem;
-  padding: 20rem 0 20rem 0;
-  text-align: left;
-  padding-left: 10rem;
-}
-
-.bio-header-2 > h3 {
-  font-family: helvetica, sans-serif;
-  font-size: 3rem;
-  color: white;
-  padding: 20rem 0 20rem 0;
-  line-height: 4rem;
-  text-align: center;
-}
-
-.bio-header-1 {
-  text-align: right;
-  background-color: #FEE5E5;
-  opacity: 1;
-}
-
-.bio-header > h3 {
-  font-size: 3.6rem;
-  padding-bottom: 5rem;
-  padding-top: 10rem;
-  text-align: left;
+.header-new > h3 {
+  font-weight: 300;
+  padding-top: 0rem;
 }
 
 .bio-text {
-  width: 90%
+  width: 90%;
+  margin-bottom: 10rem;
+}
+
+.bio-text > p {
+  font-weight: lighter;
 }
 
 .header-image {
@@ -404,21 +393,6 @@ img[src="images/milan.svg"] {
 /*Body*/
 .bio-text-image {
   text-align: center;
-}
-
-/*Contact.html*/
-.contact {
-  text-align: left;
-  margin-top: 5rem;
-}
-
-.test1 > h1 {
-  font-size: 6rem;
-  color: black;
-}
-
-.contact3 > h1 {
-  font-size: 6rem;
 }
 
 /*Project.html*/
@@ -537,7 +511,7 @@ img[src="images/landing-page-new-2.png"] {
 
 /*Competitive Analysis*/
 .competitive-analysis{
-  text-align: center;
+  text-align: left;
   padding-top: 0rem;
 }
 
@@ -1563,6 +1537,14 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     padding-bottom: 1rem;
   }
 
+  .btn2 {
+    font-size: 1.6rem;
+  }
+
+  .bio-text {
+    margin-bottom: 15rem;
+  }
+
   .header-new > h1 {
     text-align: left;
   }
@@ -1574,6 +1556,10 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   .case-study-1 > h1 {
     text-align: left;
+  }
+
+  .competitive-analysis{
+    text-align: center;
   }
 
   .case-study-3 > h3 {
@@ -1594,11 +1580,6 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     width: 90%;
     padding-top: 15rem;
     padding-bottom: 15rem;
-  }
-
-  .contact2 {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
   }
 
   .case1 {
@@ -1690,13 +1671,17 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   }
 
   .header {
-    padding-top: 5rem;
-    padding-bottom: 7rem;
+    padding-top: 20rem;
+    padding-bottom: 15rem;
+  }
+
+  .header-new2 > h3 {
+    text-align: left;
   }
 
   .header-image {
     padding-top: 7rem;
-    padding-bottom: 7rem;
+    padding-bottom: 4rem;
   }
 
   img[src="images/dashboard-image-view.png"] {
