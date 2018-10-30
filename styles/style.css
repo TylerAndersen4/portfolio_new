@@ -14,9 +14,9 @@ body {
 h1 {
   font-family: helvetica;
   font-size: 3.6rem;
+  font-weight: bold;
   margin-bottom: 0rem;
   padding-bottom: 1rem;
-  letter-spacing: .1rem;
 }
 
 h2 {
@@ -25,7 +25,6 @@ h2 {
   margin-bottom: 0rem;
   padding-bottom: 2rem;
   color: rgba(109, 109, 109, 1);
-  letter-spacing: .1rem;
 }
 
 h3 {
@@ -33,27 +32,46 @@ h3 {
   margin-bottom: 0rem;
   padding: 2rem 0 1rem 0;
   color: black;
-  letter-spacing: .1rem;
 }
 
 h4 {
-  font-family: helvetica;
+  font-family: "helvetica", sans-serif;
   font-size: 2rem;
   margin-bottom: 0rem;
   padding: 2rem 0 1rem 0;
-  letter-spacing: .1rem;
 }
 
 h5 {
-  font-family: helvetica;
+  font-family: "helvetica", sans-serif;
   font-size: 1.8rem;
   margin-bottom: 0rem;
   padding: 1rem 0 1rem 0;
-  letter-spacing: .1rem;
 }
 
 h4, h5 {
   color: black;
+}
+
+.font_2 {
+  font-family: "poynter-oldstyle-display", serif;
+  font-style: italic;
+  font-weight: 800;
+  color: black;
+}
+
+.font_3 {
+  font-family: "poynter-oldstyle-display", serif;
+  font-style: italic;
+  font-weight: 800;
+  color: black;
+  /* text-decoration: underline; */
+}
+
+.font_4 {
+  /* text-decoration: underline; */
+  /* font-style: italic; */
+  /* color: #7B832E; */
+  /* color: #D0A929; */
 }
 
 .btn {
@@ -85,7 +103,7 @@ p, li, th, td {
 /*Footer*/
 
 footer {
-  background-color: rgba(248, 248, 248, 1);
+  background-color: #C8DAE4;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -121,6 +139,11 @@ i {
 
 .fa-linkedin {
   padding-left: 0rem;
+}
+
+img[src="images/99d.png"] {
+  max-width: 3rem;
+  height: auto;
 }
 
 /*Index.html*/
@@ -166,21 +189,10 @@ i {
   position: relative;
 }
 
-.header-new2 > h3 {
-  font-family: helvetica, sans-serif;
-  color: black;
-  font-weight: lighter;
-  text-align: center;
-  line-height: 140%;
-  padding-bottom: 0rem;
-  padding-top: 0rem;
-}
-
 .header-new > h1 {
-  color: black;
-  font-weight: lighter;
-  text-align: center;
-  letter-spacing: .09rem;
+  color: #383838;
+  font-weight: bolder;
+  text-align: left;
   padding-bottom: 1rem;
 }
 
@@ -192,10 +204,7 @@ i {
 
 /*Projects*/
 .case1 {
-  background-color: #808080;
-  background-image: url("../images/group9.png");
-  background-size: cover;
-  background-position: left center;
+  background-color: #C8DAE4;
 }
 
 .case-study {
@@ -217,29 +226,118 @@ i {
 }
 
 .case-study-1 > h1 {
-  padding-bottom: 0rem;
-  color: white;
-  letter-spacing: .09rem;
+  padding-bottom: 5px;
+  padding-top: 3rem;
+  color: #383838;
+  font-weight: bolder;
+  line-height: 110%;
   text-align: center;
 }
 
-.case-study-3 > h3 {
+.case-study-1-1 > h3 {
   padding-top: 1rem;
   padding-bottom: 4rem;
   font-weight: normal;
   padding-right: 0rem;
-  font-size: 2.4rem;
-  color: white;
+  font-size: 2rem;
+  color: black;
   text-align: center;
 }
 
-.btn3 {
+.case2 {
+  background-color: #F4E3D3;
+}
+
+.case-study-2 > h1 {
+  color: black;
+}
+
+.case-study-2-2 > h3 {
+  color: black;
+}
+
+img[src="svg/idea_logo_new.svg"] {
+  max-width: 20rem;
+  height: auto;
+  padding-bottom: 2rem;
+}
+
+.case3 {
+  background-color: #313131;
+  /* background-image: url("../images/dj.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+}
+
+.case-title > h1 {
   color: white;
-  font-weight: normal;
+}
+
+.case-title > h3 {
+  color: white;
+}
+
+.align1 {
+}
+
+img[src="svg/josh_lacoste_svg_dark.svg"] {
+  padding-bottom: 2rem;
+  max-width: 20rem;
+}
+
+img[src="images/josh_lacoste_mobile.png"] {
+  width: 40%;
+  height: auto;
+  max-width: 30rem;
+  filter: drop-shadow(2px 4px 4px black);
+  padding-top: 5rem;
+}
+
+img[src="images/idea_asset.png"] {
+  width: 100%;
+  height: auto;
+  max-width: 50rem;
+  filter: drop-shadow(2px 4px 4px black);
+  padding-top: 5rem;
+}
+
+
+.btn3 {
+  /* color: white;
+  background-color: #8699A3;
+  border-color: #8699A3; */
+  color: #313131;
+  background-color: white;
+  border-color: white;
+  filter: drop-shadow(2px 4px 3px #61737E);
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+.btn4 {
+  filter: drop-shadow(2px 4px 3px black);
+  color: #313131;
+  background-color: white;
+  border-color: white;
+}
+
+img[src="svg/mkt_new.svg"] {
+  padding-bottom: 2rem;
+}
+
+img[src="images/landing_desktop_mkt.png"] {
+  width: 100%;
+  height: auto;
+  max-width: 70rem;
+  filter: drop-shadow(2px 4px 4px #61737E);
+  padding-top: 5rem;
 }
 
 .case-study-3 {
   padding-left: 0rem;
+  flex-direction: row-reverse;
 }
 
 .case-study-1 > .container {
@@ -282,16 +380,17 @@ i {
 }
 
 .contact2 {
-  background-color: #AAAAAA;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+  /* background-color: #FFE3E4; */
+  background-color: #C8DAE4;
 }
 
-.contact2 > h5 {
-  color: white;
+.contact2 > h1 {
+  /* color: black; */
+  color: #383838;
   text-align: center;
-  font-weight: 300;
-  padding-bottom: 0rem;
+  padding-bottom: 1rem;
   padding-top: 0rem;
 }
 
@@ -302,11 +401,10 @@ i {
 }
 
 .btn2 {
-  color: white;
-  font-weight: 300;
-  font-size: 1.4rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  color: #383838;
+  font-weight: bold;
+  border-radius: 7px;
+  filter: drop-shadow(2px 2px 2px #8B8B8B);
 }
 
 .arrow-new {
@@ -1289,6 +1387,14 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     font-size: 4.8rem;
   }
 
+ .case-study-1 {
+   text-align: left;
+ }
+
+  .case-title {
+    text-align: left;
+  }
+
   .data1 > h3 {
     font-size: 3.6rem;
   }
@@ -1566,7 +1672,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     text-align: center;
   }
 
-  .case-study-3 > h3 {
+  .case-title > h3 {
     text-align: left;
   }
 
@@ -1575,19 +1681,9 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   }
 
   .case-study {
-    background-image: url("../images/group9.png");
-    background-size: cover;
-    background-position: left center;
-    /*background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;*/
     width: 90%;
     padding-top: 15rem;
     padding-bottom: 15rem;
-  }
-
-  .case1 {
-    background-image: none;
   }
 
   img[src="images/mac.png"] {
@@ -1692,10 +1788,6 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   }
 
   /*Projects*/
-  .case-study {
-    /*padding-top: 8rem;*/
-    /*padding-bottom: 2.5rem;*/
-  }
 
   .case-study-1 > h3 {
     padding-bottom: 2rem;
@@ -1849,10 +1941,6 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   }
 
   /*Projects*/
-  .case-study {
-    /*padding-top: 2.5rem;*/
-    /*padding-bottom: 2.5rem;*/
-  }
 
   .case-study-1 > h3 {
     padding-bottom: 2rem;
