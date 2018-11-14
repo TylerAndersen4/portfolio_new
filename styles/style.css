@@ -21,17 +21,19 @@ h1 {
 
 h2 {
   font-family: helvetica;
-  font-size: 3rem;
+  font-size: 2.8rem;
+  font-weight: bolder;
   margin-bottom: 0rem;
-  padding-bottom: 2rem;
-  color: rgba(109, 109, 109, 1);
+  padding-bottom: 8px;
+  color: #313131;
 }
 
 h3 {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   margin-bottom: 0rem;
-  padding: 2rem 0 1rem 0;
-  color: black;
+  /* padding: 2rem 0 1rem 0; */
+  font-weight: 300;
+  color: #6D6C71;
 }
 
 h4 {
@@ -82,11 +84,6 @@ h4, h5 {
   max-width: 40rem;
   width: 80%;
   color: black;
-}
-
-p {
-  margin-bottom: 1rem;
-  padding: 1rem 0 1rem 0;
 }
 
 ul {
@@ -146,12 +143,530 @@ img[src="images/99d.png"] {
   height: auto;
 }
 
+/* Marketplace */
+
+.splash {
+  background-color: #C8DAE4;
+}
+
+.splash-inner {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.intro {
+  background-color: white;
+}
+
+.intro-inner {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.splash-inner > h2 {
+  font-size: 4.0rem;
+  line-height: 95%;
+  color: #383838;
+}
+
+img[src="svg/mkt_new.svg"] {
+  max-width: 15rem;
+  height: auto;
+  padding-bottom: 8px;
+}
+
+img[src="svg/roles.svg"], img[src="svg/deliverables.svg"], img[src="svg/tools.svg"]{
+  /* min-width: 4rem; */
+  width: 10%;
+  max-width: 5rem;
+  min-width: 3rem;
+  height: auto;
+  padding-bottom: 1rem;
+}
+
+img[src="svg/deliverables.svg"], img[src="svg/tools.svg"]{
+  padding-top: 3rem;
+}
+
+.roles > h2 {
+  color: black;
+  /* font-size: 2.4rem; */
+}
+
+.deliverables > h2 {
+  color: black;
+  /* font-size: 2.4rem; */
+}
+
+.tools > h2 {
+  color: black;
+  /* font-size: 2.4rem; */
+}
+
+.tools, .deliverables {
+  padding-top: 2rem;
+}
+
+.overview-top, .overview-inner, .user-survey2-inner, .user-data-inner, .mkt-personas-inner, .competitors-inner {
+  width: 90%;
+  margin: auto;
+}
+
+.overview-outer {
+  background-color: #EFEEEC;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+img[src="images/product-detail-womens.png"] {
+  max-width: 30rem;
+  height: auto;
+}
+
+hr {
+  width: 15%;
+  color: #B1B1B1;
+  border-top: 3px solid;
+  border-color: inherit;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.user-survey2, .user-data-inner {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.list-questions {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.list-questions > li {
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.btn-mkt {
+  filter: drop-shadow(2px 4px 4px #6C8DA0);
+  font-weight: bold;
+}
+
+.btn-mkt2 {
+  filter: drop-shadow(2px 4px 4px black);
+  background-color: #EFEEEC;
+  font-weight: bold;
+  color: #313131;
+  border-color: #EFEEEC;
+}
+
+.user-data {
+  background-color: #313131;
+}
+
+.user-data-inner > h3 {
+  color: #EFEEEC;
+}
+
+.user-data-inner > h2 {
+  color: #EFEEEC;
+}
+
+.chart-mkt, .chart-mkt2 {
+  display: flex;
+  margin: auto;
+  height: auto;
+  max-width:30rem;
+  min-width: 25rem;
+  width: 70%;
+}
+
+.chart-mkt2 {
+  padding-top: 5rem;
+}
+
+.mkt-data1 > h3 {
+  color: #EFEEEC;
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+
+.mkt-data1 > p {
+  color: #EFEEEC;
+  font-weight: normal;
+}
+
+.mkt-data2 > h3 {
+  color: #EFEEEC;
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+
+.mkt-data2 > p {
+  color: #EFEEEC;
+  font-weight: normal;
+}
+
+.mkt-data3 > h3 {
+  color: #EFEEEC;
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+
+.mkt-data3 > p {
+  color: #EFEEEC;
+  font-weight: normal;
+}
+
+.mkt-data4 > h3 {
+  color: #EFEEEC;
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+
+.mkt-data4 > p {
+  color: #EFEEEC;
+  font-weight: normal;
+}
+.mkt-data5 > h3 {
+  color: #EFEEEC;
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+
+.mkt-data5 > p {
+  color: #EFEEEC;
+  font-weight: normal;
+}
+
+.mkt-data6 > h3 {
+  color: #EFEEEC;
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+
+.mkt-data6 > p {
+  color: #EFEEEC;
+  font-weight: normal;
+}
+
+.mkt-data {
+  padding-top: 3rem;
+}
+
+.mkt-data-next {
+  padding-bottom: 2rem;
+}
+
+.mkt-data2, .mkt-data3, .mkt-data4, .mkt-data5, .mkt-data6 {
+  padding-top: 1rem;
+}
+
+.mkt-personas {
+  background-color: #EFEEEC;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.user1 > h3 {
+  font-weight: bold;
+  font-size: 2.0rem;
+  color: #383838;
+  padding-bottom: 5px;
+  padding-top: 8px;
+}
+
+.user1 {
+  width: 90%;
+  margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+}
+
+.user2 {
+  width: 90%;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+.user2 > h3 {
+  font-weight: bold;
+  font-size: 2.0rem;
+  color: #383838;
+  padding-bottom: 5px;
+  padding-top: 8px;
+}
+
+.user2 > p {
+  margin-bottom: 0rem;
+  font-weight: normal;
+  color: #646567;
+}
+
+.user1 > p {
+  margin-bottom: 0rem;
+}
+
+.user-name {
+  background-image: url("../images/carine.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.user-name2 {
+  background-image: url("../images/jax.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+.personas-header {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 5rem;
+}
+
+.item1 {
+  padding-bottom: 6px;
+}
+
+.list1 {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.user-name {
+  text-align: left;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.user-name-new > h3 {
+  font-size: 2.0rem;
+  font-weight: bold;
+  color: #EFEEEC;
+}
+
+.user-name-new {
+  width: 90%;
+  margin: auto;
+}
+
+.user-name2 {
+  text-align: left;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.user-name-new2 > h3 {
+  font-size: 2.0rem;
+  font-weight: bold;
+  color: #EFEEEC;
+}
+
+.user-name-new2 {
+  width: 90%;
+  margin: auto;
+}
+
+.adobe1 {
+  font-family: gastromond, sans-serif;
+  font-weight: 400;
+  font-size: 5.4rem;
+  font-style: normal;
+  color: #F7931E;
+}
+
+.competitors {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+img[src="svg/reformation.svg"] {
+  width: 60%;
+  height: auto;
+  padding-bottom: 1.5rem;
+}
+
+img[src="svg/etsy.svg"] {
+  width: 20%;
+  height: auto;
+  padding-bottom: 1.5rem;
+}
+
+img[src="svg/everlane.svg"] {
+  width: 60%;
+  height: auto;
+  padding-bottom: 1.5rem;
+}
+
+.reformation, .etsy, .everlane {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.reformation > hr {
+  text-align: left;
+}
+
+.branding-mkt-inner {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  width: 90%;
+  margin: auto;
+}
+
+.branding-mkt {
+  background-color: #ECECEC;
+}
+
+img[src="images/mkt-color-palette.png"] {
+  width: 100%;
+  margin: auto;
+}
+
+img[src="images/mkt-mood.png"] {
+  width: 100%;
+  margin: auto;
+  padding-top: 2.6rem;
+  padding-bottom: 3rem;
+}
+
+.textures {
+  /* padding-top: 2rem; */
+}
+
+.textures > h3 {
+  padding-bottom: 8px;
+}
+
+.ul-test > li {
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.test-branding {
+  padding-top: 3rem;
+}
+
+.branding-mkt-logo > h3 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.branding-mkt-intro1 > h3 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.branding-mkt-intro {
+  /* background-image: url("../images/mkt-mood.png"); */
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed;
+  background-repeat: no-repeat; */
+}
+
+img[src="svg/mkt-logo-1.svg"], img[src="svg/mkt-logo-2.svg"]  {
+  width: 51%;
+  height: auto;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+img[src="svg/mkt-logo-3.svg"] {
+  width: 51%;
+  height: auto;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+img[src="svg/mkt-logo-or.svg"] {
+  width: 90%;
+  height: auto;
+  padding-top: 1.5rem;
+}
+
+img[src="svg/brand_fonts.svg"] {
+  width: 100%;
+  height: auto;
+}
+
+img[src="images/ig_mkt2.png"] {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.branding-mkt-2.1 {
+  text-align: center;
+}
+
+img[src="images/testing-mkt.png"] {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+img[src="images/sketches-mkt.png"] {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.wireframes-mkt-inner {
+  text-align: center;
+}
+
+img[src="images/mockup_market.png"] {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+img[src="images/maze-mkt.png"] {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+img[src="images/maze-mkt2.png"] {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.visual-design-mkt-inner {
+  text-align: center;
+  background-color: #383838;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+img[src="images/landing-mkt.png"] {
+  width: 95%;
+  height: auto;
+  margin: auto;
+}
+
 /*Index.html*/
 
 /*Navbar*/
 .navbar-custom {
   text-align: center;
-  width: 90%;
+  width: 80%;
   position: relative;
   margin: auto;
   padding-left: 0rem;
@@ -170,10 +685,23 @@ img[src="images/99d.png"] {
   padding-right: 0rem;
 }
 
+.nav-new-mkt {
+  background-color: rgba(200, 218, 228, 1);
+}
+
+.navbar-mkt1 {
+  background-color: rgba(200, 218, 228, 1)!important;
+}
+
 .nav-item > a {
   font-family: helvetica;
   color: black;
   font-size: 1.2rem;
+}
+
+img[src="svg/logo-8.svg"] {
+  max-width: 6rem;
+  height: auto;
 }
 
 /*Hero*/
@@ -323,9 +851,9 @@ img[src="images/idea_asset.png"] {
   border-color: white;
 }
 
-img[src="svg/mkt_new.svg"] {
+/* img[src="svg/mkt_new.svg"] {
   padding-bottom: 2rem;
-}
+} */
 
 img[src="images/landing_desktop_mkt.png"] {
   width: 100%;
@@ -348,7 +876,7 @@ img[src="images/landing_desktop_mkt.png"] {
 
 .container {
   text-align: center;
-  padding-top: 4rem;
+  padding-top: 2rem;
 }
 
 .stories1 > .container {
@@ -1443,7 +1971,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   h2 {
     font-size: 3.6rem;
-    padding-bottom: 4rem;
+    padding-bottom: 8px;
   }
 
   h3 {
