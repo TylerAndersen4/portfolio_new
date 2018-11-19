@@ -210,7 +210,7 @@ img[src="svg/deliverables.svg"], img[src="svg/tools.svg"]{
   padding-top: 2rem;
 }
 
-.overview-top, .overview-inner, .user-survey2-inner, .user-data-inner, .mkt-personas-inner, .competitors-inner, .user-stories-inner, .wireframes-mkt-inner {
+.overview-top, .overview, .user-survey2-inner, .user-data-inner, .mkt-personas-inner, .competitors-inner, .user-stories-inner, .wireframes-mkt-inner {
   width: 90%;
   margin: auto;
 }
@@ -1044,16 +1044,11 @@ img[src="svg/logo-light.svg"] {
 img[src="svg/idea_logo_new.svg"] {
   max-width: 20rem;
   height: auto;
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
 }
 
 .case3 {
   background-color: #313131;
-  /* background-image: url("../images/dj.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; */
 }
 
 .case-title > h1 {
@@ -1064,11 +1059,8 @@ img[src="svg/idea_logo_new.svg"] {
   color: white;
 }
 
-.align1 {
-}
-
 img[src="svg/josh_lacoste_svg_dark.svg"] {
-  padding-bottom: 2rem;
+  padding-bottom: 8px;
   max-width: 20rem;
 }
 
@@ -1090,9 +1082,6 @@ img[src="images/idea_asset.png"] {
 
 
 .btn3 {
-  /* color: white;
-  background-color: #8699A3;
-  border-color: #8699A3; */
   color: #313131;
   background-color: white;
   border-color: white;
@@ -1108,9 +1097,14 @@ img[src="images/idea_asset.png"] {
   border-color: white;
 }
 
-/* img[src="svg/mkt_new.svg"] {
-  padding-bottom: 2rem;
-} */
+.btn5 {
+  filter: drop-shadow(2px 4px 3px #776E65);
+  color: #313131;
+  background-color: white;
+  border-color: white;
+  font-weight: bold;
+  border-radius: 7px;
+}
 
 img[src="images/landing_desktop_mkt.png"] {
   width: 100%;
@@ -1134,6 +1128,10 @@ img[src="images/landing_desktop_mkt.png"] {
 .container {
   text-align: center;
   padding-top: 2rem;
+}
+
+.container-3 {
+  padding-left: 0rem;
 }
 
 .stories1 > .container {
@@ -1908,6 +1906,37 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 @media (min-width: 576px) {
 
   /*Footer*/
+  .container-3 {
+    text-align: left;
+ }
+
+ .chart-mkt {
+   padding-top: 5rem;
+ }
+
+ .overview-top {
+   text-align: center;
+   width: 80%;
+ }
+
+ img[src="images/testing-mkt.png"], img[src="images/sketches-mkt.png"], img[src="images/maze-mkt.png"], img[src="images/maze-mkt2.png"], img[src="images/landing-mkt.png"] {
+   width: 40%;
+   height: auto;
+ }
+
+ img[src="images/mockup_market.png"] {
+   width: 70%;
+   height: auto;
+ }
+
+ img[src="svg/mkt_logo_3.svg"] {
+   width: 70%;
+   height: auto;
+ }
+
+  img[src="svg/tools.svg"], img[src="svg/deliverables.svg"] {
+    padding-top: 0rem;
+  }
 
   img[src="images/group-together.png"] {
     width: 85%;
@@ -2177,9 +2206,9 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 
-  h1 {
+  /* h1 {
     font-size: 4.8rem;
-  }
+  } */
 
  .case-study-1 {
    text-align: left;
@@ -2240,9 +2269,9 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     padding-bottom: 8px;
   }
 
-  h3 {
+  /* h3 {
     font-size: 3.0rem;
-  }
+  } */
 
   .case-study-3 > h3 {
     font-size: 3rem;
