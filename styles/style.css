@@ -32,8 +32,8 @@ h3 {
   font-size: 2.2rem;
   margin-bottom: 0rem;
   /* padding: 2rem 0 1rem 0; */
-  font-weight: 300;
-  color: #6D6C71;
+  font-weight: bolder;
+  color: #313131;
 }
 
 h4 {
@@ -173,9 +173,9 @@ img[src="images/99d.png"] {
 }
 
 img[src="svg/mkt_new.svg"] {
-  max-width: 15rem;
+  max-width: 20rem;
   height: auto;
-  padding-bottom: 8px;
+  /* padding-bottom: 8px; */
 }
 
 img[src="svg/roles.svg"], img[src="svg/deliverables.svg"], img[src="svg/tools.svg"]{
@@ -730,7 +730,9 @@ img[src="images/landing-mkt.png"] {
 
 .splash-josh-inner {
   padding-top: 5rem;
-  padding-bottom: 60rem;
+  padding-bottom: 40rem;
+  width: 90%;
+  margin: auto;
 }
 
 .intro-josh {
@@ -786,8 +788,13 @@ img[src="svg/logo-iterations-josh.svg"] {
 }
 
 .logo-journey-josh-inner {
-  padding-top: 5rem;
+  /* padding-top: 5rem; */
   /* padding-bottom: 5rem; */
+}
+
+.logo-journey-josh {
+  padding-top: 5rem;
+  padding-bottom: 4rem;
 }
 
 .logo-journey-josh-inner2 {
@@ -827,11 +834,25 @@ img[src="svg/logo-iterations-josh.svg"] {
 }
 
 .feedback-josh {
-  background-color: white;
+  background-color: #E3E3E3;
+}
+
+.type-josh-outer {
+  padding-top: 5rem;
+  margin: auto;
 }
 
 .type-josh {
-  padding-top: 5rem;
+  width: 90%;
+  margin: auto;
+}
+
+.type-josh-outer > p {
+  font-family: roboto, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2.2rem;
+  letter-spacing: 1.8px;
 }
 
 img[src="svg/logo-iterations-josh2.svg"] {
@@ -846,22 +867,6 @@ img[src="svg/logo-iterations-josh2.svg"] {
   padding-bottom: 5rem;
   background-color: white;
 }
-
-/* .final-josh-1 > h2 {
-  color: white;
-}
-
-.final-josh-1 > p {
-  color: white;
-}
-
-.final-josh-2 > h2 {
-  color: white;
-}
-
-.final-josh-2 > p {
-  color: white;
-} */
 
 .josh-light-logo {
   /* background-color: white; */
@@ -896,6 +901,10 @@ img[src="svg/logo-josh-dark.svg"] {
   margin-right: 0rem;
 }
 
+.nav-item-josh > a {
+  color: white;
+}
+
 /*Index.html*/
 
 /*Navbar*/
@@ -908,6 +917,18 @@ img[src="svg/logo-josh-dark.svg"] {
   padding-right: 0rem;
   padding-top: 2rem;
   padding-bottom: .5rem;
+}
+
+.navbar-josh {
+  width: 95%;
+  margin: auto;
+  background-color: #111111;
+  padding-top: 2rem;
+  padding-bottom: .5rem;
+}
+
+.nav-new-josh {
+  background-color: #111111;
 }
 
 .nav-new-mkt {
@@ -924,7 +945,18 @@ img[src="svg/logo-josh-dark.svg"] {
   font-size: 1.2rem;
 }
 
+.nav-item-josh > a {
+  color: #ECECEC;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
 img[src="svg/logo-8.svg"] {
+  max-width: 6rem;
+  height: auto;
+}
+
+img[src="svg/logo-light.svg"] {
   max-width: 6rem;
   height: auto;
 }
@@ -932,8 +964,8 @@ img[src="svg/logo-8.svg"] {
 /*Hero*/
 .header {
   background-color: #FEE5E5;
-  padding-top: 17rem;
-  padding-bottom: 12rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
 .header-new {
@@ -967,8 +999,8 @@ img[src="svg/logo-8.svg"] {
   padding-left: 0rem;
   padding-right: 0rem;
   background-image: none;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
   width: 90%;
   text-align: center;
 }
@@ -980,7 +1012,7 @@ img[src="svg/logo-8.svg"] {
 
 .case-study-1 > h1 {
   padding-bottom: 5px;
-  padding-top: 3rem;
+  padding-top: 8px;
   color: #383838;
   font-weight: bolder;
   line-height: 110%;
@@ -1002,7 +1034,7 @@ img[src="svg/logo-8.svg"] {
 }
 
 .case-study-2 > h1 {
-  color: black;
+  color: #313131;
 }
 
 .case-study-2-2 > h3 {
@@ -1822,6 +1854,15 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
  img[src="images/group-together.png"] {
    width: 100%;
+ }
+
+ .case-study-1 > h3 {
+   padding-bottom: 1.5rem;
+   font-weight: normal;
+ }
+
+ .case-study-2 > h3 {
+   font-weight: normal;
  }
 
   .roles, .deliverables {
