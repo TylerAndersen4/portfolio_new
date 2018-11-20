@@ -177,7 +177,7 @@
     </div>
   </div>
   <div class="mkt-personas">
-    <div class="container-fluid personas-header">
+    <div class="personas-header">
       <h3>User Personas</h3>
       <h2>Who is the Marketplace customer?</h2>
       <p>I used the data from the user survey to start shaping my user personas. I held user interviews four stakeholders - people I know that are heavy users of my main competitors: Etsy, Everlane, and Reformation. From the data and these conversations, I gained a clear perspective into what these customers want and the issues they face with the platforms that exist currently. There were several themes that were repeated by different users, which I made my main areas of focus going forward with personas and product decisions. These are:</p>
@@ -187,13 +187,8 @@
         <li class="item1">Feel a connection to the maker / designer of the product.</li>
         <li>Be able to use the platform as a way to find and save inspiration.</li>
       </ul>
-      <p>Based on this information, I created primary, secondary, and tertiary users. These were ranked based on the priority of their goals.</p>
     </div>
-    <div class="user-name">
-      <div class="container-fluid user-name-new">
-        <h3>primary user</br><span class="adobe1">Carine</span></h3>
-      </div>
-    </div>
+    <!-- <div class="row">
       <div class="col-sm col-m-6 col-lg-6 user1">
         <h3>Bio</h3>
           <ul>
@@ -212,15 +207,8 @@
             <li class="item1">Offline usage is sometimes difficult</li>
             <li>Concerned about security with sensitive documents</li>
           </ul>
-        <!-- <h4>“I need a platform that allows me to easily share and get feedback.” </h4> -->
-      </div>
-      <div class="user-name2">
-        <div class="container-fluid user-name-new2">
-          <h3>secondary user</br><span class="adobe1 adobe2">Jax</span></h3>
-        </div>
       </div>
       <div class="col-sm col-m-6 col-lg-6 user2">
-        <!-- <p>Product Manager / San Francisco</p> -->
         <h3>Goals</h3>
           <ul>
             <li class="item1">Needs storage space for her photos and the ability to share them with friends.</li>
@@ -232,8 +220,52 @@
             <li class="item1">Runs out of space on free plans</li>
             <li>Colleagues do not use cloud platforms so she can’t use them for work.</li>
           </ul>
-        <!-- <h4>“I’m stuck between the old world of hard drives and the new world of cloud computing.”</h4> -->
       </div>
+    </div> -->
+    <div class="row user-personas-mkt">
+      <div class="col-sm col-m-6 col-lg-6 wyatt">
+        <img src="images/carine.png">
+        <h3 class="adobe1">Carine</h3>
+        <h4>Primary User</h4>
+        <p>Wardrobe Stylist - Paris, FR</p>
+        <div class="carine-inner-1">
+          <h4>Goals</h4>
+            <ul class="next-steps">
+              <li class="item1">Uses document creation and collaboration for full-time and freelance work.</li>
+              <li class="item1">Likes to be able to edit documents in real time and asynchronously if he’s commuting.</li>
+              <li class="item1">Access his cloud files from anywhere in case he’s working from home or traveling.</li>
+            </ul>
+        </div>
+        <div class="carine-inner-2">
+          <h4>Frustrations</h4>
+            <ul class="next-steps">
+              <li class="item1">Offline usage is sometimes difficult</li>
+              <li class="item1">Concerned about security with sensitive documents</li>
+            </ul>
+        </div>
+      </div>
+      <div class="col-sm col-m-6 col-lg-6 elaine">
+        <img src="images/jax.png">
+        <h3 class="adobe1">Jax</h3>
+        <h4>Secondary User</h4>
+        <p>Product Manager - San Francisco, CA</p>
+        <div class="jax-inner-1">
+          <h4>Goals</h4>
+            <ul class="next-steps">
+              <li class="item1">Needs storage space for her photos and the ability to share them with friends.</li>
+              <li class="item1">Likes to browse Pinterest for travel inspiration, and save images that she likes from there.</li>
+              <li class="item1">Wants a platform where images will be showcased nicely.</li>
+            </ul>
+        </div>
+        <div class="jax-inner-2">
+          <h4>Frustrations</h4>
+            <ul class="next-steps">
+              <li class="item1">Runs out of space on free plans</li>
+              <li class="item1">Colleagues do not use cloud platforms so she can’t use them for work.</li>
+            </ul>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="container-fluid competitors">
         <h3>Competitive Analysis</h3>
@@ -241,7 +273,7 @@
       <div class="row competitors-inner">
         <div class="col-sm reformation">
           <img src="svg/reformation.svg">
-          <!-- <hr class="hr-new"> -->
+          <!-- <hr> -->
           <ul>
             <li class="item1"><span class="bold-mkt">Strength</span>: Transparent shopping experience that shows the environmental effects of each garment.</li>
             <li class="item1"><span class="bold-mkt">Weakness</span>: Only available for women, and does not reflect the tastes of multiple designers.</li>
@@ -273,12 +305,11 @@
   </div>
   <div class="container-fluid branding-mkt">
     <div class="branding-mkt-inner">
-      <div class="row branding-mkt-intro">
-        <div class="col-sm branding-mkt-intro1">
-          <h3>Brand Journey</h3>
-          <h2>Crafting a uniform voice.</h2>
-          <p>The challenge with the Marketplace branding was creating a uniform voice that would work with a changing array of designers, but also have it's own tone. I was inspired by a mid-century modern color palette that is an updated take on flea market chic.</p>
-          <h3>Choosing the color palette</h3>
+      <h3>Brand Journey</h3>
+      <h2>Crafting a uniform voice.</h2>
+      <div class="row branding-mkt-intro1">
+        <div class="col-sm-7">
+          <h3>Finding Inspiration</h3>
           <p>I had an initial feeling in my mind of what I wanted the brand to feel like, but needed to dig deeper and turn that feeling into a cohesive design system. I knew I wanted the brand to evoke these attributes:</p>
           <ul class="ul-test">
             <li class="item1">Artisanal</li>
@@ -287,32 +318,40 @@
             <li class="item1">Warm</li>
           </ul>
         </div>
-        <div class="col-sm textures">
+        <div class="col-sm-5 mood-outer">
           <img src="images/mkt-mood.png">
+        </div>
+      </div>
+      <div class="row branding-mkt">
+        <div class="col-sm">
           <img src="images/mkt-color-palette.png">
+        </div>
+        <div class="col-sm">
+          <h3>Color Palette</h3>
+          <p>I started with a concept that was inspired by vintage French plaques I found in a store. That concept wasn't working, so I used the color palette as inspiration and moved toward a more 70's Milan vibe with the font from Typekit.</p>
         </div>
       </div>
       <div class="row branding-mkt-1">
-        <div class="col-sm branding-mkt-logo">
+        <div class="col-sm-5 branding-mkt-logo">
           <img src="svg/mkt_logo_3.svg">
         </div>
-        <div class="col-sm branding-mkt-logo-txt">
+        <div class="col-sm-7 branding-mkt-logo-txt">
           <h3>Logo Iterations</h3>
           <p>I started with a concept that was inspired by vintage French plaques I found in a store. That concept wasn't working, so I used the color palette as inspiration and moved toward a more 70's Milan vibe with the font from Typekit.</p>
         </div>
       </div>
       <div class="row branding-mkt-2">
-        <div class="col-sm">
+        <div class="col-sm-5">
           <h3>Social Media</h3>
           <p>I knew the brand would have a strong presence on Instagram and Pinterest, so I worked on alternate forms of the logo that works in smaller spaces, like an Instagram profile page.</p>
         </div>
-        <div class="col-sm branding-mkt-2.1">
+        <div class="col-sm-7 branding-mkt-2.1">
           <img src="images/ig_mkt2.png">
         </div>
       </div>
       <div class="type-study">
         <h3>Type Study</h3>
-        <p>Helvetica</p>
+        <h4>Helvetica</h4>
         <p>Bold</p>
         <p>Normal</p>
         <p>Light</p>
