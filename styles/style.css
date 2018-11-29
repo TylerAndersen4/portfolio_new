@@ -143,6 +143,11 @@ img[src="images/99d.png"] {
 
 /* Marketplace */
 
+img[src="images/checkout-flow.png"] {
+  width: 100%;
+  height: auto;
+}
+
 .branding-mkt-1 {
   align-items: center;
 }
@@ -214,6 +219,8 @@ img[src="images/carine.png"], img[src="images/jax.png"] {
 .intro-inner {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  width: 90%;
+  margin: auto;
 }
 
 .splash-inner > h2 {
@@ -500,6 +507,12 @@ hr {
   list-style-position: inside;
 }
 
+.list2 {
+  list-style-type: disc;
+  list-style-position: inside;
+  color: white;
+}
+
 .user-name {
   text-align: left;
   padding-top: 8rem;
@@ -590,7 +603,7 @@ img[src="images/mkt-color-palette.png"] {
   margin: auto;
 }
 
-img[src="images/mkt-mood.png"] {
+img[src="images/mkt-moodboard.png"] {
   width: 100%;
   margin: auto;
   padding-top: 2.6rem;
@@ -623,6 +636,11 @@ img[src="svg/mkt-logo-1.svg"], img[src="svg/mkt-logo-2.svg"]  {
   padding-bottom: 8px;
 }
 
+img[src="images/mkt-logo-iterations.png"] {
+  width: 100%;
+  margin: auto;
+}
+
 img[src="svg/mkt_logo_3.svg"] {
   width: 80%;
   height: auto;
@@ -632,6 +650,10 @@ img[src="svg/mkt_logo_3.svg"] {
 
 .branding-mkt-logo-txt {
   padding-top: 2rem;
+}
+
+.branding-mkt-logo {
+  text-align: right;
 }
 
 img[src="svg/mkt-logo-or.svg"] {
@@ -669,6 +691,11 @@ img[src="images/sketches-mkt.png"] {
   width: 100%;
   height: auto;
   margin: auto;
+  padding-top: 3.5rem;
+}
+
+.wireframes-sketches {
+  text-align: center;
 }
 
 .wireframes-mkt {
@@ -699,6 +726,26 @@ img[src="images/sketches-mkt.png"] {
   margin: auto;
 }
 
+.user-testing-mkt-inner > h2 {
+  color: white;
+}
+
+.maze-mkt > p {
+  color: white;
+}
+
+.maze-mkt {
+  padding-top: 3rem;
+}
+
+.maze-mkt2 {
+  text-align: center;
+}
+
+.user-testing-mkt {
+  background-color: #383838;
+}
+
 img[src="images/mockup_market.png"] {
   width: 100%;
   height: auto;
@@ -709,6 +756,7 @@ img[src="images/maze-mkt.png"] {
   width: 100%;
   height: auto;
   margin: auto;
+  padding-top: 1rem;
 }
 
 img[src="images/maze-mkt2.png"] {
@@ -728,8 +776,8 @@ img[src="images/maze-mkt2.png"] {
   margin: auto;
 }
 
-img[src="images/landing-mkt.png"] {
-  width: 95%;
+img[src="images/landing-mkt.png"], img[src="images/checkout-1-mkt.png"], img[src="images/search-womens-mkt.png"]{
+  width: 100%;
   height: auto;
   margin: auto;
 }
@@ -742,6 +790,12 @@ img[src="images/landing-mkt.png"] {
 
 .navbar-custom1 {
   background-color: #FEE5E5!important;
+}
+
+img[src="images/bag-desktop-1.png"], img[src="images/bag-desktop-2.png"], img[src="images/womens-detail.png"], img[src="images/womens-detail-new.png"] {
+  width: 100%;
+  height: auto;
+  margin: auto;
 }
 
 /* Josh.html */
@@ -1637,9 +1691,8 @@ img[src="images/wyatt.png"], img[src="images/elaine.png"] {
 }
 
 .table1 {
-  text-align: center;
   margin-top: 3rem;
-  margin-bottom: 3rem;s
+  margin-bottom: 3rem;
 }
 
 th {
@@ -1972,13 +2025,13 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
    width: 80%;
  }
 
- img[src="images/testing-mkt.png"], img[src="images/sketches-mkt.png"], img[src="images/maze-mkt.png"], img[src="images/maze-mkt2.png"], img[src="images/landing-mkt.png"] {
-   width: 40%;
+ img[src="images/sketches-mkt.png"] {
+   width: 100%;
    height: auto;
  }
 
  img[src="images/mockup_market.png"] {
-   width: 70%;
+   width: 100%;
    height: auto;
  }
 
@@ -2263,6 +2316,10 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     font-size: 4.8rem;
   } */
 
+  img[src="images/maze-mkt.png"] {
+    width: 70%;
+  }
+
   img[src="images/mkt-mood.png"] {
     width: 100%;
   }
@@ -2418,7 +2475,8 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   }
 
   /*Project.html*/
-  .roles1, .introduction, .competitive-analysis1, .user-survey, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .final-product1, .conclusion {
+  .roles1, .introduction, .competitive-analysis1, .user-survey, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .final-product1, .conclusion, .bio-text, .splash-inner, .overview-top, .overview, .user-survey2-inner, .user-data-inner, .mkt-personas-inner, .competitors, .user-stories-inner, .wireframes-mkt-inner, .user1, .user2, .personas-header,
+   .user-name-new, .user-name-new2, .branding-mkt-inner, .user-testing-mkt-inner, .visual-design-mkt-inner, .splash-josh-inner, .overview-top-josh,.overview-inner-josh,.logo-journey-josh-inner,.overview-top-josh,.overview-inner-josh, .logo-journey-josh-inner,.comp-analysis-josh-inner, .feedback-josh-inner, .type-josh, .final-josh-inner, .final-josh-inner2, .user-personas-mkt {
     padding-top: 6rem;
     padding-bottom: 6rem;
     width: 85%;
@@ -2520,7 +2578,6 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     padding-bottom: 0rem;
   }
 
-
 }
 
 /*// Large devices (desktops, 992px and up)*/
@@ -2528,7 +2585,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   .bio-text, .splash-inner, .overview-top, .overview, .user-survey2-inner, .user-data-inner, .mkt-personas-inner, .competitors, .user-stories-inner, .wireframes-mkt-inner, .user1, .user2, .personas-header, .user-name-new, .user-name-new2, .branding-mkt-inner, .user-testing-mkt-inner, .visual-design-mkt-inner, .splash-josh-inner, .overview-top-josh, .overview-inner-josh, .logo-journey-josh-inner, .overview-top-josh, .overview-inner-josh, .logo-journey-josh-inner,
    .comp-analysis-josh-inner, .feedback-josh-inner, .type-josh, .final-josh-inner, .final-josh-inner2, .user-personas-mkt {
-     width: 80%;
+     width: 70%;
      margin: auto;
    }
 
@@ -2759,7 +2816,12 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   .bio-text, .splash-inner, .overview-top, .overview, .user-survey2-inner, .user-data-inner, .mkt-personas-inner, .competitors, .user-stories-inner, .wireframes-mkt-inner, .user1, .user2, .personas-header, .user-name-new, .user-name-new2, .branding-mkt-inner, .user-testing-mkt-inner, .visual-design-mkt-inner, .splash-josh-inner, .overview-top-josh, .overview-inner-josh, .logo-journey-josh-inner, .overview-top-josh, .overview-inner-josh, .logo-journey-josh-inner,
    .comp-analysis-josh-inner, .feedback-josh-inner, .type-josh, .final-josh-inner, .final-josh-inner2, .user-personas-mkt {
-     width: 65%;
+     width: 55%;
+     margin: auto;
+   }
+
+   .roles1, .introduction, .competitive-analysis1, .user-survey, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .final-product1, .conclusion {
+     width: 55%;
      margin: auto;
    }
 
