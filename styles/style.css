@@ -323,7 +323,7 @@ hr {
 }
 
 .btn-mkt {
-  filter: drop-shadow(2px 4px 4px #6C8DA0);
+  filter: drop-shadow(4px 4px 6px #6C8DA0);
   font-weight: bold;
 }
 
@@ -333,6 +333,22 @@ hr {
   font-weight: bold;
   color: #313131;
   border-color: #EFEEEC;
+}
+
+.btn-mkt3 {
+  border-color: #EFEEEC;
+  background-color: #EFEEEC;
+  filter: drop-shadow(4px 4px 6px #A4A4A4);
+  font-weight: bold;
+  color: #313131;
+}
+
+.btn-mkt4 {
+  border-color: white;
+  background-color: white;
+  filter: drop-shadow(4px 4px 6px #A4A4A4);
+  font-weight: bold;
+  color: #313131;
 }
 
 .user-data {
@@ -1727,6 +1743,10 @@ th, td {
 
 .user-flows2 {
   text-align: center;
+}
+
+.user-flows-mkt, .user-flows-mkt-inner {
+  background-color: white;
 }
 
 
