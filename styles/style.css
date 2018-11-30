@@ -143,6 +143,10 @@ img[src="images/99d.png"] {
 
 /* Marketplace */
 
+.testing-mkt {
+  background-color: rgba(248, 248, 248, 1);
+}
+
 img[src="images/checkout-flow.png"] {
   width: 100%;
   height: auto;
@@ -160,6 +164,15 @@ img[src="images/checkout-flow.png"] {
   width: 90%;
   margin: auto;
   text-align: center;
+}
+
+.testing-mkt-inner, .conclusion-mkt-inner {
+  width: 90%;
+  margin: auto;
+}
+
+.conclusion-mkt {
+  background-color: white;
 }
 
 img[src="images/carine.png"], img[src="images/jax.png"] {
@@ -267,7 +280,7 @@ img[src="svg/deliverables.svg"], img[src="svg/tools.svg"]{
   padding-top: 2rem;
 }
 
-.overview-top, .overview, .user-survey2-inner, .user-data-inner, .mkt-personas-inner, .competitors, .user-stories-inner, .wireframes-mkt-inner {
+.overview-top, .overview, .user-survey2-inner, .user-data-inner, .mkt-personas-inner, .competitors, .user-stories-inner, .wireframes-mkt-inner, .intro {
   width: 90%;
   margin: auto;
 }
@@ -727,6 +740,10 @@ img[src="images/sketches-mkt.png"] {
 }
 
 .user-testing-mkt-inner > h2 {
+  color: white;
+}
+
+.user-testing-mkt-inner > p {
   color: white;
 }
 
@@ -2476,7 +2493,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   /*Project.html*/
   .roles1, .introduction, .competitive-analysis1, .user-survey, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .final-product1, .conclusion, .bio-text, .splash-inner, .overview-top, .overview, .user-survey2-inner, .user-data-inner, .mkt-personas-inner, .competitors, .user-stories-inner, .wireframes-mkt-inner, .user1, .user2, .personas-header,
-   .user-name-new, .user-name-new2, .branding-mkt-inner, .user-testing-mkt-inner, .visual-design-mkt-inner, .splash-josh-inner, .overview-top-josh,.overview-inner-josh,.logo-journey-josh-inner,.overview-top-josh,.overview-inner-josh, .logo-journey-josh-inner,.comp-analysis-josh-inner, .feedback-josh-inner, .type-josh, .final-josh-inner, .final-josh-inner2, .user-personas-mkt {
+   .user-name-new, .user-name-new2, .branding-mkt-inner, .user-testing-mkt-inner, .visual-design-mkt-inner, .splash-josh-inner, .overview-top-josh,.overview-inner-josh,.logo-journey-josh-inner,.overview-top-josh,.overview-inner-josh, .logo-journey-josh-inner,.comp-analysis-josh-inner, .feedback-josh-inner, .type-josh, .final-josh-inner, .final-josh-inner2, .user-personas-mkt, .testing-mkt-inner, .conclusion-mkt-inner, .intro {
     padding-top: 6rem;
     padding-bottom: 6rem;
     width: 85%;
@@ -2584,7 +2601,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 @media (min-width: 992px) {
 
   .bio-text, .splash-inner, .overview-top, .overview, .user-survey2-inner, .user-data-inner, .mkt-personas-inner, .competitors, .user-stories-inner, .wireframes-mkt-inner, .user1, .user2, .personas-header, .user-name-new, .user-name-new2, .branding-mkt-inner, .user-testing-mkt-inner, .visual-design-mkt-inner, .splash-josh-inner, .overview-top-josh, .overview-inner-josh, .logo-journey-josh-inner, .overview-top-josh, .overview-inner-josh, .logo-journey-josh-inner,
-   .comp-analysis-josh-inner, .feedback-josh-inner, .type-josh, .final-josh-inner, .final-josh-inner2, .user-personas-mkt {
+   .comp-analysis-josh-inner, .feedback-josh-inner, .type-josh, .final-josh-inner, .final-josh-inner2, .user-personas-mkt, .testing-mkt-inner, .conclusion-mkt-inner, .intro {
      width: 70%;
      margin: auto;
    }
@@ -2815,13 +2832,13 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 @media (min-width: 1200px) {
 
   .bio-text, .splash-inner, .overview-top, .overview, .user-survey2-inner, .user-data-inner, .mkt-personas-inner, .competitors, .user-stories-inner, .wireframes-mkt-inner, .user1, .user2, .personas-header, .user-name-new, .user-name-new2, .branding-mkt-inner, .user-testing-mkt-inner, .visual-design-mkt-inner, .splash-josh-inner, .overview-top-josh, .overview-inner-josh, .logo-journey-josh-inner, .overview-top-josh, .overview-inner-josh, .logo-journey-josh-inner,
-   .comp-analysis-josh-inner, .feedback-josh-inner, .type-josh, .final-josh-inner, .final-josh-inner2, .user-personas-mkt {
-     width: 55%;
+   .comp-analysis-josh-inner, .feedback-josh-inner, .type-josh, .final-josh-inner, .final-josh-inner2, .user-personas-mkt, .testing-mkt-inner, .conclusion-mkt-inner, .intro {
+     width: 65%;
      margin: auto;
    }
 
    .roles1, .introduction, .competitive-analysis1, .user-survey, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .final-product1, .conclusion {
-     width: 55%;
+     width: 65%;
      margin: auto;
    }
 
