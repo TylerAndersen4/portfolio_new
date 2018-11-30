@@ -186,12 +186,12 @@ img[src="images/carine.png"], img[src="images/jax.png"] {
 }
 
 .carine-inner-1 > h4 {
-  color: #535252;
+  /* color: #535252; */
   padding-bottom: 8px;
 }
 
 .carine-inner-2 > h4 {
-  color: #535252;
+  /* color: #535252; */
   padding-bottom: 8px;
 }
 
@@ -200,12 +200,12 @@ img[src="images/carine.png"], img[src="images/jax.png"] {
 }
 
 .jax-inner-1 > h4 {
-  color: #535252;
+  /* color: #535252; */
   padding-bottom: 8px;
 }
 
 .jax-inner-2 > h4 {
-  color: #535252;
+  /* color: #535252; */
   padding-bottom: 8px;
 }
 
@@ -624,7 +624,7 @@ img[src="svg/everlane.svg"] {
 }
 
 .branding-mkt {
-  background-color: #ECECEC;
+  background-color: #EFEEEC;
 }
 
 img[src="images/mkt-color-palette.png"] {
@@ -1074,7 +1074,7 @@ img[src="svg/logo-josh-dark.svg"] {
 }
 
 .nav-item-josh > a {
-  color: #ECECEC;
+  color: #EFEEEC;
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -2444,10 +2444,6 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
 
   p, li {
-    font-size: 1.8rem;
-  }
-
-  .btn {
     font-size: 1.8rem;
   }
 
