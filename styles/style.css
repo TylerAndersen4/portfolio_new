@@ -24,7 +24,7 @@ h2 {
   font-size: 2.8rem;
   font-weight: bolder;
   margin-bottom: 0rem;
-  padding-bottom: 8px;
+  /* padding-bottom: 8px; */
   color: #313131;
 }
 
@@ -50,6 +50,10 @@ h5 {
   font-size: 1.8rem;
   margin-bottom: 0rem;
   padding: 1rem 0 1rem 0;
+}
+
+P {
+  padding-top: 5px;
 }
 
 .font_2 {
@@ -147,13 +151,18 @@ img[src="images/99d.png"] {
   background-color: rgba(248, 248, 248, 1);
 }
 
+.branding-mkt-color-1 {
+  text-align: center;
+}
+
 img[src="images/checkout-flow.png"] {
   width: 100%;
   height: auto;
 }
 
-.branding-mkt-1 {
-  align-items: center;
+.branding-mkt-1, .branding-mkt-color, .branding-mkt-2 {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
 }
 
 .type-study > p {
@@ -227,12 +236,13 @@ img[src="images/carine.png"], img[src="images/jax.png"] {
 
 .intro {
   background-color: white;
+  padding-left: 0rem;
+  padding-right: 0rem;
 }
 
 .intro-inner {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  width: 90%;
   margin: auto;
 }
 
@@ -285,6 +295,10 @@ img[src="svg/deliverables.svg"], img[src="svg/tools.svg"]{
   margin: auto;
 }
 
+.user-survey2-inner {
+  padding-top: 1rem;
+}
+
 .overview-outer {
   background-color: #EFEEEC;
   padding-top: 5rem;
@@ -292,7 +306,7 @@ img[src="svg/deliverables.svg"], img[src="svg/tools.svg"]{
 }
 
 img[src="images/product-detail-womens.png"] {
-  max-width: 30rem;
+  width: 100%;
   height: auto;
 }
 
@@ -312,8 +326,8 @@ hr {
 }
 
 .list-questions {
-  padding-top: 1rem;
-  padding-bottom: 2rem;
+  /* padding-top: 1rem;
+  padding-bottom: 2rem; */
 }
 
 .list-questions > li {
@@ -373,6 +387,7 @@ hr {
   height: auto;
   max-width:30rem;
   min-width: 25rem;
+  padding-top: 3rem
   width: 70%;
 }
 
@@ -635,8 +650,8 @@ img[src="images/mkt-color-palette.png"] {
 img[src="images/mkt-moodboard.png"] {
   width: 100%;
   margin: auto;
-  padding-top: 2.6rem;
-  padding-bottom: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 .mood-outer {
@@ -707,7 +722,7 @@ img[src="images/ig_mkt2.png"] {
 }
 
 .branding-mkt-2, .branding-mkt-intro1, .branding-mkt {
-  align-items: center;
+  /* align-items: center; */
 }
 
 img[src="images/testing-mkt.png"] {
@@ -1660,14 +1675,6 @@ img[src="images/wyatt.png"], img[src="images/elaine.png"] {
   padding-top: 6rem;
 }
 
-.wyatt {
-  padding-right: 3rem;
-}
-
-.elaine {
-  padding-left: 3rem;
-}
-
 .wyatt > h4 {
   color: #535252;
 }
@@ -2048,6 +2055,14 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     width: 90%;
   } */
 
+  .wyatt {
+    padding-right: 3rem;
+  }
+
+  .elaine {
+    padding-left: 3rem;
+  }
+
   /*Footer*/
   .container-3 {
     text-align: left;
@@ -2357,6 +2372,10 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     width: 70%;
   }
 
+  img[src="images/mkt-color-palette.png"] {
+    width: 80%;
+  }
+
   img[src="images/mkt-mood.png"] {
     width: 100%;
   }
@@ -2421,7 +2440,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   h2 {
     font-size: 3.6rem;
-    padding-bottom: 8px;
+    /* padding-bottom: 8px; */
   }
 
   /* h3 {
@@ -2508,10 +2527,20 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   }
 
   /*Project.html*/
-  .roles1, .introduction, .competitive-analysis1, .user-survey, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .final-product1, .conclusion, .bio-text, .splash-inner, .overview-top, .overview, .user-survey2-inner, .user-data-inner, .mkt-personas-inner, .competitors, .user-stories-inner, .wireframes-mkt-inner, .user1, .user2, .personas-header,
+  .roles1, .introduction, .competitive-analysis1, .user-survey, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .final-product1, .conclusion, .bio-text, .splash-inner, .overview, .user-data-inner, .mkt-personas-inner, .competitors, .user-stories-inner, .wireframes-mkt-inner, .user1, .user2,
    .user-name-new, .user-name-new2, .branding-mkt-inner, .user-testing-mkt-inner, .visual-design-mkt-inner, .splash-josh-inner, .overview-top-josh,.overview-inner-josh,.logo-journey-josh-inner,.overview-top-josh,.overview-inner-josh, .logo-journey-josh-inner,.comp-analysis-josh-inner, .feedback-josh-inner, .type-josh, .final-josh-inner, .final-josh-inner2, .user-personas-mkt, .testing-mkt-inner, .conclusion-mkt-inner, .intro {
     padding-top: 6rem;
     padding-bottom: 6rem;
+    width: 85%;
+  }
+
+  .branding-mkt-1, .branding-mkt-color, .branding-mkt-2 {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  }
+
+  .overview-top, .user-survey2-inner, .personas-header {
+    padding-top: 6rem;
     width: 85%;
   }
 
@@ -2625,6 +2654,10 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   h1 {
     font-size: 4.8rem;
     padding-bottom: 1rem;
+  }
+
+  img[src="images/mkt-color-palette.png"] {
+    width: 70%;
   }
 
   .btn2 {
@@ -2849,12 +2882,12 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   .bio-text, .splash-inner, .overview-top, .overview, .user-survey2-inner, .user-data-inner, .mkt-personas-inner, .competitors, .user-stories-inner, .wireframes-mkt-inner, .user1, .user2, .personas-header, .user-name-new, .user-name-new2, .branding-mkt-inner, .user-testing-mkt-inner, .visual-design-mkt-inner, .splash-josh-inner, .overview-top-josh, .overview-inner-josh, .logo-journey-josh-inner, .overview-top-josh, .overview-inner-josh, .logo-journey-josh-inner,
    .comp-analysis-josh-inner, .feedback-josh-inner, .type-josh, .final-josh-inner, .final-josh-inner2, .user-personas-mkt, .testing-mkt-inner, .conclusion-mkt-inner, .intro {
-     width: 65%;
+     width: 60%;
      margin: auto;
    }
 
    .roles1, .introduction, .competitive-analysis1, .user-survey, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .final-product1, .conclusion {
-     width: 65%;
+     width: 60%;
      margin: auto;
    }
 
