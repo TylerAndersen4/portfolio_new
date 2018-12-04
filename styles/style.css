@@ -71,12 +71,6 @@ P {
   /* text-decoration: underline; */
 }
 
-.font_4 {
-  /* text-decoration: underline; */
-  /* font-style: italic; */
-  /* color: #7B832E; */
-  /* color: #D0A929; */
-}
 
 .btn {
   font-size: 1.6rem;
@@ -97,6 +91,21 @@ p, li, th, td {
   font-size: 1.6rem;
   font-weight: lighter;
   color: black;
+}
+
+.col-sm {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+.container-fluid {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+.row {
+  margin-left: 0rem;
+  margin-right: 0rem;
 }
 
 /*Footer*/
@@ -178,6 +187,16 @@ img[src="images/checkout-flow.png"] {
 .testing-mkt-inner, .conclusion-mkt-inner {
   width: 90%;
   margin: auto;
+
+}
+
+.testing-mkt-inner {
+  padding-top: 5rem;
+}
+
+.conclusion-mkt-inner {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .conclusion-mkt {
@@ -238,12 +257,8 @@ img[src="images/carine.png"], img[src="images/jax.png"] {
   background-color: white;
   padding-left: 0rem;
   padding-right: 0rem;
-}
-
-.intro-inner {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  margin: auto;
 }
 
 .splash-inner > h2 {
@@ -273,7 +288,6 @@ img[src="svg/deliverables.svg"], img[src="svg/tools.svg"]{
 
 .roles > h2 {
   color: black;
-  /* font-size: 2.4rem; */
 }
 
 .deliverables > h2 {
@@ -623,8 +637,8 @@ img[src="svg/everlane.svg"] {
 }
 
 .reformation, .etsy, .everlane {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .reformation > hr {
@@ -735,7 +749,7 @@ img[src="images/sketches-mkt.png"] {
   width: 100%;
   height: auto;
   margin: auto;
-  padding-top: 3.5rem;
+  padding-top: 1.5rem;
 }
 
 .wireframes-sketches {
@@ -758,13 +772,16 @@ img[src="images/sketches-mkt.png"] {
   color: white;
 }
 
-.user-stories-inner, .wireframes-mkt-inner {
+.wireframes-mkt-inner {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
+.user-stories-inner {
+  padding-bottom: 5rem;
+}
+
 .user-testing-mkt-inner {
-  padding-top: 5rem;
   padding-bottom: 5rem;
   width: 90%;
   margin: auto;
@@ -783,7 +800,7 @@ img[src="images/sketches-mkt.png"] {
 }
 
 .maze-mkt {
-  padding-top: 3rem;
+  padding-top: 5rem;
 }
 
 .maze-mkt2 {
@@ -798,6 +815,7 @@ img[src="images/mockup_market.png"] {
   width: 100%;
   height: auto;
   margin: auto;
+  padding-top: 1.5rem;
 }
 
 img[src="images/maze-mkt.png"] {
@@ -1278,12 +1296,12 @@ img[src="images/landing_desktop_mkt.png"] {
 }
 
 .stories1 > .container {
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 
-.user-flows1 > .container {
+/* .user-flows1 > .container {
   padding-top: 3rem;
-}
+} */
 
 .branding1 > .container {
   padding-top: 0rem;
@@ -1421,10 +1439,21 @@ img[src="images/milan.svg"] {
 
 /*Project.html*/
 
-.roles1, .introduction, .competitive-analysis1, .user-survey, .further-findings, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .final-product1, .conclusion {
+.roles1, .introduction, .competitive-analysis1, .user-survey, .further-findings, .user-personas, .sketches-1, .branding1, .testing, .final-product1, .conclusion {
   padding-top: 5rem;
   padding-bottom: 5rem;
   width: 90%;
+}
+
+.stories1 {
+  width: 90%;
+  padding-top: 5rem;
+}
+
+.user-flows1 {
+  width: 90%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 /*Hero*/
@@ -2009,11 +2038,6 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
    font-weight: normal;
  }
 
-  .roles, .deliverables {
-    padding-top: 0rem;
-    border-right: 0px solid black;
-  }
-
   .case-study {
     /*padding-top: 4rem;*/
   }
@@ -2054,6 +2078,19 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   /* img[src="images/mkt-mood.png"] {
     width: 90%;
   } */
+
+  .roles {
+    padding-right: 1.5rem;
+  }
+
+  .deliverables {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .tools {
+    padding-left: 1.5rem;
+  }
 
   .wyatt {
     padding-right: 3rem;
@@ -2275,10 +2312,6 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   }
 
   /*Roles*/
-  .roles, .deliverables {
-    padding-top: 0rem;
-    border-right: 1px solid black;
-  }
 
   img[src="images/landing-page-new-2.png"] {
     float: right;
@@ -2423,11 +2456,6 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   .navbar-custom {
     width: 85%;
-  }
-
-  .roles, .deliverables {
-    padding-top: 0rem;
-    border-right: 1px solid black;
   }
 
   .fa-arrow-right {
@@ -2711,11 +2739,6 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     padding-top: 5rem;
   }
 
-  .roles, .deliverables {
-    padding-top: 0rem;
-    border-right: 1px solid black;
-  }
-
   .fa-arrow-right {
     display: inline;
   }
@@ -2893,11 +2916,6 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   h1 {
     font-size: 4.8rem;
-  }
-
-  .roles, .deliverables {
-    padding-top: 0rem;
-    border-right: 1px solid black;
   }
 
   .header-new2 {
