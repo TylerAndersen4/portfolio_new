@@ -266,9 +266,9 @@ img[src="images/carine.png"], img[src="images/jax.png"] {
 }
 
 .splash-inner > h2 {
-  font-size: 4.0rem;
   line-height: 95%;
   color: #383838;
+  padding-top: .5rem;
 }
 
 img[src="svg/mkt_new.svg"] {
@@ -571,6 +571,11 @@ hr {
   list-style-type: disc;
   list-style-position: inside;
   color: white;
+}
+
+.list2 > li {
+  color: white;
+
 }
 
 .user-name {
@@ -1321,6 +1326,14 @@ img[src="images/landing_desktop_mkt.png"] {
   padding-top: 2rem;
 }
 
+.final-product1 > h2 {
+  color: white;
+}
+
+.final-product1 > p {
+  color: white;
+}
+
 .case-study-1 > .container {
   padding-top: 0rem;
 }
@@ -1980,7 +1993,7 @@ img[src="images/doc-2.1-crop.png"],img[src="images/sign-in-1.png"] {
 
 .final-product-new {
   width: 100%;
-  background-color: rgba(248, 248, 248, 1);
+  background-color: #383838;
 }
 
 img[src="images/dash-main.png"] {
