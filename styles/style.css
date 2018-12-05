@@ -93,10 +93,10 @@ p, li, th, td {
   color: black;
 }
 
-.col-sm {
+/* .col-sm {
   padding-left: 0rem;
   padding-right: 0rem;
-}
+} */
 
 .container-fluid {
   padding-left: 0rem;
@@ -155,6 +155,10 @@ img[src="images/99d.png"] {
 }
 
 /* Marketplace */
+
+.conclusion-mkt-inner1, .conclusion-mkt-inner2 {
+  padding-top: 1.5rem;
+}
 
 .testing-mkt {
   background-color: rgba(248, 248, 248, 1);
@@ -384,11 +388,15 @@ hr {
 }
 
 .user-data-inner > h3 {
-  color: #EFEEEC;
+  color: #A0A0A0  ;
 }
 
 .user-data-inner > h2 {
-  color: #EFEEEC;
+  color: white;
+}
+
+.user-data-inner > p {
+  color: white;
 }
 
 .bold-mkt {
@@ -409,10 +417,9 @@ hr {
   padding-top: 5rem;
 }
 
-.mkt-data1 > h3 {
+.mkt-data1 > h2 {
   color: #EFEEEC;
   font-weight: bold;
-  font-size: 2.8rem;
 }
 
 .mkt-data1 > p {
@@ -420,10 +427,9 @@ hr {
   font-weight: normal;
 }
 
-.mkt-data2 > h3 {
+.mkt-data2 > h2 {
   color: #EFEEEC;
   font-weight: bold;
-  font-size: 2.8rem;
 }
 
 .mkt-data2 > p {
@@ -431,10 +437,9 @@ hr {
   font-weight: normal;
 }
 
-.mkt-data3 > h3 {
+.mkt-data3 > h2 {
   color: #EFEEEC;
   font-weight: bold;
-  font-size: 2.8rem;
 }
 
 .mkt-data3 > p {
@@ -442,20 +447,18 @@ hr {
   font-weight: normal;
 }
 
-.mkt-data4 > h3 {
+.mkt-data4 > h2 {
   color: #EFEEEC;
   font-weight: bold;
-  font-size: 2.8rem;
 }
 
 .mkt-data4 > p {
   color: #EFEEEC;
   font-weight: normal;
 }
-.mkt-data5 > h3 {
+.mkt-data5 > h2 {
   color: #EFEEEC;
   font-weight: bold;
-  font-size: 2.8rem;
 }
 
 .mkt-data5 > p {
@@ -463,10 +466,9 @@ hr {
   font-weight: normal;
 }
 
-.mkt-data6 > h3 {
+.mkt-data6 > h2 {
   color: #EFEEEC;
   font-weight: bold;
-  font-size: 2.8rem;
 }
 
 .mkt-data6 > p {
@@ -846,6 +848,12 @@ img[src="images/landing-mkt.png"], img[src="images/checkout-1-mkt.png"], img[src
   width: 100%;
   height: auto;
   margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.landing-mkt {
+  padding-top: 1rem;
 }
 
 .nav-new {
@@ -862,6 +870,8 @@ img[src="images/bag-desktop-1.png"], img[src="images/bag-desktop-2.png"], img[sr
   width: 100%;
   height: auto;
   margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 /* Josh.html */
@@ -2191,10 +2201,6 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
    /*padding-top: 5rem;*/
  }
 
- .roles > h3 {
-   padding-top: 2rem;
- }
-
  img[src="images/landing-wireframe.png"] {
    margin-top: 0rem;
  }
@@ -2567,7 +2573,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     padding-top: 3rem;
   }
 
-  .overview-top, .user-survey2-inner, .personas-header {
+  .overview-top, .personas-header {
     padding-top: 6rem;
     width: 85%;
   }
@@ -2659,7 +2665,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   }
 
   .pricing, .add-menu, .sign-in1, .dashboard {
-    padding-top: 4rem;
+    padding-top: 3rem;
     padding-bottom: 3rem;
   }
 
