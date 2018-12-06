@@ -2575,10 +2575,19 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   /*Project.html*/
   .roles1, .introduction, .competitive-analysis1, .user-survey, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .final-product1, .conclusion, .bio-text, .splash-inner, .overview, .user-data-inner, .mkt-personas-inner, .competitors, .user-stories-inner, .wireframes-mkt-inner, .user1, .user2,
-   .user-name-new, .user-name-new2, .branding-mkt-inner, .user-testing-mkt-inner, .visual-design-mkt-inner, .splash-josh-inner, .overview-top-josh,.overview-inner-josh,.logo-journey-josh-inner,.overview-top-josh,.overview-inner-josh, .logo-journey-josh-inner,.comp-analysis-josh-inner, .feedback-josh-inner, .type-josh, .final-josh-inner, .final-josh-inner2, .user-personas-mkt, .testing-mkt-inner, .conclusion-mkt-inner, .intro {
+   .user-name-new, .user-name-new2, .branding-mkt-inner, .user-testing-mkt-inner, .visual-design-mkt-inner, .splash-josh-inner, .overview-top-josh,.overview-inner-josh,.logo-journey-josh-inner,.overview-top-josh,.overview-inner-josh, .logo-journey-josh-inner,.comp-analysis-josh-inner, .feedback-josh-inner, .type-josh, .final-josh-inner, .final-josh-inner2, .testing-mkt-inner, .conclusion-mkt-inner, .intro {
     padding-top: 6rem;
     padding-bottom: 6rem;
     width: 85%;
+  }
+
+  .user-personas-mkt {
+    width: 85%;
+  }
+
+  .mkt-personas {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 
   .branding-mkt-1, .branding-mkt-color, .branding-mkt-2 {
@@ -2586,7 +2595,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     padding-top: 3rem;
   }
 
-  .overview-top, .personas-header {
+  .overview-top {
     padding-top: 6rem;
     width: 85%;
   }
