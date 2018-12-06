@@ -303,9 +303,9 @@ img[src="svg/deliverables.svg"], img[src="svg/tools.svg"]{
   /* font-size: 2.4rem; */
 }
 
-.tools, .deliverables {
+/* .tools, .deliverables {
   padding-top: 2rem;
-}
+} */
 
 .overview-top, .overview, .user-survey2-inner, .user-data-inner, .mkt-personas-inner, .competitors, .user-stories-inner, .wireframes-mkt-inner, .intro {
   width: 90%;
@@ -961,7 +961,6 @@ img[src="images/bag-desktop-1.png"], img[src="images/bag-desktop-2.png"], img[sr
 
 img[src="svg/logo-iterations-josh.svg"] {
   width: 60%;
-  padding-bottom: 2rem;
   height: auto;
   margin: auto;
   opacity: .75;
@@ -995,6 +994,10 @@ img[src="svg/logo-iterations-josh.svg"] {
   margin: auto;
 }
 
+.overview-1 {
+  padding-bottom: 1rem;
+}
+
 .comp-analysis-josh {
   background-color: #E3E3E3;
 }
@@ -1004,16 +1007,12 @@ img[src="svg/logo-iterations-josh.svg"] {
 }
 
 .feedback-josh-inner {
-  padding-top: 3rem;
-  padding-bottom: 5rem;.over
+  padding-top: 2rem;
+  padding-bottom: 5rem;
 }
 
 .feedback-josh-inner > p {
   color: black;
-}
-
-.feedback-josh {
-  /* background-color: #E3E3E3; */
 }
 
 .josh-iterations-2 {
@@ -1021,7 +1020,7 @@ img[src="svg/logo-iterations-josh.svg"] {
 }
 
 .type-josh-outer {
-  padding-top: 3rem;
+  padding-top: 2rem;
   margin: auto;
 }
 
@@ -1055,16 +1054,16 @@ img[src="svg/logo-iterations-josh2.svg"] {
 }
 
 .josh-light-logo {
-  /* background-color: white; */
+  text-align: center;
 }
 
-/* .final-josh-1 > p {
-  color: white;
+.final-josh-1 {
+  padding-top: 1rem;
 }
 
-.final-josh-1 > h2 {
-  color: white;
-} */
+.final-josh-2-1 {
+  padding-top: 1rem;
+}
 
 .final-josh-2 > p {
   color: white;
@@ -1074,18 +1073,16 @@ img[src="svg/logo-iterations-josh2.svg"] {
   color: white;
 }
 
-
 .final-josh-inner, .final-josh-inner2 {
   width: 90%;
   margin: auto;
 }
 
 img[src="svg/logo-josh-light.svg"] {
-  width: 100%;
+  width: 70%;
   height: auto;
   margin: auto;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 1rem;
 }
 
 img[src="svg/logo-josh-dark.svg"] {
@@ -2617,14 +2614,24 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   /*Project.html*/
   .roles1, .introduction, .competitive-analysis1, .user-survey, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .final-product1, .conclusion, .bio-text, .splash-inner, .overview, .user-data-inner, .mkt-personas-inner, .competitors, .user-stories-inner, .wireframes-mkt-inner, .user1, .user2,
-   .user-name-new, .user-name-new2, .branding-mkt-inner, .user-testing-mkt-inner, .visual-design-mkt-inner, .splash-josh-inner, .overview-top-josh,.overview-inner-josh,.overview-top-josh,.overview-inner-josh,.comp-analysis-josh-inner, .feedback-josh-inner, .type-josh, .final-josh-inner, .final-josh-inner2, .testing-mkt-inner, .conclusion-mkt-inner, .intro {
+   .user-name-new, .user-name-new2, .branding-mkt-inner, .user-testing-mkt-inner, .visual-design-mkt-inner, .overview-top-josh,.overview-inner-josh,.overview-top-josh,.overview-inner-josh,.comp-analysis-josh-inner, .type-josh, .final-josh-inner, .final-josh-inner2, .testing-mkt-inner, .conclusion-mkt-inner, .intro {
     padding-top: 6rem;
     padding-bottom: 6rem;
     width: 85%;
   }
 
+  .splash-josh-inner {
+    width: 85%;
+  }
+
 .logo-journey-josh-inner {
   padding-top: 6rem;
+  width: 85%;
+}
+
+.feedback-josh-inner {
+  padding-top: 3rem;
+  padding-bottom: 6rem;
   width: 85%;
 }
 
