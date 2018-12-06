@@ -356,6 +356,7 @@ hr {
 .btn-mkt {
   filter: drop-shadow(4px 4px 6px #6C8DA0);
   font-weight: bold;
+  color: #313131;
 }
 
 .btn-mkt2 {
@@ -1362,8 +1363,7 @@ img[src="images/landing_desktop_mkt.png"] {
   background-color: #C8DAE4;
 }
 
-.contact2 > h1 {
-  /* color: black; */
+.contact2 > h2 {
   color: #383838;
   text-align: center;
   padding-bottom: 1rem;
