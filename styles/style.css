@@ -191,7 +191,6 @@ img[src="images/checkout-flow.png"] {
 .testing-mkt-inner, .conclusion-mkt-inner {
   width: 90%;
   margin: auto;
-
 }
 
 .testing-mkt-inner {
@@ -1233,6 +1232,15 @@ img[src="svg/idea_logo_new.svg"] {
 
 .case-title > h3 {
   color: white;
+  font-weight: normal;
+}
+
+.case-study-1 > h3 {
+  color: #313131;
+}
+
+.josh-phone {
+  text-align: center;
 }
 
 img[src="svg/josh_lacoste_svg_dark.svg"] {
@@ -1293,6 +1301,7 @@ img[src="images/landing_desktop_mkt.png"] {
 .case-study-3 {
   padding-left: 0rem;
   flex-direction: row-reverse;
+  align-items: center;
 }
 
 .case-study-1 > .container {
@@ -2098,9 +2107,10 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
 
-  /* img[src="images/mkt-mood.png"] {
-    width: 90%;
-  } */
+  img[src="images/josh_lacoste_mobile.png"] {
+    width: 60%;
+    padding-top: 0rem;
+  }
 
   .roles {
     padding-right: 1.5rem;
