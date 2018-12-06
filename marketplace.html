@@ -136,19 +136,11 @@
     <div class="user-data-inner">
       <h3>Data</h3>
       <h2>Interpreting the user research.</h2>
-      <p>The results of my research were eye-opening and at times, contradictory. Consumers seem very interested in ethical and sustainable clothing, but the data also shows that they are not currently buying this clothing. Consumers also seem unaware of how their existing clothing is produced, but at the same time want to support manufacturers that use humanitarian practices. The results confirmed my hypothesis that there is a market gap that is not currently being filled.</p>
-      <div class="row charts">
-        <div class="col-sm">
-          <div class="chart-mkt">
-            <canvas id="myChart"></canvas>
-          </div>
+      <p>The results of my research were eye-opening and at times, contradictory. Consumers seem very interested in ethical and sustainable clothing, but the data also shows that they are not currently buying this clothing. Consumers, as seen in the chart below, are also willing to spend more for sustainable and humanely-produced clothing. The results confirmed my hypothesis that there is a market gap that is not currently being filled.</p>
+      <p>If you knew that a piece of clothing was produced with fair wages, safe working conditions, and environmentally-friendly materials, how much more would you be willing to spend on it?</p>
+        <div class="chart-mkt">
+          <canvas id="myChart"></canvas>
         </div>
-        <!-- <div class="col-sm">
-          <div class="chart-mkt2">
-            <canvas id="myChart2"></canvas>
-          </div>
-        </div> -->
-      </div>
       <div class="row mkt-data">
         <div class="col-sm mkt-data1">
           <h2>45</h2>
@@ -196,40 +188,6 @@
         <li>Be able to use the platform as a way to find and save inspiration.</li>
       </ul>
     </div>
-    <!-- <div class="row">
-      <div class="col-sm col-m-6 col-lg-6 user1">
-        <h3>Bio</h3>
-          <ul>
-            <li class="item1">Uses document creation and collaboration for full-time and freelance work.</li>
-            <li class="item1">Likes to be able to edit documents in real time and asynchronously if he’s commuting.</li>
-            <li>Access his cloud files from anywhere in case he’s working from home or traveling.</li>
-          </ul>
-        <h3>Goals</h3>
-          <ul>
-            <li class="item1">Uses document creation and collaboration for full-time and freelance work.</li>
-            <li class="item1">Likes to be able to edit documents in real time and asynchronously if he’s commuting.</li>
-            <li>Access his cloud files from anywhere in case he’s working from home or traveling.</li>
-          </ul>
-        <h3>Frustrations</h3>
-          <ul>
-            <li class="item1">Offline usage is sometimes difficult</li>
-            <li>Concerned about security with sensitive documents</li>
-          </ul>
-      </div>
-      <div class="col-sm col-m-6 col-lg-6 user2">
-        <h3>Goals</h3>
-          <ul>
-            <li class="item1">Needs storage space for her photos and the ability to share them with friends.</li>
-            <li class="item1">Likes to browse Pinterest for travel inspiration, and save images that she likes from there.</li>
-            <li>Wants a platform where images will be showcased nicely.</li>
-          </ul>
-        <h3>Frustrations</h3>
-          <ul class="next-steps">
-            <li class="item1">Runs out of space on free plans</li>
-            <li>Colleagues do not use cloud platforms so she can’t use them for work.</li>
-          </ul>
-      </div>
-    </div> -->
     <div class="row user-personas-mkt">
       <div class="col-sm col-m-6 col-lg-6 wyatt">
         <img src="images/carine.png">
@@ -651,10 +609,10 @@ document.addEventListener('DOMContentLoaded', function() {
   var myChart = new Chart(ctx, {
     type: 'doughnut',
     data: {
-      labels: ["Work", "Personal Use", "Both", "Test"],
+      labels: ["None", "1-10%", "10-20%", ">20%"],
       datasets: [{
         label: '# of Votes',
-        data: [12, 19, 3, 4],
+        data: [5, 28, 9, 3],
         backgroundColor: [
           '#658DA2',
           '#7F7F7F',
@@ -674,54 +632,6 @@ document.addEventListener('DOMContentLoaded', function() {
       tooltips: {
       callbacks: {
         label(tooltipItem, data) {
-            //get the concerned dataset
-            var dataset = data.datasets[tooltipItem.datasetIndex];
-            //calculate the total of this data set
-            var total = dataset.data.reduce(function(previousValue, currentValue, currentIndex, array) {
-              return previousValue + currentValue;
-            });
-            //get the current items value
-            var currentValue = dataset.data[tooltipItem.index];
-            //calculate the precentage based on the total and current item, also this does a rough rounding to give a whole number
-            var precentage = Math.round(((currentValue / total) * 100) + 0.5);
-
-            return precentage + "%";
-          }
-        }
-      }
-    }
-  });
-})
-</script>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  var ctx = document.getElementById("myChart2").getContext('2d');
-  var myChart2 = new Chart(ctx, {
-    type: 'doughnut',
-    data: {
-      labels: ["Work", "Personal Use", "Both", "Test"],
-      datasets: [{
-        label: '# of Votes',
-        data: [5, 1, 18, 9],
-        backgroundColor: [
-          '#658DA2',
-          '#7F7F7F',
-          '#BC811A',
-          '#C8DAE4'
-        ],
-        borderColor: [
-          '#658DA2',
-          '#7F7F7F',
-          '#BC811A',
-          '#C8DAE4'
-        ],
-        borderWidth: 1
-      }]
-    },
-    options: {
-      tooltips: {
-        callbacks: {
-          label(tooltipItem, data) {
             //get the concerned dataset
             var dataset = data.datasets[tooltipItem.datasetIndex];
             //calculate the total of this data set
