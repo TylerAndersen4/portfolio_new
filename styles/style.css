@@ -312,9 +312,9 @@ img[src="svg/deliverables.svg"], img[src="svg/tools.svg"]{
   margin: auto;
 }
 
-.user-survey2-inner {
+/* .user-survey2-inner {
   padding-top: 1rem;
-}
+} */
 
 .overview-outer {
   background-color: #EFEEEC;
@@ -1242,9 +1242,10 @@ img[src="svg/logo-light.svg"] {
 }
 
 img[src="svg/idea_logo_new.svg"] {
-  max-width: 20rem;
+  width: 20%;
+  /* max-width: 20rem; */
   height: auto;
-  /* padding-bottom: 2rem; */
+  padding-bottom: 1rem;
 }
 
 .case3 {
@@ -1664,7 +1665,7 @@ img[src="svg/google-drive.svg"], img[src="svg/pinterest.svg"], img[src="svg/ever
   text-align: center;
 }
 
-.user-survey2 {
+.user-survey-idea {
   width: 100%;
   background-color: rgba(248, 248, 248, 1);
 }
@@ -2460,6 +2461,10 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     font-size: 4.8rem;
   } */
 
+  .container {
+    /* padding-top: 4rem; */
+  }
+
   img[src="images/maze-mkt.png"] {
     width: 70%;
   }
@@ -2816,10 +2821,6 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   .hero-container > img {
     padding-bottom: 4rem;
-  }
-
-  .container-2 {
-    padding-top: 5rem;
   }
 
   .fa-arrow-right {
