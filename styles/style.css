@@ -1337,7 +1337,7 @@ img[src="images/landing_desktop_mkt.png"] {
 
 .container {
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 
 .container-3 {
@@ -1571,6 +1571,7 @@ img[src="images/group-together.png"] {
 }
 
 .hero-container2 > h3 {
+  color: #313131;
   font-weight: 300;
 }
 
@@ -2071,7 +2072,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 }
 
 .conclusion > .container {
-  padding-top: 10rem;
+  padding-top: 3rem;
 }
 
 /*Media Queries*/
