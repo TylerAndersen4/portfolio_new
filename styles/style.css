@@ -1674,11 +1674,12 @@ img[src="svg/google-drive.svg"], img[src="svg/pinterest.svg"], img[src="svg/ever
 
 .google, .pinterest, .evernote {
   padding-bottom: 1rem;
-}
-
-.google {
   padding-left: 0rem;
 }
+
+/* .google {
+  padding-left: 0rem;
+} */
 
 .evernote {
   padding-bottom: 0rem;
@@ -2174,6 +2175,10 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 }
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
+
+  .google, .pinterest, .evernote {
+    padding-left: 1.5rem;
+  }
 
   .roles, .deliverables {
     padding-top: 0rem;
