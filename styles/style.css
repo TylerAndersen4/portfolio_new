@@ -2984,11 +2984,11 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   /*Project.html*/
   .roles1, .introduction, .competitive-analysis1, .user-survey, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .final-product1, .conclusion {
-    width: 70%;
+    width: 60%;
   }
 
   .header-new, .bio-text, .case-study {
-    width: 70%;
+    width: 60%;
   }
 
   /*User Survey*/
