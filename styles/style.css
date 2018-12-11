@@ -3053,9 +3053,9 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     width: 60%;
   }
 
-  .header-new {
+  /* .header-new {
     width: 60%;
-  }
+  } */
 
   .fa-arrow-right {
     display: inline;
