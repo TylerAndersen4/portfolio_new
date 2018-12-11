@@ -93,10 +93,11 @@ p, li, th, td {
   color: black;
 }
 
-/* .col-sm {
-  padding-left: 0rem;
-  padding-right: 0rem;
-} */
+.col-sm, .col-sm-9 {
+  /* padding-left: 0rem; */
+}
+
+
 
 .container-fluid {
   padding-left: 0rem;
@@ -1437,6 +1438,30 @@ img[src="images/group2.png"] {
 
 /*Bio.html*/
 
+.bio-color {
+  color: #00B387;
+}
+
+.philosophy-bio-inner > h2 {
+  padding-bottom: 1rem;
+}
+
+.philosophy-bio {
+  padding-top: 3rem;
+}
+
+.bio-intro {
+  padding-left: 0rem;
+}
+
+/* .bio-color2 {
+  color: #5467C7;
+}
+
+.bio-color3 {
+  color: #D0703A;
+} */
+
 /*Header*/
 .header {
   width: 100%;
@@ -1469,7 +1494,7 @@ img[src="images/group2.png"] {
 }
 
 img[src="images/milan-stairs.png"] {
-  width: 45%;
+  width: 40%;
   height: auto;
   opacity: .8;
   min-width: 20rem;
@@ -1623,7 +1648,7 @@ img[src="images/landing-page-new-2.png"] {
 /*Competitive Analysis*/
 .competitive-analysis{
   text-align: left;
-  padding-top: 0rem;
+  /* padding-top: 0rem; */
 }
 
 img[src="svg/google-drive.svg"], img[src="svg/pinterest.svg"], img[src="svg/evernote.svg"]  {
@@ -1639,8 +1664,13 @@ img[src="svg/google-drive.svg"], img[src="svg/pinterest.svg"], img[src="svg/ever
   padding-bottom: 1rem;
 }
 
+.google {
+  padding-left: 0rem;
+}
+
 .evernote {
   padding-bottom: 0rem;
+  padding-right: 0rem;
 }
 
 .evernote > p {
@@ -3003,7 +3033,11 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   }
 
   .header-new2 {
-    width: 70%;
+    width: 60%;
+  }
+
+  .header-new {
+    width: 60%;
   }
 
   .fa-arrow-right {
