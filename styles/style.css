@@ -1111,7 +1111,7 @@ img[src="svg/logo-josh-dark.svg"] {
 /*Navbar*/
 .navbar-custom {
   text-align: center;
-  width: 80%;
+  width: 90%;
   position: relative;
   margin: auto;
   padding-left: 0rem;
@@ -1170,7 +1170,7 @@ img[src="svg/logo-light.svg"] {
 }
 
 .header-new {
-  width: 75%;
+  width: 90%;
   margin: auto;
   position: relative;
 }
@@ -1440,6 +1440,13 @@ img[src="images/group2.png"] {
 
 .bio-color {
   color: #00B387;
+}
+
+img[src="images/bio_pic.png"] {
+  width: 7%;
+  height: auto;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
 .philosophy-bio-inner > h2 {
@@ -2660,16 +2667,16 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     width: 85%;
   }
 
-.logo-journey-josh-inner {
-  padding-top: 6rem;
-  width: 85%;
-}
+  .logo-journey-josh-inner {
+    padding-top: 6rem;
+      width: 85%;
+  }
 
-.feedback-josh-inner {
-  padding-top: 3rem;
-  padding-bottom: 6rem;
-  width: 85%;
-}
+  .feedback-josh-inner {
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    width: 85%;
+  }
 
   .user-personas-mkt {
     width: 85%;
