@@ -253,6 +253,7 @@ img[src="images/carine.png"], img[src="images/jax.png"] {
   width: 90%;
   margin: auto;
   text-align: center;
+  /* align-items: center; */
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
@@ -1440,6 +1441,10 @@ img[src="images/group2.png"] {
 
 .bio-color {
   color: #00B387;
+}
+
+.bio-intro-outer {
+  padding-top: 1.5rem;
 }
 
 img[src="images/bio_pic.png"] {
