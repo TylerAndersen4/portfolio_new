@@ -167,6 +167,18 @@ img[src="images/kreation_screen_1.png"] {
   height: auto;
 }
 
+img[src="images/kreation_kollection.png"] {
+  width: 60%;
+  height: auto;
+  padding-top: 4rem;
+}
+
+img[src="images/kreation_moodboard.png"] {
+  width: 100%;
+  height: auto;
+  padding-top: 2rem;
+}
+
 .case-study-7 {
   flex-direction: row-reverse;
 }
