@@ -168,7 +168,13 @@ img[src="images/kreation_screen_1.png"] {
 }
 
 img[src="images/kreation_kollection.png"] {
-  width: 60%;
+  width: 100%;
+  height: auto;
+  padding-top: 4rem;
+}
+
+img[src="images/kreation_kollection2.png"] {
+  width: 100%;
   height: auto;
   padding-top: 4rem;
 }
