@@ -160,6 +160,21 @@ img[src="images/99d.png"] {
   height: auto;
 }
 
+/* Kreation */
+
+img[src="images/kreation_screen_1.png"] {
+  width: 60%;
+  height: auto;
+}
+
+.case-study-7 {
+  flex-direction: row-reverse;
+}
+
+.case7 {
+  background-color: #55403A;
+}
+
 /* Marketplace */
 
 .conclusion-mkt-inner1, .conclusion-mkt-inner2 {
