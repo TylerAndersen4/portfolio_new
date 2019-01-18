@@ -85,6 +85,7 @@ P {
   max-width: 40rem;
   width: 80%;
   color: black;
+  border-radius: 1rem;
 }
 
 ul {
@@ -173,6 +174,18 @@ img[src="images/kreation_kollection.png"] {
   padding-top: 4rem;
 }
 
+.kollection_new {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: auto;
+}
+
+.kreation_header {
+  text-align: center;
+  margin: auto;
+}
+
 img[src="images/kreation_kollection2.png"] {
   width: 100%;
   height: auto;
@@ -190,8 +203,22 @@ img[src="images/kreation_moodboard.png"] {
 }
 
 .case7 {
-  background-color: #55403A;
+  background-color: #313131;
 }
+
+.splash_kreation {
+  background-color: #313131;
+}
+
+.nav-new-kreation {
+  background-color: #111111!important;
+}
+
+img[src="images/home_option1.png"], img[src="images/kreation_sketch_1.png"], img[src="images/kreation_sketch_2.png"], img[src="images/kreation_wireframe_group.png"] {
+  width: 100%;
+  height: auto;
+}
+
 
 /* Marketplace */
 
@@ -291,7 +318,6 @@ img[src="images/carine.png"], img[src="images/jax.png"] {
   width: 90%;
   margin: auto;
   text-align: center;
-  /* align-items: center; */
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
@@ -308,6 +334,14 @@ img[src="images/carine.png"], img[src="images/jax.png"] {
   line-height: 95%;
   color: #383838;
   padding-top: .5rem;
+}
+
+.splash_kreation2 > h2 {
+  color: white;
+}
+
+.kreation_header > p {
+  color: white;
 }
 
 img[src="svg/mkt_new.svg"] {
@@ -398,7 +432,7 @@ hr {
 }
 
 .btn-mkt2 {
-  filter: drop-shadow(2px 4px 4px black);
+  filter: drop-shadow(1px 1px 20px #0E0E0E);
   background-color: #EFEEEC;
   font-weight: bold;
   color: #313131;
@@ -1509,6 +1543,12 @@ img[src="images/bio_pic.png"] {
 
 .philosophy-bio {
   padding-top: 3rem;
+}
+
+.bio-intro1 {
+  padding-left: 0rem;
+  width: 95%;
+  margin: auto;
 }
 
 .bio-intro {
@@ -3092,6 +3132,10 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+
+  .bio-intro1 {
+    width: 65%;
+  }
 
   .bio-text, .splash-inner, .overview-top, .overview, .user-survey2-inner, .user-data-inner, .mkt-personas-inner, .competitors, .user-stories-inner, .wireframes-mkt-inner, .user1, .user2, .personas-header, .user-name-new, .user-name-new2, .branding-mkt-inner, .user-testing-mkt-inner, .visual-design-mkt-inner, .splash-josh-inner, .overview-top-josh, .overview-inner-josh, .overview-top-josh, .overview-inner-josh, .logo-journey-josh-inner,
    .comp-analysis-josh-inner, .feedback-josh-inner, .type-josh, .final-josh-inner, .final-josh-inner2, .user-personas-mkt, .testing-mkt-inner, .conclusion-mkt-inner, .intro {
