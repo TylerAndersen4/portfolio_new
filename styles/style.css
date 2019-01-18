@@ -2902,6 +2902,14 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 
+  .kollection_new {
+    width: 75%;
+  }
+
+  img[src="images/home_option1.png"], img[src="images/kreation_sketch_1.png"], img[src="images/kreation_sketch_2.png"], img[src="images/kreation_wireframe_group.png"], img[src="images/kreation_kollection2.png"] {
+    width: 75%;
+  }
+
   .bio-text, .splash-inner, .overview-top, .overview, .user-survey2-inner, .user-data-inner, .mkt-personas-inner, .competitors, .user-stories-inner, .wireframes-mkt-inner, .user1, .user2, .personas-header, .user-name-new, .user-name-new2, .branding-mkt-inner, .user-testing-mkt-inner, .visual-design-mkt-inner, .splash-josh-inner, .overview-top-josh, .overview-inner-josh, .overview-top-josh, .overview-inner-josh, .logo-journey-josh-inner,
    .comp-analysis-josh-inner, .feedback-josh-inner, .type-josh, .final-josh-inner, .final-josh-inner2, .user-personas-mkt, .testing-mkt-inner, .conclusion-mkt-inner, .intro {
      width: 70%;
