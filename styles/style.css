@@ -161,6 +161,16 @@ img[src="images/99d.png"] {
   height: auto;
 }
 
+.case-study-7 {
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+
+.v3_font {
+  animation-duration: 3s;
+  animation-delay: .3s;
+}
+
 /* Kreation */
 
 img[src="images/kreation_screen_1.png"] {
