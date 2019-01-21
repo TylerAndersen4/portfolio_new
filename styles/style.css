@@ -39,7 +39,7 @@ h3 {
   /* padding-bottom: 1.8rem; */
   /* padding: 2rem 0 1rem 0; */
   font-weight: bolder;
-  color: #313131;
+  color: #838383;
 }
 
 h4 {
@@ -1507,7 +1507,7 @@ img[src="svg/logo-light.svg"] {
   padding-top: 8px;
   color: #383838;
   font-weight: bolder;
-  line-height: 110%;
+  line-height: 100%;
   text-align: center;
 }
 
@@ -1520,6 +1520,16 @@ img[src="svg/logo-light.svg"] {
   color: black;
   text-align: center;
 }
+
+.case-study-1 > h3 {
+  font-weight: lighter;
+}
+
+.case-study-2 > h3 {
+  font-weight: 300;
+  line-height: 100%;
+}
+
 
 .case2 {
   background-color: #F4E3D3;
@@ -1546,15 +1556,19 @@ img[src="svg/idea_logo_new.svg"] {
 
 .case-title > h1 {
   color: white;
+  line-height: 100%;
 }
 
 .case-title > h3 {
   color: white;
-  font-weight: normal;
+  font-weight: 300;
+  line-height: 100%;
 }
 
 .case-study-1 > h3 {
   color: #313131;
+  font-weight: 300;
+  line-height: 100%;
 }
 
 .josh-phone {
@@ -1661,9 +1675,9 @@ img[src="images/landing_desktop_mkt.png"] {
   color: white;
 }
 
-.case-study-1 > .container {
+/* .case-study-1 > .container {
   padding-top: 0rem;
-}
+} */
 
 .case-study-2 {
   padding-left: 0rem;
@@ -2431,18 +2445,6 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
    width: 100%;
  }
 
- .case-study-1 > h3 {
-   padding-bottom: 1.5rem;
-   font-weight: normal;
- }
-
- .case-study-2 > h3 {
-   font-weight: normal;
- }
-
-  .case-study {
-    /*padding-top: 4rem;*/
-  }
 
   img[src="images/mac.png"] {
     width: 35rem;
@@ -2696,9 +2698,9 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   /*Projects*/
 
-  .case-study-1 > h3 {
+  /* .case-study-1 > h3 {
     padding-bottom: 2rem;
-  }
+  } */
 
   .case-study-1 > p {
     padding-bottom: 5rem;
@@ -2991,9 +2993,9 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   /*Projects*/
 
-  .case-study-1 > h3 {
+  /* .case-study-1 > h3 {
     padding-bottom: 2rem;
-  }
+  } */
 
   .case-study-1 > p {
     padding-bottom: 5rem;
@@ -3359,9 +3361,9 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   /*Projects*/
 
-  .case-study-1 > h3 {
+  /* .case-study-1 > h3 {
     padding-bottom: 2rem;
-  }
+  } */
 
   .case-study-1 > p {
     padding-bottom: 5rem;
@@ -3532,9 +3534,9 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   /*Projects*/
 
-  .case-study-1 > h3 {
+  /* .case-study-1 > h3 {
     padding-bottom: 2rem;
-  }
+  } */
 
   .case-study-1 > p {
     padding-bottom: 5rem;
