@@ -29,16 +29,17 @@ h2 {
   font-size: 2.8rem;
   font-weight: bolder;
   margin-bottom: 0rem;
-  /* padding-bottom: 8px; */
+  padding-bottom: 8px;
   color: #313131;
 }
 
 h3 {
   font-size: 2.2rem;
   margin-bottom: 0rem;
+  /* padding-bottom: 1.8rem; */
   /* padding: 2rem 0 1rem 0; */
   font-weight: bolder;
-  color: #A0A0A0;
+  color: #313131;
 }
 
 h4 {
@@ -58,8 +59,12 @@ h5 {
 }
 
 P {
-  padding-top: 5px;
+  /* padding-bottom: .8rem; */
 }
+
+/* li {
+  padding-bottom: .8rem;
+} */
 
 .font_2 {
   font-family: "poynter-oldstyle-display", serif;
@@ -84,7 +89,7 @@ P {
   padding: 1rem 0rem 1rem 0rem;
   max-width: 40rem;
   width: 80%;
-  color: black;
+  color: #313131;
   border-radius: 1rem;
 }
 
@@ -96,11 +101,11 @@ p, li, th, td {
   font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
   font-weight: lighter;
-  color: black;
+  color: #313131;
 }
 
 .col-sm, .col-sm-9 {
-  /* padding-left: 0rem; */
+  padding-left: 0rem;
 }
 
 
@@ -171,6 +176,119 @@ img[src="images/99d.png"] {
   animation-delay: .3s;
 }
 
+.down_arrow1 {
+  animation-duration: 3s;
+  animation-delay: .7s;
+  max-width: 3rem;
+  padding-top: 4rem;
+  height: auto;
+}
+
+  /* Animation */
+
+.cbp-so-scroller {
+	margin-top: 50px;
+	overflow: hidden;
+}
+
+.cbp-so-section {
+	margin-bottom: 15em;
+	position: relative;
+}
+
+/* Clear floats of children */
+.cbp-so-section:before,
+.cbp-so-section:after {
+	content: " ";
+	display: table;
+}
+
+.cbp-so-section:after {
+	clear: both;
+}
+
+/* Text styling */
+.cbp-so-section h2 {
+	font-size: 5em;
+	font-weight: 300;
+	line-height: 1;
+}
+
+.cbp-so-section p {
+	font-size: 2em;
+	font-weight: 300;
+}
+
+/* Sides */
+.cbp-so-side {
+	width: 50%;
+	float: left;
+	margin: 0;
+	padding: 3em 4%;
+	overflow: hidden;
+	min-height: 12em;
+}
+
+/* Clear floats of children */
+.cbp-so-side:before,
+.cbp-so-side:after {
+	content: " ";
+	display: table;
+}
+
+.cbp-so-side:after {
+	clear: both;
+}
+
+.cbp-so-side-right {
+	text-align: left;
+}
+
+.cbp-so-side-left {
+	text-align: right;
+}
+
+.cbp-so-side-right img {
+	float: left;
+}
+
+.cbp-so-side-left img {
+	float: right;
+}
+
+/* Initial state (hidden or anything else) */
+.cbp-so-init .cbp-so-side {
+	opacity: 0;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+.cbp-so-init .cbp-so-side-left {
+	-webkit-transform: translateX(-80px);
+	-moz-transform: translateX(-80px);
+	transform: translateX(-80px);
+}
+
+.cbp-so-init .cbp-so-side-right {
+	-webkit-transform: translateX(80px);
+	-moz-transform: translateX(80px);
+	transform: translateX(80px);
+}
+
+/* Animated state */
+/* add you final states (transition) or your effects (animations) for each side */
+.cbp-so-section.cbp-so-animate .cbp-so-side-left,
+.cbp-so-section.cbp-so-animate .cbp-so-side-right {
+	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+	-moz-transition: -moz-transform 0.5s, opacity 0.5s;
+	transition: transform 0.5s, opacity 0.5s;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+	opacity: 1;
+}
+
 /* Kreation */
 
 img[src="images/kreation_screen_1.png"] {
@@ -182,6 +300,7 @@ img[src="images/kreation_kollection.png"] {
   width: 100%;
   height: auto;
   padding-top: 4rem;
+  max-width: 56rem;
 }
 
 .kollection_new {
@@ -199,13 +318,20 @@ img[src="images/kreation_kollection.png"] {
 img[src="images/kreation_kollection2.png"] {
   width: 100%;
   height: auto;
-  padding-top: 4rem;
+  padding-top: 1.8rem;
 }
 
 img[src="images/kreation_moodboard.png"] {
   width: 100%;
   height: auto;
-  padding-top: 2rem;
+  padding-top: 1.8rem;
+}
+
+img[src="images/kreation_user_flows.png"] {
+  width: 100%;
+  height: auto;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
 }
 
 .case-study-7 {
@@ -229,12 +355,63 @@ img[src="images/home_option1.png"], img[src="images/kreation_sketch_1.png"], img
   height: auto;
 }
 
+img[src="images/kreation_sketch_1.png"], img[src="images/kreation_sketch_2.png"] {
+  padding-top: 1.8rem;
+}
+
+img[src="svg/kreation_logo.svg"] {
+  width: 50%;
+  height: auto;
+  max-width: 22.5rem;
+  padding-bottom: 1.3rem;
+}
+
+.section-1 {
+  padding-bottom: 3.6rem;
+}
+
+.kreation_wireframes {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+
+img[src="images/kreation_wireframe_1.png"], img[src="images/kreation_wireframe_2.png"], img[src="images/kreation_wireframe_3.png"], img[src="images/kreation_mockup_1.png"], img[src="images/kreation_mockup_2.png"], img[src="images/kreation_mockup_3.png"] {
+  width: 100%;
+  height: auto;
+}
+
+.image_caption {
+  font-style: italic;
+}
+
+.kreation_wireframes_1, .kreation_wireframes_2, .kreation_wireframes_3 {
+  padding-left: 0rem;
+  padding-right: 0rem;
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.kreation_wireframes_1 > p {
+  color: #E3E3E3;
+  font-size: 1.4rem;
+}
+
+.kreation_wireframes_2 > p {
+  color: #E3E3E3;
+  font-size: 1.4rem;
+}
+
+.kreation_wireframes_3 > p {
+  color: #E3E3E3;
+  font-size: 1.4rem;
+}
 
 /* Marketplace */
 
-.conclusion-mkt-inner1, .conclusion-mkt-inner2 {
+/* .conclusion-mkt-inner1, .conclusion-mkt-inner2 {
   padding-top: 1.5rem;
-}
+} */
 
 .testing-mkt {
   background-color: rgba(248, 248, 248, 1);
@@ -348,10 +525,12 @@ img[src="images/carine.png"], img[src="images/jax.png"] {
 
 .splash_kreation2 > h2 {
   color: white;
+  padding-bottom: 1.3rem;
 }
 
 .kreation_header > p {
   color: white;
+  text-align: left;
 }
 
 img[src="svg/mkt_new.svg"] {
@@ -410,13 +589,14 @@ img[src="images/product-detail-womens.png"] {
 }
 
 hr {
-  width: 15%;
-  color: #B1B1B1;
-  border-top: 3px solid;
+  width: 25%;
+  color: #313131;
+  border-top: 1px solid;
   border-color: inherit;
   margin: auto;
   text-align: center;
-  padding-bottom: 1rem;
+  padding-bottom: .5rem;
+  margin-top: .5rem;
 }
 
 .user-survey2, .user-data-inner {
@@ -641,7 +821,7 @@ hr {
 }
 
 .item1 {
-  padding-bottom: 6px;
+  padding-bottom: 1rem;
 }
 
 .list1 {
@@ -709,13 +889,30 @@ hr {
 }
 
 .bold1 {
+  /* font-family: "eds-market-main-script", sans-serif; */
   font-weight: 600;
+  /* color: #E80C85; */
   font-style: normal;
 }
+
+.bold1:hover {
+  color: #D36033;
+  /* font-size: 5.0rem; */
+}
+
+/* font-family: "eds-market-bold-script", sans-serif;
+font-weight: 400;
+font-style: normal; */
 
 .competitors {
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.nav-link:hover {
+  color: #D36033;
+  /* font-size: 1.6rem; */
+  /* font-family: "Open Sans" */
 }
 
 img[src="svg/reformation.svg"] {
@@ -874,7 +1071,7 @@ img[src="images/sketches-mkt.png"] {
 
 .wireframes-mkt-inner {
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  /* padding-bottom: 5rem; */
 }
 
 .user-stories-inner {
@@ -882,7 +1079,7 @@ img[src="images/sketches-mkt.png"] {
 }
 
 .user-testing-mkt-inner {
-  padding-bottom: 5rem;
+  /* padding-bottom: 5rem; */
   width: 90%;
   margin: auto;
 }
@@ -1273,7 +1470,7 @@ img[src="svg/logo-light.svg"] {
   color: #383838;
   text-align: left;
   padding-bottom: 1rem;
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 .header-new2 {
@@ -1433,7 +1630,7 @@ img[src="images/landing_desktop_mkt.png"] {
 
 .container {
   text-align: center;
-  padding-top: 3rem;
+  padding-top: 1.8rem;
 }
 
 .container-3 {
@@ -2280,13 +2477,19 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
 
+  .kreation_wireframes_1, .kreation_wireframes_2, .kreation_wireframes_3 {
+    padding-left: .8rem;
+    padding-right: .8rem;
+  }
+
   .google, .pinterest, .evernote {
     padding-left: 1.5rem;
   }
 
   .roles, .deliverables {
     padding-top: 0rem;
-    border-right: 1px solid black;
+    border-right: 1px solid #313131;
+;
   }
 
   img[src="images/josh_lacoste_mobile.png"] {
@@ -2612,6 +2815,49 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     font-size: 4.8rem;
   } */
 
+  /* img[src="images/kreation_wireframe_1.png"], img[src="images/kreation_wireframe_2.png"], img[src="images/kreation_wireframe_3.png"] {
+    padding-left: .8rem;
+    padding-right: .8rem;
+  } */
+
+  .kreation_wireframes_1 > p {
+    padding-bottom: .8rem;
+  }
+
+  .kreation_wireframes_2 > p {
+    padding-bottom: .8rem;
+  }
+
+  .kreation_wireframes_3 > p {
+    padding-bottom: .8rem;
+  }
+
+  .kreation_wireframes_1, .kreation_wireframes_2, .kreation_wireframes_3 {
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+  }
+
+  .splash_kreation2 > h2 {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+
+  p {
+    /* padding-bottom: 2rem; */
+  }
+
+  h2 {
+    /* padding-bottom: 1rem; */
+  }
+
+  img[src="svg/kreation_logo.svg"] {
+    width: 30%;
+  }
+
+  img[src="images/home_option1.png"] {
+    width: 75%;
+  }
+
   .container {
     /* padding-top: 4rem; */
   }
@@ -2770,11 +3016,21 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   }
 
   /*Project.html*/
-  .roles1, .introduction, .competitive-analysis1, .user-survey, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .final-product1, .conclusion, .bio-text, .splash-inner, .overview, .user-data-inner, .mkt-personas-inner, .competitors, .user-stories-inner, .wireframes-mkt-inner, .user1, .user2,
-   .user-name-new, .user-name-new2, .branding-mkt-inner, .user-testing-mkt-inner, .visual-design-mkt-inner, .overview-top-josh,.overview-inner-josh,.overview-top-josh,.overview-inner-josh,.comp-analysis-josh-inner, .type-josh, .final-josh-inner, .final-josh-inner2, .testing-mkt-inner, .conclusion-mkt-inner, .intro {
+  .roles1, .introduction, .competitive-analysis1, .user-survey, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .conclusion, .bio-text, .splash-inner, .overview, .user-data-inner, .mkt-personas-inner, .competitors, .user-stories-inner, .wireframes-mkt-inner, .user1, .user2,
+   .user-name-new, .user-name-new2, .branding-mkt-inner, .visual-design-mkt-inner, .overview-top-josh,.overview-inner-josh,.overview-top-josh,.overview-inner-josh,.comp-analysis-josh-inner, .type-josh, .final-josh-inner, .final-josh-inner2, .testing-mkt-inner, .conclusion-mkt-inner, .intro {
     padding-top: 6rem;
     padding-bottom: 6rem;
     width: 85%;
+  }
+
+  .user-testing-mkt-inner, .final-product1 {
+    padding-top: 6rem;
+    padding-bottom: 0rem;
+    width: 85%;
+  }
+
+  .final-product-new {
+    padding-bottom: 6rem;
   }
 
   .splash-josh-inner {
@@ -2912,13 +3168,44 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 
+  img[src="images/kreation_wireframe_1.png"], img[src="images/kreation_wireframe_2.png"], img[src="images/kreation_wireframe_3.png"], img[src="images/kreation_mockup_1.png"], img[src="images/kreation_mockup_2.png"], img[src="images/kreation_mockup_3.png"] {
+    width: 100%;
+    height: auto;
+    max-width: 36rem;
+  }
+
+  .kreation_wireframes_1 > p {
+    font-size: 1.5rem;
+ }
+
+  .kreation_wireframes_2 > p {
+    font-size: 1.5rem;
+  }
+
+  .kreation_wireframes_3 > p {
+    font-size: 1.5rem;
+  }
+
+  .kreation_wireframes_1, .kreation_wireframes_2, .kreation_wireframes_3 {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+
   .kollection_new {
     width: 75%;
   }
 
-  img[src="images/home_option1.png"], img[src="images/kreation_sketch_1.png"], img[src="images/kreation_sketch_2.png"], img[src="images/kreation_wireframe_group.png"], img[src="images/kreation_kollection2.png"] {
+  img[src="svg/kreation_logo.svg"] {
+    width: 20%;
+  }
+
+  img[src="images/kreation_sketch_1.png"], img[src="images/kreation_sketch_2.png"], img[src="images/kreation_wireframe_group.png"], img[src="images/kreation_kollection2.png"] {
     width: 75%;
   }
+
+    img[src="images/home_option1.png"]{
+      width: 55%;
+    }
 
   .bio-text, .splash-inner, .overview-top, .overview, .user-survey2-inner, .user-data-inner, .mkt-personas-inner, .competitors, .user-stories-inner, .wireframes-mkt-inner, .user1, .user2, .personas-header, .user-name-new, .user-name-new2, .branding-mkt-inner, .user-testing-mkt-inner, .visual-design-mkt-inner, .splash-josh-inner, .overview-top-josh, .overview-inner-josh, .overview-top-josh, .overview-inner-josh, .logo-journey-josh-inner,
    .comp-analysis-josh-inner, .feedback-josh-inner, .type-josh, .final-josh-inner, .final-josh-inner2, .user-personas-mkt, .testing-mkt-inner, .conclusion-mkt-inner, .intro {
@@ -3150,6 +3437,11 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+
+  .kreation_wireframes_1, .kreation_wireframes_2, .kreation_wireframes_3 {
+    padding-left: 3.6rem;
+    padding-right: 3.6rem;
+  }
 
   .bio-intro1 {
     width: 65%;
