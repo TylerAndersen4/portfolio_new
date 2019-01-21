@@ -892,12 +892,13 @@ hr {
 .bold1 {
   /* font-family: "eds-market-main-script", sans-serif; */
   font-weight: 600;
-  /* color: #E80C85; */
+  color: #D36033;
   font-style: normal;
+  animation-delay: 1.1s;
 }
 
 .bold1:hover {
-  color: #D36033;
+  /* color: #D36033; */
   /* font-size: 5.0rem; */
 }
 
@@ -1471,7 +1472,7 @@ img[src="svg/logo-light.svg"] {
   color: #383838;
   text-align: left;
   padding-bottom: 1rem;
-  font-weight: lighter;
+  /* font-weight: lighter; */
 }
 
 .header-new2 {
