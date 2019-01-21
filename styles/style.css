@@ -39,7 +39,7 @@ h3 {
   /* padding-bottom: 1.8rem; */
   /* padding: 2rem 0 1rem 0; */
   font-weight: bolder;
-  color: #838383;
+  color: #313131;
 }
 
 h4 {
@@ -90,7 +90,7 @@ P {
   max-width: 40rem;
   width: 80%;
   color: #313131;
-  border-radius: 1rem;
+  border-radius: 1.8rem;
 }
 
 ul {
@@ -102,6 +102,7 @@ p, li, th, td {
   font-size: 1.6rem;
   font-weight: lighter;
   color: #313131;
+  line-height: 1.4;
 }
 
 .col-sm, .col-sm-9 {
@@ -616,15 +617,15 @@ hr {
 }
 
 .btn-mkt {
-  filter: drop-shadow(4px 4px 6px #6C8DA0);
-  font-weight: bold;
+  filter: drop-shadow(2px 2px 10px #6C8DA0);
+  /* font-weight: bold; */
   color: #313131;
 }
 
 .btn-mkt2 {
   filter: drop-shadow(1px 1px 20px #0E0E0E);
   background-color: #EFEEEC;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: #313131;
   border-color: #EFEEEC;
 }
@@ -632,16 +633,16 @@ hr {
 .btn-mkt3 {
   border-color: #EFEEEC;
   background-color: #EFEEEC;
-  filter: drop-shadow(4px 4px 6px #A4A4A4);
-  font-weight: bold;
+  filter: drop-shadow(2px 2px 10px #A4A4A4);
+  /* font-weight: bold; */
   color: #313131;
 }
 
 .btn-mkt4 {
   border-color: white;
   background-color: white;
-  filter: drop-shadow(4px 4px 6px #A4A4A4);
-  font-weight: bold;
+  filter: drop-shadow(2px 2px 10px #A4A4A4);
+  /* font-weight: bold; */
   color: #313131;
 }
 
@@ -1614,12 +1615,12 @@ img[src="images/idea_asset.png"] {
 }
 
 .btn5 {
-  filter: drop-shadow(2px 4px 3px #776E65);
+  filter: drop-shadow(2px 2px 10px #B6A391);
   color: #313131;
   background-color: white;
   border-color: white;
-  font-weight: bold;
-  border-radius: 7px;
+  /* font-weight: bold; */
+  border-radius: 1.8rem;
 }
 
 img[src="images/landing_desktop_mkt.png"] {
@@ -2813,6 +2814,11 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 
+  .container {
+    text-align: center;
+    padding-top: 2.8rem;
+}
+
   /* h1 {
     font-size: 4.8rem;
   } */
@@ -3169,6 +3175,10 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+
+  .container {
+    padding-top: 3rem;
+}
 
   img[src="images/kreation_wireframe_1.png"], img[src="images/kreation_wireframe_2.png"], img[src="images/kreation_wireframe_3.png"], img[src="images/kreation_mockup_1.png"], img[src="images/kreation_mockup_2.png"], img[src="images/kreation_mockup_3.png"] {
     width: 100%;
