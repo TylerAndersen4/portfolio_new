@@ -39,7 +39,7 @@ h3 {
   /* padding-bottom: 1.8rem; */
   /* padding: 2rem 0 1rem 0; */
   font-weight: bolder;
-  color: #313131;
+  color: #6D6D6D;
 }
 
 h4 {
@@ -384,6 +384,7 @@ img[src="images/kreation_wireframe_1.png"], img[src="images/kreation_wireframe_2
 
 .image_caption {
   font-style: italic;
+  font-size: 1.4rem;
 }
 
 .kreation_wireframes_1, .kreation_wireframes_2, .kreation_wireframes_3 {
@@ -1749,6 +1750,38 @@ img[src="images/group2.png"] {
 
 /*Bio.html*/
 
+img[src="images/la_vintage.png"] {
+  width: 70%;
+  height: auto;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+img[src="images/vogue_portfolio.png"], img[src="images/la_portfolio.png"], img[src="images/la_portfolio2.png"], img[src="images/paris_portfolio.png"], img[src="images/sketches_portfolio.png"], img[src="images/france_portfolio.png"] {
+  width: 100%;
+  height: auto;
+  padding-bottom: 1.4rem;
+}
+
+.bio-row-2 {
+  flex-direction: row-reverse;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.bio-row-1 {
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.bio-row-3 {
+  align-items: center;
+}
+
+.bio-column-1 {
+  /* text-align: center; */
+}
+
 .bio-color {
   color: #00B387;
 }
@@ -1768,8 +1801,17 @@ img[src="images/bio_pic.png"] {
   padding-bottom: 1rem;
 }
 
+.philosophy-bio-inner {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .philosophy-bio {
   padding-top: 3rem;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 5rem;
 }
 
 .bio-intro1 {
@@ -1800,6 +1842,7 @@ img[src="images/bio_pic.png"] {
 }
 
 .header-bio {
+  width: 90%;
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
@@ -1857,6 +1900,11 @@ img[src="images/milan.svg"] {
 .roles1, .introduction, .competitive-analysis1, .user-survey, .further-findings, .user-personas, .sketches-1, .branding1, .testing, .final-product1, .conclusion {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  width: 90%;
+}
+
+.philosophy_1 {
+  padding-top: 5rem;
   width: 90%;
 }
 
@@ -1962,6 +2010,8 @@ img[src="images/group-together.png"] {
   width: 100%;
   background-color: rgba(248, 248, 248, 1);
 }
+
+
 
 .intro1 {
   align-items: center;
@@ -2484,6 +2534,14 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 }
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
+
+  img[src="images/vogue_portfolio.png"], img[src="images/la_portfolio.png"], img[src="images/la_portfolio2.png"], img[src="images/paris_portfolio.png"], img[src="images/sketches_portfolio.png"] {
+    padding-bottom: 0rem;
+  }
+
+  .bio-row-1, .bio-row-2 {
+    padding-bottom: 4rem;
+  }
 
   .kreation_wireframes_1, .kreation_wireframes_2, .kreation_wireframes_3 {
     padding-left: .8rem;
@@ -3036,6 +3094,11 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     width: 85%;
   }
 
+  .philosophy_1 {
+    padding-top: 6rem;
+    width: 85%;
+  }
+
   .user-testing-mkt-inner, .final-product1 {
     padding-top: 6rem;
     padding-bottom: 0rem;
@@ -3183,6 +3246,10 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   .container {
     padding-top: 3rem;
+}
+
+.bio-row-1, .bio-row-2 {
+  padding-bottom: 6rem;
 }
 
   img[src="images/kreation_wireframe_1.png"], img[src="images/kreation_wireframe_2.png"], img[src="images/kreation_wireframe_3.png"], img[src="images/kreation_mockup_1.png"], img[src="images/kreation_mockup_2.png"], img[src="images/kreation_mockup_3.png"] {
@@ -3357,6 +3424,11 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     padding-bottom: 15rem;
   }
 
+  /* .header-bio {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  } */
+
   .header-bio {
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -3406,6 +3478,14 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   /*Project.html*/
   .roles1, .introduction, .competitive-analysis1, .user-survey, .user-personas, .stories1, .user-flows1, .sketches-1, .branding1, .testing, .final-product1, .conclusion {
     width: 60%;
+  }
+
+  .philosophy_1 {
+    width: 60%;
+  }
+
+  .philosophy-bio {
+    width: 80%;
   }
 
   .header-new, .bio-text, .case-study {
