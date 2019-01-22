@@ -105,7 +105,7 @@ p, li, th, td {
   line-height: 1.4;
 }
 
-.col-sm, .col-sm-9 {
+.col-sm, .col-sm-9, .col-sm-5, .col-sm-10, .col-sm-7 {
   padding-left: 0rem;
 }
 
@@ -1782,6 +1782,14 @@ img[src="images/vogue_portfolio.png"], img[src="images/la_portfolio.png"], img[s
   /* text-align: center; */
 }
 
+.bio-column-2 {
+  padding-left: 0rem;
+}
+
+.bio-column-3 {
+  padding-right: 0rem;
+}
+
 .bio-color {
   color: #00B387;
 }
@@ -2534,6 +2542,14 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 }
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
+
+  .bio-column-2 {
+    padding-left: 1.5rem;
+  }
+
+  .bio-column-3 {
+    padding-right: 1.5rem;
+  }
 
   img[src="images/vogue_portfolio.png"], img[src="images/la_portfolio.png"], img[src="images/la_portfolio2.png"], img[src="images/paris_portfolio.png"], img[src="images/sketches_portfolio.png"] {
     padding-bottom: 0rem;
