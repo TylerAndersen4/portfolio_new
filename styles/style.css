@@ -511,6 +511,12 @@ img[src="images/carine.png"], img[src="images/jax.png"] {
   padding-bottom: 5rem;
 }
 
+.bio-intro2 {
+  width: 100%;
+  text-align: left;
+  margin: auto;
+}
+
 .intro {
   background-color: white;
   padding-left: 0rem;
@@ -2542,6 +2548,10 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 }
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
+
+  .bio-intro2 {
+    width: 70%;
+  }
 
   .bio-column-2 {
     padding-left: 1.5rem;
