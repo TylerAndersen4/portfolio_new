@@ -12,6 +12,24 @@ html {
   src: url("..fonts/sf_pro/SF-Pro-Display-Regular.otf");
 }
 
+/* To mantain the navbar at the bottom*/
+header {
+  width: 100%;
+  min-height:calc(100vh - 52px);
+}
+
+
+/* To mantain the navbar at the top once it is affixed */
+.affix {
+    top: 0;
+    width: 100%;
+  }
+
+/* Padding for a smoth affix */
+.affix + .container-fluid {
+  padding-top: 72px;
+}
+
 body {
   background-color: white;
 }
@@ -298,6 +316,13 @@ img[src="images/kreation_screen_1.png"] {
 }
 
 img[src="images/kreation_kollection.png"] {
+  width: 100%;
+  height: auto;
+  padding-top: 4rem;
+  max-width: 56rem;
+}
+
+img[src="images/josh_mockup.png"] {
   width: 100%;
   height: auto;
   padding-top: 4rem;
