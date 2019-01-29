@@ -363,7 +363,8 @@ img[src="images/kreation_user_flows.png"] {
 }
 
 .case7 {
-  background-color: #313131;
+  background: linear-gradient(-45deg, #343434, #343434, #5C5C5C, #343434);
+  background-size: 400% 400%!important;
 }
 
 .splash_kreation {
@@ -406,6 +407,7 @@ img[src="svg/kreation_logo.svg"] {
   width: 90%;
   margin: auto;
   padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 img[src="images/kreation_wireframe_1.png"], img[src="images/kreation_wireframe_2.png"], img[src="images/kreation_wireframe_3.png"], img[src="images/kreation_mockup_1.png"], img[src="images/kreation_mockup_2.png"], img[src="images/kreation_mockup_3.png"] {
@@ -497,6 +499,7 @@ img[src="images/carine.png"], img[src="images/jax.png"] {
   width: 50%;
   height: auto;
   padding-bottom: 1rem;
+  filter: drop-shadow(2px 2px 20px #ABABAB);
 }
 
 .carine-inner-1 {
@@ -626,6 +629,7 @@ img[src="svg/deliverables.svg"], img[src="svg/tools.svg"]{
 img[src="images/product-detail-womens.png"] {
   width: 100%;
   height: auto;
+  filter: drop-shadow(2px 2px 20px #ABABAB);
 }
 
 hr {
@@ -1005,6 +1009,7 @@ img[src="svg/everlane.svg"] {
 img[src="images/mkt-color-palette.png"] {
   width: 100%;
   margin: auto;
+  /* filter: drop-shadow(2px 2px 20px #ABABAB); */
 }
 
 img[src="images/mkt-moodboard.png"] {
@@ -1012,6 +1017,7 @@ img[src="images/mkt-moodboard.png"] {
   margin: auto;
   padding-top: 1rem;
   padding-bottom: 1.5rem;
+  filter: drop-shadow(2px 2px 20px #ABABAB);
 }
 
 .mood-outer {
@@ -1043,6 +1049,7 @@ img[src="svg/mkt-logo-1.svg"], img[src="svg/mkt-logo-2.svg"]  {
 img[src="images/mkt-logo-iterations.png"] {
   width: 100%;
   margin: auto;
+  filter: drop-shadow(2px 2px 20px #ABABAB);
 }
 
 img[src="svg/mkt_logo_3.svg"] {
@@ -1096,6 +1103,7 @@ img[src="images/sketches-mkt.png"] {
   height: auto;
   margin: auto;
   padding-top: 1.5rem;
+  filter: drop-shadow(2px 2px 20px #000000);
 }
 
 .wireframes-sketches {
@@ -1169,6 +1177,7 @@ img[src="images/maze-mkt.png"] {
   height: auto;
   margin: auto;
   padding-top: 1rem;
+  filter: drop-shadow(2px 2px 20px #000000);
 }
 
 img[src="images/maze-mkt2.png"] {
@@ -1543,7 +1552,7 @@ img[src="svg/kreation_green_light.svg"] {
   height: auto;
 }
 
-img[src="svg/kreation_logo_dark.svg"] {
+img[src="svg/kreation_logo_dark.svg"], img[src="svg/kreation_logo_light.svg"] {
   width: 13%;
   min-width: 11rem;
   padding-bottom: 1rem;
@@ -1638,6 +1647,8 @@ img[src="svg/kreation_logo_green.svg"] {
 /*Projects*/
 .case1 {
   background-color: #C8DAE4;
+  background: linear-gradient(-45deg, #C8DAE4, #C8DAE4, #D8E0E4, #C8DAE4);
+  background-size: 400% 400%!important;
 }
 
 .case-study {
@@ -1707,7 +1718,8 @@ img[src="svg/idea_logo_new.svg"] {
 }
 
 .case3 {
-  background-color: #313131;
+  background: linear-gradient(-45deg, #313131, #313131, #5C5C5C, #343434);
+  background-size: 400% 400%!important;
 }
 
 .case-title > h1 {
@@ -1717,7 +1729,7 @@ img[src="svg/idea_logo_new.svg"] {
 
 .case-title > h3 {
   color: white;
-  font-weight: 300;
+  font-weight: 200;
   line-height: 100%;
 }
 
@@ -1779,6 +1791,14 @@ img[src="images/idea_asset.png"] {
 }
 
 img[src="images/landing_desktop_mkt.png"] {
+  width: 100%;
+  height: auto;
+  max-width: 70rem;
+  filter: drop-shadow(2px 4px 4px #61737E);
+  padding-top: 5rem;
+}
+
+img[src="images/mrkt_macbook.png"] {
   width: 100%;
   height: auto;
   max-width: 70rem;
@@ -3083,7 +3103,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   .splash_kreation2 > h2 {
     padding-bottom: 2rem;
-    padding-top: 2rem;
+    padding-top: .8rem;
   }
 
   p {
@@ -3417,23 +3437,38 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 
+  img[src="images/product-detail-womens.png"] {
+    padding-left: 1.5rem;
+  }
+
+  img[src="images/kreation_sketch_1.png"], img[src="images/kreation_sketch_2.png"] {
+    padding-top: 3rem;
+  }
+
   img[src="images/kreation_new_mockup.png"] {
     padding-top: 7rem;
   }
 
   .container {
     padding-top: 3rem;
-}
+  }
 
-.bio-row-1, .bio-row-2 {
-  padding-bottom: 6rem;
-}
+  .bio-row-1, .bio-row-2 {
+    padding-bottom: 6rem;
+  }
 
   img[src="images/kreation_wireframe_1.png"], img[src="images/kreation_wireframe_2.png"], img[src="images/kreation_wireframe_3.png"], img[src="images/kreation_mockup_1.png"], img[src="images/kreation_mockup_2.png"], img[src="images/kreation_mockup_3.png"] {
-    width: 100%;
+    width: 65%;
     height: auto;
+    margin: auto;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
     max-width: 36rem;
   }
+
+   .kreation_wireframes {
+     padding-top: 2rem;
+   }
 
   .kreation_wireframes_1 > p {
     font-size: 1.5rem;
@@ -3514,6 +3549,11 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
   .case-study-1 > .container {
     text-align: left;
+  }
+
+  .case-title > .container {
+    text-align: left;
+    padding-left: 0rem;
   }
 
   .case-study {
