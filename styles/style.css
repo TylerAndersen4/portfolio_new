@@ -304,6 +304,19 @@ img[src="images/kreation_kollection.png"] {
   max-width: 56rem;
 }
 
+img[src="images/kreation_mockup_new2.png"] {
+  width: 100%;
+  height: auto;
+  padding-top: 4rem;
+  max-width: 56rem;
+}
+
+img[src="images/kreation_new_mockup.png"] {
+  width: 100%;
+  height: auto;
+  padding-top: 4rem;
+}
+
 img[src="images/josh_mockup.png"] {
   width: 100%;
   height: auto;
@@ -316,6 +329,8 @@ img[src="images/josh_mockup.png"] {
   height: auto;
   text-align: center;
   margin: auto;
+  animation-duration: 2.5s;
+  animation-delay: 1s;
 }
 
 .kreation_header {
@@ -333,6 +348,7 @@ img[src="images/kreation_moodboard.png"] {
   width: 100%;
   height: auto;
   padding-top: 1.8rem;
+  filter: drop-shadow(2px 2px 20px #ABABAB);
 }
 
 img[src="images/kreation_user_flows.png"] {
@@ -351,7 +367,7 @@ img[src="images/kreation_user_flows.png"] {
 }
 
 .splash_kreation {
-  background-color: #313131;
+  /* background-color: #313131; */
 }
 
 .nav-new-kreation {
@@ -361,6 +377,14 @@ img[src="images/kreation_user_flows.png"] {
 img[src="images/home_option1.png"], img[src="images/kreation_sketch_1.png"], img[src="images/kreation_sketch_2.png"], img[src="images/kreation_wireframe_group.png"] {
   width: 100%;
   height: auto;
+}
+
+img[src="images/home_option1.png"] {
+  filter: drop-shadow(2px 2px 20px #ABABAB);
+}
+
+img[src="images/kreation_sketch_1.png"], img[src="images/kreation_sketch_2.png"] {
+  filter: drop-shadow(2px 2px 20px #000000);
 }
 
 img[src="images/kreation_sketch_1.png"], img[src="images/kreation_sketch_2.png"] {
@@ -387,6 +411,7 @@ img[src="svg/kreation_logo.svg"] {
 img[src="images/kreation_wireframe_1.png"], img[src="images/kreation_wireframe_2.png"], img[src="images/kreation_wireframe_3.png"], img[src="images/kreation_mockup_1.png"], img[src="images/kreation_mockup_2.png"], img[src="images/kreation_mockup_3.png"] {
   width: 100%;
   height: auto;
+  filter: drop-shadow(2px 2px 20px #000000);
 }
 
 .image_caption {
@@ -539,13 +564,13 @@ img[src="images/carine.png"], img[src="images/jax.png"] {
 }
 
 .splash_kreation2 > h2 {
-  color: white;
   padding-bottom: 1.3rem;
 }
 
 .kreation_header > p {
-  color: white;
+  /* color: white; */
   text-align: left;
+  padding-bottom: 1.8rem;
 }
 
 img[src="svg/mkt_new.svg"] {
@@ -642,6 +667,14 @@ hr {
   /* font-weight: bold; */
   color: #313131;
   border-color: #EFEEEC;
+}
+
+.btn-kreation {
+  filter: drop-shadow(2px 2px 5px #7C7C7C);
+  background-color: #33A543;
+  font-weight: bold;
+  color: white;
+  border-color: #33A543;
 }
 
 .btn-mkt3 {
@@ -1186,6 +1219,23 @@ img[src="images/landing-mkt.png"], img[src="images/checkout-1-mkt.png"], img[src
   animation: Gradient 15s ease infinite;
 }
 
+/* dark mode */
+.background_new2 {
+  background: linear-gradient(-45deg, #2F2F2F, #202020, #433430, #4A3B36);
+  background-size: 400% 400%!important;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+/* light mode */
+.background_new3 {
+  background: linear-gradient(-45deg, #F5EEE2, #F7EAD5, #F7EAD5, #F7EAD5);
+  background-size: 400% 400%!important;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
 .navbar-custom1 {
   /* background: linear-gradient(-45deg, #FEE5E5, #FEE5E5, #C8DAE4, #DEDEDE);
   background-size: 400% 400%!important;
@@ -1484,6 +1534,28 @@ img[src="svg/logo-8.svg"] {
 
 img[src="svg/logo-light.svg"] {
   max-width: 6rem;
+  height: auto;
+}
+
+img[src="svg/kreation_green_light.svg"] {
+  width: 17%;
+  margin: auto;
+  height: auto;
+}
+
+img[src="svg/kreation_logo_dark.svg"] {
+  width: 13%;
+  min-width: 11rem;
+  padding-bottom: 1rem;
+  margin: auto;
+  height: auto;
+}
+
+img[src="svg/kreation_logo_green.svg"] {
+  width: 17%;
+  min-width: 13rem;
+  padding-bottom: 1rem;
+  margin: auto;
   height: auto;
 }
 
@@ -2974,6 +3046,10 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 
+  img[src="images/kreation_new_mockup.png"] {
+    padding-top: 5rem;
+  }
+
   .container {
     text-align: center;
     padding-top: 2.8rem;
@@ -3340,6 +3416,10 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+
+  img[src="images/kreation_new_mockup.png"] {
+    padding-top: 7rem;
+  }
 
   .container {
     padding-top: 3rem;
