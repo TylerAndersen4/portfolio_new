@@ -416,6 +416,8 @@ img[src="images/kreation_wireframe_1.png"], img[src="images/kreation_wireframe_2
   filter: drop-shadow(2px 2px 20px #000000);
 }
 
+img[src="images/kreation_mockup_1.png"]
+
 .image_caption {
   font-style: italic;
   font-size: 1.4rem;
