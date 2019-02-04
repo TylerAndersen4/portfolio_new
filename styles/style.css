@@ -308,7 +308,6 @@ img[src="images/kreation_mockup_new2.png"] {
   width: 100%;
   height: auto;
   padding-top: 4rem;
-  max-width: 56rem;
 }
 
 img[src="images/kreation_new_mockup.png"] {
@@ -365,6 +364,7 @@ img[src="images/kreation_user_flows.png"] {
 .case7 {
   background: linear-gradient(-45deg, #343434, #343434, #5C5C5C, #343434);
   background-size: 400% 400%!important;
+  /* background-color: #33A543; */
 }
 
 .splash_kreation {
@@ -1241,7 +1241,7 @@ img[src="images/landing-mkt.png"], img[src="images/checkout-1-mkt.png"], img[src
 
 /* light mode */
 .background_new3 {
-  background: linear-gradient(-45deg, #D2D2D2, #9EDAA7, #FBFBFB, #DBD9D9);
+  background: linear-gradient(-45deg, #D2D2D2, #EFEEEC, #FBFBFB, #DBD9D9);
   background-size: 400% 400%!important;
   -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
@@ -1742,7 +1742,7 @@ img[src="svg/idea_logo_new.svg"] {
 }
 
 .josh-phone {
-  text-align: center;
+  /* text-align: center; */
 }
 
 img[src="svg/josh_lacoste_svg_dark.svg"] {
@@ -3349,7 +3349,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   }
 
   .header-new, .bio-text, .case-study {
-    width: 85%;
+    width: 80%;
   }
 
   .hero-container > h3 {
@@ -3559,9 +3559,9 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
   }
 
   .case-study {
-    width: 90%;
-    padding-top: 15rem;
-    padding-bottom: 15rem;
+    /* width: 90%; */
+    padding-top: 18rem;
+    padding-bottom: 18rem;
   }
 
   img[src="images/mac.png"] {
@@ -3707,7 +3707,7 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
     width: 80%;
   }
 
-  .header-new, .bio-text, .case-study {
+  .bio-text {
     width: 60%;
   }
 
