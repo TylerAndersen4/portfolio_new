@@ -3439,6 +3439,10 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 
+  .header-new, .bio-text, .case-study {
+    width: 75%;
+  }
+
   img[src="svg/kreation_logo_dark.svg"], img[src="svg/kreation_logo_light.svg"] {
     width: 25%;
     padding-bottom: 1.5rem;
