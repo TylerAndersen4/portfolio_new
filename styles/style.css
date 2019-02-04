@@ -1555,9 +1555,9 @@ img[src="svg/kreation_green_light.svg"] {
 }
 
 img[src="svg/kreation_logo_dark.svg"], img[src="svg/kreation_logo_light.svg"] {
-  width: 13%;
+  width: 20%;
   min-width: 11rem;
-  padding-bottom: 1rem;
+  padding-bottom: 8px;
   margin: auto;
   height: auto;
 }
@@ -1747,7 +1747,7 @@ img[src="svg/idea_logo_new.svg"] {
 
 img[src="svg/josh_lacoste_svg_dark.svg"] {
   padding-bottom: 8px;
-  max-width: 20rem;
+  max-width: 16rem;
 }
 
 img[src="images/josh_lacoste_mobile.png"] {
@@ -3438,6 +3438,19 @@ img[src="images/landing-page-new1-3.png"], img[src="images/dash-add-new.png"], i
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+
+  img[src="svg/kreation_logo_dark.svg"], img[src="svg/kreation_logo_light.svg"] {
+    width: 25%;
+    padding-bottom: 1.5rem;
+  }
+
+  img[src="svg/mkt_new.svg"] {
+    padding-bottom: .7rem;
+  }
+
+  img[src="svg/josh_lacoste_svg_dark.svg"] {
+    padding-bottom: 1.5rem;
+  }
 
   img[src="images/product-detail-womens.png"] {
     padding-left: 1.5rem;
